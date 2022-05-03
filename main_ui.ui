@@ -249,7 +249,7 @@
                </property>
                <property name="font">
                 <font>
-                 <family>Segoe UI</family>
+                 <family>Segoe UI Semibold</family>
                  <pointsize>12</pointsize>
                  <weight>75</weight>
                  <bold>true</bold>
@@ -270,6 +270,13 @@
 	pad, x1:0, y1:0, x2:1, y2:1,
 	stop: 0 rgb(129, 132, 255),
 	stop: 1 rgb(92, 68, 255));
+}
+QPushButton:hover {
+	background-color:
+    qlineargradient(spread:
+  	pad, x1:0, y1:0, x2:1, y2:1,
+   	stop: 0 rgb(92, 68, 255),
+    stop: 1 rgb(129, 132, 255));
 }
 </string>
                </property>
@@ -352,7 +359,7 @@
                </property>
                <property name="font">
                 <font>
-                 <family>Segoe UI</family>
+                 <family>Segoe UI Semibold</family>
                  <pointsize>12</pointsize>
                  <weight>75</weight>
                  <bold>true</bold>
@@ -369,7 +376,7 @@
 	border: 0px solid;
 }
 QPushButton:hover {
-	background-color: rgb(244, 244, 244);
+	background-color: rgb(241, 243, 244);
 }</string>
                </property>
                <property name="text">
@@ -445,7 +452,7 @@ QPushButton:hover {
                </property>
                <property name="font">
                 <font>
-                 <family>Segoe UI</family>
+                 <family>Segoe UI Semibold</family>
                  <pointsize>12</pointsize>
                  <weight>75</weight>
                  <bold>true</bold>
@@ -462,7 +469,7 @@ QPushButton:hover {
 	border: 0px solid;
 }
 QPushButton:hover {
-	background-color: rgb(244, 244, 244);
+	background-color: rgb(241, 243, 244);
 }</string>
                </property>
                <property name="text">
@@ -568,7 +575,7 @@ QPushButton:hover {
                </property>
                <property name="font">
                 <font>
-                 <family>Segoe UI</family>
+                 <family>Segoe UI Semibold</family>
                  <pointsize>12</pointsize>
                  <weight>75</weight>
                  <bold>true</bold>
@@ -658,7 +665,7 @@ QPushButton:hover {
                </property>
                <property name="font">
                 <font>
-                 <family>Segoe UI</family>
+                 <family>Segoe UI Semibold</family>
                  <pointsize>12</pointsize>
                  <weight>75</weight>
                  <bold>true</bold>
@@ -702,7 +709,7 @@ access to all features!</string>
        <number>0</number>
       </property>
       <property name="currentIndex">
-       <number>2</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="frame_dashboard">
        <property name="styleSheet">

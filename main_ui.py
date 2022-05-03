@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'main_uihSEwcE.ui'
+## Form generated from reading UI file 'main_uiREBfsa.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -106,7 +106,7 @@ class Ui_MainWindow(object):
         self.btn_dashboard.setMinimumSize(QSize(190, 40))
         self.btn_dashboard.setMaximumSize(QSize(190, 40))
         font2 = QFont()
-        font2.setFamily(u"Segoe UI")
+        font2.setFamily(u"Segoe UI Semibold")
         font2.setPointSize(12)
         font2.setBold(True)
         font2.setWeight(75)
@@ -123,6 +123,13 @@ class Ui_MainWindow(object):
 "	pad, x1:0, y1:0, x2:1, y2:1,\n"
 "	stop: 0 rgb(129, 132, 255),\n"
 "	stop: 1 rgb(92, 68, 255));\n"
+"}\n"
+"QPushButton:hover {\n"
+"	background-color:\n"
+"    qlineargradient(spread:\n"
+"  	pad, x1:0, y1:0, x2:1, y2:1,\n"
+"   	stop: 0 rgb(92, 68, 255),\n"
+"    stop: 1 rgb(129, 132, 255));\n"
 "}\n"
 "")
         icon = QIcon()
@@ -162,7 +169,7 @@ class Ui_MainWindow(object):
 "	border: 0px solid;\n"
 "}\n"
 "QPushButton:hover {\n"
-"	background-color: rgb(244, 244, 244);\n"
+"	background-color: rgb(241, 243, 244);\n"
 "}")
         icon1 = QIcon()
         icon1.addFile(u"icon/activity_gray.png", QSize(), QIcon.Normal, QIcon.Off)
@@ -199,7 +206,7 @@ class Ui_MainWindow(object):
 "	border: 0px solid;\n"
 "}\n"
 "QPushButton:hover {\n"
-"	background-color: rgb(244, 244, 244);\n"
+"	background-color: rgb(241, 243, 244);\n"
 "}")
         icon2 = QIcon()
         icon2.addFile(u"icon/setting_gray.png", QSize(), QIcon.Normal, QIcon.Off)
@@ -359,7 +366,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.stackedWidget.setCurrentIndex(2)
+        self.stackedWidget.setCurrentIndex(0)
 
 
         QMetaObject.connectSlotsByName(MainWindow)

@@ -19,7 +19,7 @@ class UIFunctions(MainWindow):
         	border: 0px solid;
         }
         QPushButton:hover {
-	        background-color: rgb(244, 244, 244);
+	        background-color: rgb(241, 243, 244);
         }
         """
         btn_style_choosen = """
@@ -34,6 +34,13 @@ class UIFunctions(MainWindow):
         	pad, x1:0, y1:0, x2:1, y2:1,
         	stop: 0 rgb(129, 132, 255),
 	        stop: 1 rgb(92, 68, 255));
+        }
+        QPushButton:hover {
+	        background-color:
+        	qlineargradient(spread:
+        	pad, x1:0, y1:0, x2:1, y2:1,
+        	stop: 0 rgb(92, 68, 255),
+	        stop: 1 rgb(129, 132, 255));
         }
         """
         if enable:
