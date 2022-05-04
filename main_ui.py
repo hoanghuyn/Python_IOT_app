@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'main_uiREBfsa.ui'
+## Form generated from reading UI file 'main_uiozTubX.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -18,6 +18,7 @@ class Ui_MainWindow(object):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
         MainWindow.resize(1280, 940)
+        MainWindow.setCursor(QCursor(Qt.ArrowCursor))
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.horizontalLayout = QHBoxLayout(self.centralwidget)
@@ -46,7 +47,7 @@ class Ui_MainWindow(object):
         self.verticalLayout = QVBoxLayout(self.frame_smart_home)
         self.verticalLayout.setSpacing(0)
         self.verticalLayout.setObjectName(u"verticalLayout")
-        self.verticalLayout.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout.setContentsMargins(0, 0, 0, 40)
         self.lb_smart_home = QLabel(self.frame_smart_home)
         self.lb_smart_home.setObjectName(u"lb_smart_home")
         self.lb_smart_home.setMinimumSize(QSize(190, 20))
@@ -252,7 +253,8 @@ class Ui_MainWindow(object):
 "	color: rgb(163, 174, 208);\n"
 "	padding-left:11px;\n"
 "	border: 0px solid;\n"
-"}")
+"}\n"
+"")
         icon3 = QIcon()
         icon3.addFile(u"icon/logout_gray.png", QSize(), QIcon.Normal, QIcon.Off)
         self.btn_logout.setIcon(icon3)
@@ -312,19 +314,463 @@ class Ui_MainWindow(object):
         self.frame_dashboard.setObjectName(u"frame_dashboard")
         self.frame_dashboard.setStyleSheet(u"background-color: rgb(248, 252, 255)")
         self.verticalLayout_10 = QVBoxLayout(self.frame_dashboard)
-        self.verticalLayout_10.setSpacing(0)
+        self.verticalLayout_10.setSpacing(26)
         self.verticalLayout_10.setObjectName(u"verticalLayout_10")
-        self.verticalLayout_10.setContentsMargins(0, 0, 0, 0)
-        self.label = QLabel(self.frame_dashboard)
-        self.label.setObjectName(u"label")
+        self.verticalLayout_10.setContentsMargins(26, 26, 26, 26)
+        self.frame_username = QFrame(self.frame_dashboard)
+        self.frame_username.setObjectName(u"frame_username")
+        self.frame_username.setMinimumSize(QSize(622, 72))
+        self.frame_username.setMaximumSize(QSize(16777215, 72))
+        self.frame_username.setFrameShape(QFrame.NoFrame)
+        self.frame_username.setFrameShadow(QFrame.Raised)
+        self.frame_username.setLineWidth(0)
+        self.verticalLayout_13 = QVBoxLayout(self.frame_username)
+        self.verticalLayout_13.setSpacing(0)
+        self.verticalLayout_13.setObjectName(u"verticalLayout_13")
+        self.verticalLayout_13.setContentsMargins(0, 0, 0, 0)
+        self.frame_lb_username = QFrame(self.frame_username)
+        self.frame_lb_username.setObjectName(u"frame_lb_username")
+        self.frame_lb_username.setFrameShape(QFrame.StyledPanel)
+        self.frame_lb_username.setFrameShadow(QFrame.Raised)
+        self.frame_lb_username.setLineWidth(0)
+        self.horizontalLayout_2 = QHBoxLayout(self.frame_lb_username)
+        self.horizontalLayout_2.setSpacing(0)
+        self.horizontalLayout_2.setObjectName(u"horizontalLayout_2")
+        self.horizontalLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.lb_username = QLabel(self.frame_lb_username)
+        self.lb_username.setObjectName(u"lb_username")
         font3 = QFont()
-        font3.setPointSize(50)
-        self.label.setFont(font3)
-        self.label.setStyleSheet(u"")
-        self.label.setLineWidth(0)
-        self.label.setAlignment(Qt.AlignCenter)
+        font3.setFamily(u"Segoe UI")
+        font3.setPointSize(27)
+        font3.setBold(True)
+        font3.setWeight(75)
+        self.lb_username.setFont(font3)
+        self.lb_username.setCursor(QCursor(Qt.ArrowCursor))
+        self.lb_username.setStyleSheet(u"color: rgb(43, 54, 116);")
+        self.lb_username.setLineWidth(0)
 
-        self.verticalLayout_10.addWidget(self.label)
+        self.horizontalLayout_2.addWidget(self.lb_username)
+
+
+        self.verticalLayout_13.addWidget(self.frame_lb_username)
+
+        self.frame_lb_hand = QFrame(self.frame_username)
+        self.frame_lb_hand.setObjectName(u"frame_lb_hand")
+        self.frame_lb_hand.setFrameShape(QFrame.StyledPanel)
+        self.frame_lb_hand.setFrameShadow(QFrame.Raised)
+        self.frame_lb_hand.setLineWidth(0)
+        self.horizontalLayout_3 = QHBoxLayout(self.frame_lb_hand)
+        self.horizontalLayout_3.setSpacing(0)
+        self.horizontalLayout_3.setObjectName(u"horizontalLayout_3")
+        self.horizontalLayout_3.setContentsMargins(0, 0, 0, 0)
+        self.lb_hand = QLabel(self.frame_lb_hand)
+        self.lb_hand.setObjectName(u"lb_hand")
+        font4 = QFont()
+        font4.setFamily(u"Segoe UI")
+        font4.setPointSize(12)
+        font4.setBold(True)
+        font4.setWeight(75)
+        self.lb_hand.setFont(font4)
+        self.lb_hand.setStyleSheet(u"color: rgb(112, 126, 174)")
+        self.lb_hand.setFrameShape(QFrame.NoFrame)
+        self.lb_hand.setLineWidth(0)
+
+        self.horizontalLayout_3.addWidget(self.lb_hand)
+
+
+        self.verticalLayout_13.addWidget(self.frame_lb_hand)
+
+
+        self.verticalLayout_10.addWidget(self.frame_username)
+
+        self.frame_device = QFrame(self.frame_dashboard)
+        self.frame_device.setObjectName(u"frame_device")
+        self.frame_device.setMaximumSize(QSize(16777215, 106))
+        self.frame_device.setFrameShape(QFrame.NoFrame)
+        self.frame_device.setFrameShadow(QFrame.Raised)
+        self.frame_device.setLineWidth(0)
+        self.horizontalLayout_4 = QHBoxLayout(self.frame_device)
+        self.horizontalLayout_4.setSpacing(26)
+        self.horizontalLayout_4.setObjectName(u"horizontalLayout_4")
+        self.horizontalLayout_4.setContentsMargins(0, 0, 0, 0)
+        self.frame_television = QFrame(self.frame_device)
+        self.frame_television.setObjectName(u"frame_television")
+        self.frame_television.setCursor(QCursor(Qt.PointingHandCursor))
+        self.frame_television.setStyleSheet(u"QFrame{\n"
+"	border-radius: 20px;\n"
+"	background-color:rgb(255, 255, 255);\n"
+"}")
+        self.frame_television.setFrameShape(QFrame.NoFrame)
+        self.frame_television.setFrameShadow(QFrame.Raised)
+        self.frame_television.setLineWidth(0)
+        self.verticalLayout_14 = QVBoxLayout(self.frame_television)
+        self.verticalLayout_14.setSpacing(0)
+        self.verticalLayout_14.setObjectName(u"verticalLayout_14")
+        self.verticalLayout_14.setContentsMargins(0, 0, 0, 0)
+        self.fr_tv_top = QFrame(self.frame_television)
+        self.fr_tv_top.setObjectName(u"fr_tv_top")
+        self.fr_tv_top.setFrameShape(QFrame.NoFrame)
+        self.fr_tv_top.setFrameShadow(QFrame.Raised)
+        self.fr_tv_top.setLineWidth(0)
+        self.horizontalLayout_9 = QHBoxLayout(self.fr_tv_top)
+        self.horizontalLayout_9.setSpacing(0)
+        self.horizontalLayout_9.setObjectName(u"horizontalLayout_9")
+        self.horizontalLayout_9.setContentsMargins(15, 0, 15, 1)
+        self.fr_tv_ic = QFrame(self.fr_tv_top)
+        self.fr_tv_ic.setObjectName(u"fr_tv_ic")
+        self.fr_tv_ic.setFrameShape(QFrame.NoFrame)
+        self.fr_tv_ic.setFrameShadow(QFrame.Raised)
+        self.fr_tv_ic.setLineWidth(0)
+        self.verticalLayout_18 = QVBoxLayout(self.fr_tv_ic)
+        self.verticalLayout_18.setSpacing(0)
+        self.verticalLayout_18.setObjectName(u"verticalLayout_18")
+        self.verticalLayout_18.setContentsMargins(0, 10, 0, 0)
+        self.pushButton = QPushButton(self.fr_tv_ic)
+        self.pushButton.setObjectName(u"pushButton")
+        self.pushButton.setMaximumSize(QSize(42, 42))
+        self.pushButton.setStyleSheet(u"QPushButton{\n"
+"	border: 0px solid;\n"
+"	border-radius: 20px;\n"
+"	background-color:\n"
+"	qlineargradient(spread:\n"
+"	pad, x1:0, y1:0, x2:1, y2:1,\n"
+"	stop: 0 rgb(149, 148, 255),\n"
+"	stop: 1 rgb(78, 43, 255));\n"
+"}")
+        icon4 = QIcon()
+        icon4.addFile(u"icon/television_white.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton.setIcon(icon4)
+        self.pushButton.setIconSize(QSize(20, 20))
+
+        self.verticalLayout_18.addWidget(self.pushButton)
+
+
+        self.horizontalLayout_9.addWidget(self.fr_tv_ic)
+
+        self.fr_tv_button = QFrame(self.fr_tv_top)
+        self.fr_tv_button.setObjectName(u"fr_tv_button")
+        self.fr_tv_button.setLayoutDirection(Qt.RightToLeft)
+        self.fr_tv_button.setFrameShape(QFrame.NoFrame)
+        self.fr_tv_button.setFrameShadow(QFrame.Raised)
+        self.fr_tv_button.setLineWidth(0)
+        self.horizontalLayout_13 = QHBoxLayout(self.fr_tv_button)
+        self.horizontalLayout_13.setSpacing(0)
+        self.horizontalLayout_13.setObjectName(u"horizontalLayout_13")
+        self.horizontalLayout_13.setContentsMargins(0, 0, 0, 0)
+
+        self.horizontalLayout_9.addWidget(self.fr_tv_button)
+
+
+        self.verticalLayout_14.addWidget(self.fr_tv_top)
+
+        self.fr_tv_bottom = QFrame(self.frame_television)
+        self.fr_tv_bottom.setObjectName(u"fr_tv_bottom")
+        self.fr_tv_bottom.setFrameShape(QFrame.NoFrame)
+        self.fr_tv_bottom.setFrameShadow(QFrame.Raised)
+        self.fr_tv_bottom.setLineWidth(0)
+        self.horizontalLayout_5 = QHBoxLayout(self.fr_tv_bottom)
+        self.horizontalLayout_5.setSpacing(0)
+        self.horizontalLayout_5.setObjectName(u"horizontalLayout_5")
+        self.horizontalLayout_5.setContentsMargins(15, 0, 15, 16)
+        self.lb_tv = QLabel(self.fr_tv_bottom)
+        self.lb_tv.setObjectName(u"lb_tv")
+        font5 = QFont()
+        font5.setFamily(u"Segoe UI")
+        font5.setPointSize(16)
+        font5.setBold(True)
+        font5.setWeight(75)
+        self.lb_tv.setFont(font5)
+        self.lb_tv.setStyleSheet(u"color: rgb(43, 54, 116)")
+        self.lb_tv.setLineWidth(0)
+        self.lb_tv.setAlignment(Qt.AlignBottom|Qt.AlignLeading|Qt.AlignLeft)
+
+        self.horizontalLayout_5.addWidget(self.lb_tv)
+
+
+        self.verticalLayout_14.addWidget(self.fr_tv_bottom)
+
+
+        self.horizontalLayout_4.addWidget(self.frame_television)
+
+        self.frame_ac = QFrame(self.frame_device)
+        self.frame_ac.setObjectName(u"frame_ac")
+        self.frame_ac.setCursor(QCursor(Qt.PointingHandCursor))
+        self.frame_ac.setStyleSheet(u"border-radius: 20px;\n"
+"background-color:rgb(255, 255, 255)")
+        self.frame_ac.setFrameShape(QFrame.NoFrame)
+        self.frame_ac.setFrameShadow(QFrame.Raised)
+        self.frame_ac.setLineWidth(0)
+        self.verticalLayout_15 = QVBoxLayout(self.frame_ac)
+        self.verticalLayout_15.setSpacing(0)
+        self.verticalLayout_15.setObjectName(u"verticalLayout_15")
+        self.verticalLayout_15.setContentsMargins(0, 0, 0, 0)
+        self.fr_ac_top = QFrame(self.frame_ac)
+        self.fr_ac_top.setObjectName(u"fr_ac_top")
+        self.fr_ac_top.setFrameShape(QFrame.NoFrame)
+        self.fr_ac_top.setFrameShadow(QFrame.Raised)
+        self.fr_ac_top.setLineWidth(0)
+        self.horizontalLayout_10 = QHBoxLayout(self.fr_ac_top)
+        self.horizontalLayout_10.setSpacing(0)
+        self.horizontalLayout_10.setObjectName(u"horizontalLayout_10")
+        self.horizontalLayout_10.setContentsMargins(15, 0, 15, 1)
+        self.fr_ac_ic = QFrame(self.fr_ac_top)
+        self.fr_ac_ic.setObjectName(u"fr_ac_ic")
+        self.fr_ac_ic.setFrameShape(QFrame.NoFrame)
+        self.fr_ac_ic.setFrameShadow(QFrame.Raised)
+        self.fr_ac_ic.setLineWidth(0)
+        self.verticalLayout_19 = QVBoxLayout(self.fr_ac_ic)
+        self.verticalLayout_19.setSpacing(0)
+        self.verticalLayout_19.setObjectName(u"verticalLayout_19")
+        self.verticalLayout_19.setContentsMargins(0, 10, 0, 0)
+        self.pushButton_2 = QPushButton(self.fr_ac_ic)
+        self.pushButton_2.setObjectName(u"pushButton_2")
+        self.pushButton_2.setMaximumSize(QSize(42, 42))
+        self.pushButton_2.setStyleSheet(u"QPushButton{\n"
+"	border: 0px solid;\n"
+"	border-radius: 20px;\n"
+"	background-color:\n"
+"	qlineargradient(spread:\n"
+"	pad, x1:0, y1:0, x2:1, y2:1,\n"
+"	stop: 0 rgb(149, 148, 255),\n"
+"	stop: 1 rgb(78, 43, 255));\n"
+"}")
+        icon5 = QIcon()
+        icon5.addFile(u"icon/ac_white.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_2.setIcon(icon5)
+        self.pushButton_2.setIconSize(QSize(20, 20))
+
+        self.verticalLayout_19.addWidget(self.pushButton_2)
+
+
+        self.horizontalLayout_10.addWidget(self.fr_ac_ic)
+
+        self.fr_ac_button = QFrame(self.fr_ac_top)
+        self.fr_ac_button.setObjectName(u"fr_ac_button")
+        self.fr_ac_button.setFrameShape(QFrame.NoFrame)
+        self.fr_ac_button.setFrameShadow(QFrame.Raised)
+        self.fr_ac_button.setLineWidth(0)
+
+        self.horizontalLayout_10.addWidget(self.fr_ac_button)
+
+
+        self.verticalLayout_15.addWidget(self.fr_ac_top)
+
+        self.fr_ac_bottom = QFrame(self.frame_ac)
+        self.fr_ac_bottom.setObjectName(u"fr_ac_bottom")
+        self.fr_ac_bottom.setFrameShape(QFrame.NoFrame)
+        self.fr_ac_bottom.setFrameShadow(QFrame.Raised)
+        self.fr_ac_bottom.setLineWidth(0)
+        self.horizontalLayout_6 = QHBoxLayout(self.fr_ac_bottom)
+        self.horizontalLayout_6.setSpacing(0)
+        self.horizontalLayout_6.setObjectName(u"horizontalLayout_6")
+        self.horizontalLayout_6.setContentsMargins(15, 0, 15, 16)
+        self.lb_ac = QLabel(self.fr_ac_bottom)
+        self.lb_ac.setObjectName(u"lb_ac")
+        self.lb_ac.setFont(font5)
+        self.lb_ac.setStyleSheet(u"color: rgb(43, 54, 116)")
+        self.lb_ac.setLineWidth(0)
+        self.lb_ac.setAlignment(Qt.AlignBottom|Qt.AlignLeading|Qt.AlignLeft)
+
+        self.horizontalLayout_6.addWidget(self.lb_ac)
+
+
+        self.verticalLayout_15.addWidget(self.fr_ac_bottom)
+
+
+        self.horizontalLayout_4.addWidget(self.frame_ac)
+
+        self.frame_lamp = QFrame(self.frame_device)
+        self.frame_lamp.setObjectName(u"frame_lamp")
+        self.frame_lamp.setCursor(QCursor(Qt.PointingHandCursor))
+        self.frame_lamp.setStyleSheet(u"border-radius: 20px;\n"
+"background-color:rgb(255, 255, 255)")
+        self.frame_lamp.setFrameShape(QFrame.NoFrame)
+        self.frame_lamp.setFrameShadow(QFrame.Raised)
+        self.frame_lamp.setLineWidth(0)
+        self.verticalLayout_17 = QVBoxLayout(self.frame_lamp)
+        self.verticalLayout_17.setSpacing(0)
+        self.verticalLayout_17.setObjectName(u"verticalLayout_17")
+        self.verticalLayout_17.setContentsMargins(0, 0, 0, 0)
+        self.fr_lamp_top = QFrame(self.frame_lamp)
+        self.fr_lamp_top.setObjectName(u"fr_lamp_top")
+        self.fr_lamp_top.setFrameShape(QFrame.NoFrame)
+        self.fr_lamp_top.setFrameShadow(QFrame.Raised)
+        self.fr_lamp_top.setLineWidth(0)
+        self.horizontalLayout_11 = QHBoxLayout(self.fr_lamp_top)
+        self.horizontalLayout_11.setSpacing(0)
+        self.horizontalLayout_11.setObjectName(u"horizontalLayout_11")
+        self.horizontalLayout_11.setContentsMargins(15, 0, 15, 1)
+        self.fr_lamp_ic = QFrame(self.fr_lamp_top)
+        self.fr_lamp_ic.setObjectName(u"fr_lamp_ic")
+        self.fr_lamp_ic.setFrameShape(QFrame.NoFrame)
+        self.fr_lamp_ic.setFrameShadow(QFrame.Raised)
+        self.fr_lamp_ic.setLineWidth(0)
+        self.verticalLayout_20 = QVBoxLayout(self.fr_lamp_ic)
+        self.verticalLayout_20.setSpacing(0)
+        self.verticalLayout_20.setObjectName(u"verticalLayout_20")
+        self.verticalLayout_20.setContentsMargins(0, 10, 0, 0)
+        self.pushButton_3 = QPushButton(self.fr_lamp_ic)
+        self.pushButton_3.setObjectName(u"pushButton_3")
+        self.pushButton_3.setMaximumSize(QSize(42, 42))
+        self.pushButton_3.setStyleSheet(u"QPushButton{\n"
+"	border: 0px solid;\n"
+"	border-radius: 20px;\n"
+"	background-color:\n"
+"	qlineargradient(spread:\n"
+"	pad, x1:0, y1:0, x2:1, y2:1,\n"
+"	stop: 0 rgb(149, 148, 255),\n"
+"	stop: 1 rgb(78, 43, 255));\n"
+"}")
+        icon6 = QIcon()
+        icon6.addFile(u"icon/lamp_white.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_3.setIcon(icon6)
+        self.pushButton_3.setIconSize(QSize(25, 25))
+
+        self.verticalLayout_20.addWidget(self.pushButton_3)
+
+
+        self.horizontalLayout_11.addWidget(self.fr_lamp_ic)
+
+        self.fr_lamp_button = QFrame(self.fr_lamp_top)
+        self.fr_lamp_button.setObjectName(u"fr_lamp_button")
+        self.fr_lamp_button.setFrameShape(QFrame.NoFrame)
+        self.fr_lamp_button.setFrameShadow(QFrame.Raised)
+        self.fr_lamp_button.setLineWidth(0)
+
+        self.horizontalLayout_11.addWidget(self.fr_lamp_button)
+
+
+        self.verticalLayout_17.addWidget(self.fr_lamp_top)
+
+        self.fr_lamp_bottom = QFrame(self.frame_lamp)
+        self.fr_lamp_bottom.setObjectName(u"fr_lamp_bottom")
+        self.fr_lamp_bottom.setFrameShape(QFrame.NoFrame)
+        self.fr_lamp_bottom.setFrameShadow(QFrame.Raised)
+        self.fr_lamp_bottom.setLineWidth(0)
+        self.horizontalLayout_7 = QHBoxLayout(self.fr_lamp_bottom)
+        self.horizontalLayout_7.setSpacing(0)
+        self.horizontalLayout_7.setObjectName(u"horizontalLayout_7")
+        self.horizontalLayout_7.setContentsMargins(15, 0, 15, 16)
+        self.lb_lamp = QLabel(self.fr_lamp_bottom)
+        self.lb_lamp.setObjectName(u"lb_lamp")
+        self.lb_lamp.setFont(font5)
+        self.lb_lamp.setStyleSheet(u"color: rgb(43, 54, 116)")
+        self.lb_lamp.setLineWidth(0)
+        self.lb_lamp.setAlignment(Qt.AlignBottom|Qt.AlignLeading|Qt.AlignLeft)
+
+        self.horizontalLayout_7.addWidget(self.lb_lamp)
+
+
+        self.verticalLayout_17.addWidget(self.fr_lamp_bottom)
+
+
+        self.horizontalLayout_4.addWidget(self.frame_lamp)
+
+        self.frame_wifi = QFrame(self.frame_device)
+        self.frame_wifi.setObjectName(u"frame_wifi")
+        self.frame_wifi.setCursor(QCursor(Qt.PointingHandCursor))
+        self.frame_wifi.setStyleSheet(u"border-radius: 20px;\n"
+"background-color:rgb(255, 255, 255)")
+        self.frame_wifi.setFrameShape(QFrame.NoFrame)
+        self.frame_wifi.setFrameShadow(QFrame.Raised)
+        self.frame_wifi.setLineWidth(0)
+        self.verticalLayout_16 = QVBoxLayout(self.frame_wifi)
+        self.verticalLayout_16.setSpacing(0)
+        self.verticalLayout_16.setObjectName(u"verticalLayout_16")
+        self.verticalLayout_16.setContentsMargins(0, 0, 0, 0)
+        self.fr_wifi_top = QFrame(self.frame_wifi)
+        self.fr_wifi_top.setObjectName(u"fr_wifi_top")
+        self.fr_wifi_top.setFrameShape(QFrame.NoFrame)
+        self.fr_wifi_top.setFrameShadow(QFrame.Raised)
+        self.fr_wifi_top.setLineWidth(0)
+        self.horizontalLayout_12 = QHBoxLayout(self.fr_wifi_top)
+        self.horizontalLayout_12.setSpacing(0)
+        self.horizontalLayout_12.setObjectName(u"horizontalLayout_12")
+        self.horizontalLayout_12.setContentsMargins(15, 0, 15, 1)
+        self.fr_wifi_ic = QFrame(self.fr_wifi_top)
+        self.fr_wifi_ic.setObjectName(u"fr_wifi_ic")
+        self.fr_wifi_ic.setFrameShape(QFrame.NoFrame)
+        self.fr_wifi_ic.setFrameShadow(QFrame.Raised)
+        self.fr_wifi_ic.setLineWidth(0)
+        self.verticalLayout_21 = QVBoxLayout(self.fr_wifi_ic)
+        self.verticalLayout_21.setSpacing(0)
+        self.verticalLayout_21.setObjectName(u"verticalLayout_21")
+        self.verticalLayout_21.setContentsMargins(0, 10, 0, 0)
+        self.pushButton_4 = QPushButton(self.fr_wifi_ic)
+        self.pushButton_4.setObjectName(u"pushButton_4")
+        self.pushButton_4.setMaximumSize(QSize(42, 42))
+        self.pushButton_4.setStyleSheet(u"QPushButton{\n"
+"	border: 0px solid;\n"
+"	border-radius: 20px;\n"
+"	background-color:\n"
+"	qlineargradient(spread:\n"
+"	pad, x1:0, y1:0, x2:1, y2:1,\n"
+"	stop: 0 rgb(149, 148, 255),\n"
+"	stop: 1 rgb(78, 43, 255));\n"
+"}")
+        icon7 = QIcon()
+        icon7.addFile(u"icon/wifi_white.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_4.setIcon(icon7)
+        self.pushButton_4.setIconSize(QSize(20, 20))
+
+        self.verticalLayout_21.addWidget(self.pushButton_4)
+
+
+        self.horizontalLayout_12.addWidget(self.fr_wifi_ic)
+
+        self.fr_wifi_button = QFrame(self.fr_wifi_top)
+        self.fr_wifi_button.setObjectName(u"fr_wifi_button")
+        self.fr_wifi_button.setFrameShape(QFrame.NoFrame)
+        self.fr_wifi_button.setFrameShadow(QFrame.Raised)
+        self.fr_wifi_button.setLineWidth(0)
+
+        self.horizontalLayout_12.addWidget(self.fr_wifi_button)
+
+
+        self.verticalLayout_16.addWidget(self.fr_wifi_top)
+
+        self.fr_wifi_bottom = QFrame(self.frame_wifi)
+        self.fr_wifi_bottom.setObjectName(u"fr_wifi_bottom")
+        self.fr_wifi_bottom.setFrameShape(QFrame.NoFrame)
+        self.fr_wifi_bottom.setFrameShadow(QFrame.Raised)
+        self.fr_wifi_bottom.setLineWidth(0)
+        self.horizontalLayout_8 = QHBoxLayout(self.fr_wifi_bottom)
+        self.horizontalLayout_8.setSpacing(0)
+        self.horizontalLayout_8.setObjectName(u"horizontalLayout_8")
+        self.horizontalLayout_8.setContentsMargins(15, 0, 15, 16)
+        self.lb_wifi = QLabel(self.fr_wifi_bottom)
+        self.lb_wifi.setObjectName(u"lb_wifi")
+        self.lb_wifi.setFont(font5)
+        self.lb_wifi.setStyleSheet(u"color: rgb(43, 54, 116)")
+        self.lb_wifi.setLineWidth(0)
+        self.lb_wifi.setAlignment(Qt.AlignBottom|Qt.AlignLeading|Qt.AlignLeft)
+
+        self.horizontalLayout_8.addWidget(self.lb_wifi)
+
+
+        self.verticalLayout_16.addWidget(self.fr_wifi_bottom)
+
+
+        self.horizontalLayout_4.addWidget(self.frame_wifi)
+
+
+        self.verticalLayout_10.addWidget(self.frame_device)
+
+        self.frame_3 = QFrame(self.frame_dashboard)
+        self.frame_3.setObjectName(u"frame_3")
+        self.frame_3.setFrameShape(QFrame.NoFrame)
+        self.frame_3.setFrameShadow(QFrame.Raised)
+        self.frame_3.setLineWidth(0)
+
+        self.verticalLayout_10.addWidget(self.frame_3)
+
+        self.frame_4 = QFrame(self.frame_dashboard)
+        self.frame_4.setObjectName(u"frame_4")
+        self.frame_4.setFrameShape(QFrame.NoFrame)
+        self.frame_4.setFrameShadow(QFrame.Raised)
+        self.frame_4.setLineWidth(0)
+
+        self.verticalLayout_10.addWidget(self.frame_4)
 
         self.stackedWidget.addWidget(self.frame_dashboard)
         self.frame_activity = QWidget()
@@ -336,7 +782,9 @@ class Ui_MainWindow(object):
         self.verticalLayout_11.setContentsMargins(0, 0, 0, 0)
         self.label_2 = QLabel(self.frame_activity)
         self.label_2.setObjectName(u"label_2")
-        self.label_2.setFont(font3)
+        font6 = QFont()
+        font6.setPointSize(50)
+        self.label_2.setFont(font6)
         self.label_2.setLineWidth(0)
         self.label_2.setAlignment(Qt.AlignCenter)
 
@@ -352,7 +800,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_12.setContentsMargins(0, 0, 0, 0)
         self.label_3 = QLabel(self.frame_setting)
         self.label_3.setObjectName(u"label_3")
-        self.label_3.setFont(font3)
+        self.label_3.setFont(font6)
         self.label_3.setLineWidth(0)
         self.label_3.setAlignment(Qt.AlignCenter)
 
@@ -381,7 +829,16 @@ class Ui_MainWindow(object):
         self.btn_logout.setText(QCoreApplication.translate("MainWindow", u"    Log out", None))
         self.btn_upgrade.setText(QCoreApplication.translate("MainWindow", u"Upgrade to PRO to get\n"
 "access to all features!", None))
-        self.label.setText(QCoreApplication.translate("MainWindow", u"Dashboard Page", None))
+        self.lb_username.setText(QCoreApplication.translate("MainWindow", u"Good Morning, Raus", None))
+        self.lb_hand.setText(QCoreApplication.translate("MainWindow", u"Have a nice day", None))
+        self.pushButton.setText("")
+        self.lb_tv.setText(QCoreApplication.translate("MainWindow", u"Television", None))
+        self.pushButton_2.setText("")
+        self.lb_ac.setText(QCoreApplication.translate("MainWindow", u"Air Conditioner", None))
+        self.pushButton_3.setText("")
+        self.lb_lamp.setText(QCoreApplication.translate("MainWindow", u"Lamp", None))
+        self.pushButton_4.setText("")
+        self.lb_wifi.setText(QCoreApplication.translate("MainWindow", u"Wifi", None))
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"Activity Page", None))
         self.label_3.setText(QCoreApplication.translate("MainWindow", u"Setting Page", None))
     # retranslateUi

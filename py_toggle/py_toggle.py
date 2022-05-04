@@ -1,26 +1,26 @@
-from turtle import pos
 from PySide6.QtCore import *
 from PySide6.QtGui import *
 from PySide6.QtWidgets import *
 
 class PyToggle(QCheckBox):
-    def __inint__(self,
-        witdh = 60,
+    def __init__(
+        self,
+        width = 60,
         bg_color = "#777",
-        circle_color = "DDD",
+        circle_color = "#DDD",
         active_color = "#00BCff",
         animation_curve = QEasingCurve.OutBounce
     ):
         QCheckBox.__init__(self)
 
         # SET DEFAULT PARAMETER
-        self.setFixedSize(witdh, 28)
+        self.setFixedSize(width, 28)
         self.setCursor(Qt.PointingHandCursor)
-
+        
         # COLORS
-        self._bg_color_ = bg_color
-        self._circle_color_ = circle_color
-        self._active_color_ = active_color
+        self._bg_color = bg_color
+        self._circle_color = circle_color
+        self._active_color = active_color
 
         # CREATE ANIMATION
         self._circle_position = 3
@@ -32,7 +32,7 @@ class PyToggle(QCheckBox):
         self.stateChanged.connect(self.start_transition)
 
     # CREATE NEW SET AND GET PROPERTIE
-    @Property(float) # GET
+    @Property(float)
     def circle_position(self):
         return self._circle_position
 
@@ -48,10 +48,10 @@ class PyToggle(QCheckBox):
         else:
             self.animation.setEndValue(3)
 
-        # START ANIMATION
+        # START ANIMATIOn
         self.animation.start()
-        print(f"Status:  {self.isChecked()}")
-    
+        print(f"Status: {self.isChecked()}")
+
     # SET NEW HIT AREA
     def hitButton(self, pos: QPoint):
         return self.contentsRect().contains(pos)
@@ -71,21 +71,22 @@ class PyToggle(QCheckBox):
         # CHECK IF IT IS CHECKED
         if not self.isChecked():
             # DRAW BG
-            p.setBrush(QColor(self._bg_color_))
-            p.drawRoundedRect(0, 0, rect.width(), self.height() / 2, self.height() / 2)
+            p.setBrush(QColor(self._bg_color))
+            p.drawRoundedRect(0, 0, rect.width(), self.height(), self.height() / 2, self.height() / 2)
 
             # DRAW CIRCLE
-            p.setBrush(QColor(self._circle_color_))
+            p.setBrush(QColor(self._circle_color))
             p.drawEllipse(self._circle_position, 3, 22, 22)
         else:
             # DRAW BG
-            p.setBrush(QColor(self._active_color_))
-            p.drawRoundedRect(0, 0, rect.width(), self.height() / 2, self.height() / 2)
+            p.setBrush(QColor(self._active_color))
+            p.drawRoundedRect(0, 0, rect.width(), self.height(), self.height() / 2, self.height() / 2)
 
             # DRAW CIRCLE
-            p.setBrush(QColor(self._circle_color_))
+            p.setBrush(QColor(self._circle_color))
             p.drawEllipse(self._circle_position, 3, 22, 22)
-
 
         # END DRAW
         p.end()
+
+       

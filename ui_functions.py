@@ -8,6 +8,7 @@ from PySide2.QtWidgets import *
 
 
 
+
 class UIFunctions(MainWindow):
      def currentButton(self, currentIndex, enable):
         index = currentIndex
