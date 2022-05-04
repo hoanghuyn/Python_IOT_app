@@ -2,7 +2,10 @@
 import sys
 import os
 import platform
-
+from PySide2 import QtCore, QtGui, QtWidgets
+from PySide2.QtCore import (QCoreApplication, QPropertyAnimation, QDate, QDateTime, QMetaObject, QObject, QPoint, QRect, QSize, QTime, QUrl, Qt, QEvent)
+from PySide2.QtGui import (QBrush, QColor, QConicalGradient, QCursor, QFont, QFontDatabase, QIcon, QKeySequence, QLinearGradient, QPalette, QPainter, QPixmap, QRadialGradient)
+from PySide2.QtWidgets import *
 
 from PySide6.QtCore import *
 from PySide6.QtGui import *
@@ -15,7 +18,6 @@ from main_ui import Ui_MainWindow
 # IMPORT FUNCTIONS
 from ui_functions import *
 
-from ToggleButton import ToggleButton
 
 
 
