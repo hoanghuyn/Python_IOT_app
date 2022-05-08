@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'main_uiozTubX.ui'
+## Form generated from reading UI file 'main_uigIppBU.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -11,6 +11,8 @@
 from PySide2.QtCore import *
 from PySide2.QtGui import *
 from PySide2.QtWidgets import *
+
+from ToggleButton import ToggleButton
 
 
 class Ui_MainWindow(object):
@@ -118,12 +120,12 @@ class Ui_MainWindow(object):
 "	color: rgb(255, 255, 255);\n"
 "	padding-left:11px;\n"
 "	border: 0px solid;\n"
-"	border-radius: 3px;\n"
+"	border-radius: 5px;\n"
 "	background-color:\n"
 "	qlineargradient(spread:\n"
 "	pad, x1:0, y1:0, x2:1, y2:1,\n"
-"	stop: 0 rgb(129, 132, 255),\n"
-"	stop: 1 rgb(92, 68, 255));\n"
+"	stop: 0 rgb(129, 131, 255),\n"
+"	stop: 1 rgb(93, 69, 255));\n"
 "}\n"
 "QPushButton:hover {\n"
 "	background-color:\n"
@@ -312,7 +314,7 @@ class Ui_MainWindow(object):
         self.stackedWidget.setLineWidth(0)
         self.frame_dashboard = QWidget()
         self.frame_dashboard.setObjectName(u"frame_dashboard")
-        self.frame_dashboard.setStyleSheet(u"background-color: rgb(248, 252, 255)")
+        self.frame_dashboard.setStyleSheet(u"background-color: rgb(244, 247, 254)")
         self.verticalLayout_10 = QVBoxLayout(self.frame_dashboard)
         self.verticalLayout_10.setSpacing(26)
         self.verticalLayout_10.setObjectName(u"verticalLayout_10")
@@ -395,7 +397,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout_4.setContentsMargins(0, 0, 0, 0)
         self.frame_television = QFrame(self.frame_device)
         self.frame_television.setObjectName(u"frame_television")
-        self.frame_television.setCursor(QCursor(Qt.PointingHandCursor))
+        self.frame_television.setCursor(QCursor(Qt.ArrowCursor))
         self.frame_television.setStyleSheet(u"QFrame{\n"
 "	border-radius: 20px;\n"
 "	background-color:rgb(255, 255, 255);\n"
@@ -449,16 +451,29 @@ class Ui_MainWindow(object):
 
         self.fr_tv_button = QFrame(self.fr_tv_top)
         self.fr_tv_button.setObjectName(u"fr_tv_button")
-        self.fr_tv_button.setLayoutDirection(Qt.RightToLeft)
+        self.fr_tv_button.setFocusPolicy(Qt.NoFocus)
+        self.fr_tv_button.setLayoutDirection(Qt.LeftToRight)
         self.fr_tv_button.setFrameShape(QFrame.NoFrame)
         self.fr_tv_button.setFrameShadow(QFrame.Raised)
         self.fr_tv_button.setLineWidth(0)
         self.horizontalLayout_13 = QHBoxLayout(self.fr_tv_button)
         self.horizontalLayout_13.setSpacing(0)
         self.horizontalLayout_13.setObjectName(u"horizontalLayout_13")
-        self.horizontalLayout_13.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout_13.setContentsMargins(90, 20, 0, 0)
+        self.cb_tv = ToggleButton(self.fr_tv_button)
+        self.cb_tv.setObjectName(u"cb_tv")
+        sizePolicy2 = QSizePolicy(QSizePolicy.Minimum, QSizePolicy.Fixed)
+        sizePolicy2.setHorizontalStretch(0)
+        sizePolicy2.setVerticalStretch(0)
+        sizePolicy2.setHeightForWidth(self.cb_tv.sizePolicy().hasHeightForWidth())
+        self.cb_tv.setSizePolicy(sizePolicy2)
+        self.cb_tv.setCursor(QCursor(Qt.PointingHandCursor))
+        self.cb_tv.setFocusPolicy(Qt.NoFocus)
 
-        self.horizontalLayout_9.addWidget(self.fr_tv_button)
+        self.horizontalLayout_13.addWidget(self.cb_tv)
+
+
+        self.horizontalLayout_9.addWidget(self.fr_tv_button, 0, Qt.AlignTop)
 
 
         self.verticalLayout_14.addWidget(self.fr_tv_top)
@@ -494,7 +509,7 @@ class Ui_MainWindow(object):
 
         self.frame_ac = QFrame(self.frame_device)
         self.frame_ac.setObjectName(u"frame_ac")
-        self.frame_ac.setCursor(QCursor(Qt.PointingHandCursor))
+        self.frame_ac.setCursor(QCursor(Qt.ArrowCursor))
         self.frame_ac.setStyleSheet(u"border-radius: 20px;\n"
 "background-color:rgb(255, 255, 255)")
         self.frame_ac.setFrameShape(QFrame.NoFrame)
@@ -546,11 +561,24 @@ class Ui_MainWindow(object):
 
         self.fr_ac_button = QFrame(self.fr_ac_top)
         self.fr_ac_button.setObjectName(u"fr_ac_button")
+        self.fr_ac_button.setCursor(QCursor(Qt.ArrowCursor))
+        self.fr_ac_button.setLayoutDirection(Qt.LeftToRight)
         self.fr_ac_button.setFrameShape(QFrame.NoFrame)
         self.fr_ac_button.setFrameShadow(QFrame.Raised)
         self.fr_ac_button.setLineWidth(0)
+        self.horizontalLayout_14 = QHBoxLayout(self.fr_ac_button)
+        self.horizontalLayout_14.setSpacing(0)
+        self.horizontalLayout_14.setObjectName(u"horizontalLayout_14")
+        self.horizontalLayout_14.setContentsMargins(90, 20, 0, 0)
+        self.cb_ac = ToggleButton(self.fr_ac_button)
+        self.cb_ac.setObjectName(u"cb_ac")
+        self.cb_ac.setCursor(QCursor(Qt.PointingHandCursor))
+        self.cb_ac.setLayoutDirection(Qt.RightToLeft)
 
-        self.horizontalLayout_10.addWidget(self.fr_ac_button)
+        self.horizontalLayout_14.addWidget(self.cb_ac)
+
+
+        self.horizontalLayout_10.addWidget(self.fr_ac_button, 0, Qt.AlignTop)
 
 
         self.verticalLayout_15.addWidget(self.fr_ac_top)
@@ -581,7 +609,7 @@ class Ui_MainWindow(object):
 
         self.frame_lamp = QFrame(self.frame_device)
         self.frame_lamp.setObjectName(u"frame_lamp")
-        self.frame_lamp.setCursor(QCursor(Qt.PointingHandCursor))
+        self.frame_lamp.setCursor(QCursor(Qt.ArrowCursor))
         self.frame_lamp.setStyleSheet(u"border-radius: 20px;\n"
 "background-color:rgb(255, 255, 255)")
         self.frame_lamp.setFrameShape(QFrame.NoFrame)
@@ -633,11 +661,22 @@ class Ui_MainWindow(object):
 
         self.fr_lamp_button = QFrame(self.fr_lamp_top)
         self.fr_lamp_button.setObjectName(u"fr_lamp_button")
+        self.fr_lamp_button.setLayoutDirection(Qt.LeftToRight)
         self.fr_lamp_button.setFrameShape(QFrame.NoFrame)
         self.fr_lamp_button.setFrameShadow(QFrame.Raised)
         self.fr_lamp_button.setLineWidth(0)
+        self.horizontalLayout_15 = QHBoxLayout(self.fr_lamp_button)
+        self.horizontalLayout_15.setSpacing(0)
+        self.horizontalLayout_15.setObjectName(u"horizontalLayout_15")
+        self.horizontalLayout_15.setContentsMargins(90, 20, 0, 0)
+        self.cb_lamp = ToggleButton(self.fr_lamp_button)
+        self.cb_lamp.setObjectName(u"cb_lamp")
+        self.cb_lamp.setCursor(QCursor(Qt.PointingHandCursor))
 
-        self.horizontalLayout_11.addWidget(self.fr_lamp_button)
+        self.horizontalLayout_15.addWidget(self.cb_lamp)
+
+
+        self.horizontalLayout_11.addWidget(self.fr_lamp_button, 0, Qt.AlignTop)
 
 
         self.verticalLayout_17.addWidget(self.fr_lamp_top)
@@ -668,7 +707,7 @@ class Ui_MainWindow(object):
 
         self.frame_wifi = QFrame(self.frame_device)
         self.frame_wifi.setObjectName(u"frame_wifi")
-        self.frame_wifi.setCursor(QCursor(Qt.PointingHandCursor))
+        self.frame_wifi.setCursor(QCursor(Qt.ArrowCursor))
         self.frame_wifi.setStyleSheet(u"border-radius: 20px;\n"
 "background-color:rgb(255, 255, 255)")
         self.frame_wifi.setFrameShape(QFrame.NoFrame)
@@ -720,11 +759,23 @@ class Ui_MainWindow(object):
 
         self.fr_wifi_button = QFrame(self.fr_wifi_top)
         self.fr_wifi_button.setObjectName(u"fr_wifi_button")
+        self.fr_wifi_button.setLayoutDirection(Qt.LeftToRight)
+        self.fr_wifi_button.setStyleSheet(u"")
         self.fr_wifi_button.setFrameShape(QFrame.NoFrame)
         self.fr_wifi_button.setFrameShadow(QFrame.Raised)
         self.fr_wifi_button.setLineWidth(0)
+        self.horizontalLayout_16 = QHBoxLayout(self.fr_wifi_button)
+        self.horizontalLayout_16.setSpacing(0)
+        self.horizontalLayout_16.setObjectName(u"horizontalLayout_16")
+        self.horizontalLayout_16.setContentsMargins(90, 20, 0, 0)
+        self.cb_wifi = ToggleButton(self.fr_wifi_button)
+        self.cb_wifi.setObjectName(u"cb_wifi")
+        self.cb_wifi.setCursor(QCursor(Qt.PointingHandCursor))
 
-        self.horizontalLayout_12.addWidget(self.fr_wifi_button)
+        self.horizontalLayout_16.addWidget(self.cb_wifi)
+
+
+        self.horizontalLayout_12.addWidget(self.fr_wifi_button, 0, Qt.AlignTop)
 
 
         self.verticalLayout_16.addWidget(self.fr_wifi_top)
@@ -832,12 +883,16 @@ class Ui_MainWindow(object):
         self.lb_username.setText(QCoreApplication.translate("MainWindow", u"Good Morning, Raus", None))
         self.lb_hand.setText(QCoreApplication.translate("MainWindow", u"Have a nice day", None))
         self.pushButton.setText("")
+        self.cb_tv.setText("")
         self.lb_tv.setText(QCoreApplication.translate("MainWindow", u"Television", None))
         self.pushButton_2.setText("")
+        self.cb_ac.setText("")
         self.lb_ac.setText(QCoreApplication.translate("MainWindow", u"Air Conditioner", None))
         self.pushButton_3.setText("")
+        self.cb_lamp.setText("")
         self.lb_lamp.setText(QCoreApplication.translate("MainWindow", u"Lamp", None))
         self.pushButton_4.setText("")
+        self.cb_wifi.setText("")
         self.lb_wifi.setText(QCoreApplication.translate("MainWindow", u"Wifi", None))
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"Activity Page", None))
         self.label_3.setText(QCoreApplication.translate("MainWindow", u"Setting Page", None))

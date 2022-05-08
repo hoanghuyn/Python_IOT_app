@@ -1,56 +1,37 @@
-from PySide6.QtCore import *
-from PySide6.QtGui import *
-from PySide6.QtWidgets import *
+from PySide2 import QtCore, QtGui, QtWidgets
+from PySide2.QtCore import (QCoreApplication, QPropertyAnimation, QDate, QDateTime, QMetaObject, QObject, QPoint, QRect, QSize, QTime, QUrl, Qt, QEvent)
+from PySide2.QtGui import (QBrush, QColor, QConicalGradient, QCursor, QFont, QFontDatabase, QIcon, QKeySequence, QLinearGradient, QPalette, QPainter, QPixmap, QRadialGradient)
+from PySide2.QtWidgets import *
 
 class ToggleButton(QCheckBox):
     def __init__(
         self,
-        width = 60,
-        bg_color = "#777",
-        circle_color = "#DDD",
-        active_color = "#00BCff",
-        animation_curve = QEasingCurve.OutBounce
+        width = 50,
+        bg_color = "#E4EBF1",
+        circle_color_active = "#FDFEFC",
+        circle_color_disable = "#6B4BFF",
+        active_color = "#FDFEFC"
     ):
         QCheckBox.__init__(self)
 
         # SET DEFAULT PARAMETER
-        self.setFixedSize(width, 28)
+        self.setFixedSize(40, 20)
         self.setCursor(Qt.PointingHandCursor)
         
         # COLORS
         self._bg_color = bg_color
-        self._circle_color = circle_color
+        self._circle_color_disable = circle_color_disable
+        self._circle_color_active = circle_color_active
         self._active_color = active_color
 
         # CREATE ANIMATION
-        self._circle_position = 3
-        self.animation = QPropertyAnimation(self, b"circle_position", self)
-        self.animation.setEasingCurve(animation_curve)
-        self.animation.setDuration(500)
+        # self._circle_position = 3
+        # self.animation = QPropertyAnimation(self, b"circle_position", self)
+        # self.animation.setDuration(500)
 
-        # CONNECT STATE CHANGED
-        self.stateChanged.connect(self.start_transition)
+        
 
-    # CREATE NEW SET AND GET PROPERTIE
-    @Property(float)
-    def circle_position(self):
-        return self._circle_position
-
-    @circle_position.setter
-    def circle_position(self, pos):
-        self._circle_position = pos
-        self.update()
-
-    def start_transition(self, value):
-        self.animation.stop()
-        if value:
-            self.animation.setEndValue(self.width() - 26)
-        else:
-            self.animation.setEndValue(3)
-
-        # START ANIMATIOn
-        self.animation.start()
-        print(f"Status: {self.isChecked()}")
+   
 
     # SET NEW HIT AREA
     def hitButton(self, pos: QPoint):
@@ -75,16 +56,16 @@ class ToggleButton(QCheckBox):
             p.drawRoundedRect(0, 0, rect.width(), self.height(), self.height() / 2, self.height() / 2)
 
             # DRAW CIRCLE
-            p.setBrush(QColor(self._circle_color))
-            p.drawEllipse(self._circle_position, 3, 22, 22)
+            p.setBrush(QColor(self._circle_color_active))
+            p.drawEllipse(2, 2, 16, 16)
         else:
             # DRAW BG
             p.setBrush(QColor(self._active_color))
             p.drawRoundedRect(0, 0, rect.width(), self.height(), self.height() / 2, self.height() / 2)
 
             # DRAW CIRCLE
-            p.setBrush(QColor(self._circle_color))
-            p.drawEllipse(self._circle_position, 3, 22, 22)
+            p.setBrush(QColor(self._circle_color_disable))
+            p.drawEllipse(22, 3, 16, 16)
 
         # END DRAW
         p.end()

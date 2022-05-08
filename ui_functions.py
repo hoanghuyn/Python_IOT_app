@@ -10,7 +10,7 @@ from PySide2.QtWidgets import *
 
 
 class UIFunctions(MainWindow):
-     def currentButton(self, currentIndex, enable):
+    def currentButton(self, currentIndex, enable):
         index = currentIndex
         btn_style_normal = """
         QPushButton{
@@ -29,7 +29,7 @@ class UIFunctions(MainWindow):
         	color: rgb(255, 255, 255);
         	padding-left:11px;
         	border: 0px solid;
-        	border-radius: 3px;
+        	border-radius: 5px;
         	background-color:
         	qlineargradient(spread:
         	pad, x1:0, y1:0, x2:1, y2:1,
@@ -66,4 +66,20 @@ class UIFunctions(MainWindow):
                 self.ui.btn_activity.setIcon(QIcon('icon/activity_gray.png'))
                 self.ui.btn_setting.setStyleSheet(btn_style_choosen)
                 self.ui.btn_setting.setIcon(QIcon('icon/setting_white.png'))
-            
+
+
+    # def customButton(self):
+    #     self.ui.checkBox.setFixedSize(60, 28)
+    #     self.setCursor(Qt.PointingHandCursor)
+
+    #     #COLORS
+    #     self.bg_color = "#777"
+    #     self.circle_color = "#DDD"
+    #     self.active_color = "00BCff"
+
+    #     # CREATE ANIMATION
+    #     self._circle_position = 3
+    #     self.animation = QPropertyAnimation(self, b"circle_position", self)
+    #     self.animation.setEasingCurve(QEasingCurve.OutBounce)
+    #     self.animation.setDuration(500)
+
