@@ -29,8 +29,6 @@ class ToggleButton(QCheckBox):
         # self.animation = QPropertyAnimation(self, b"circle_position", self)
         # self.animation.setDuration(500)
 
-        
-
    
 
     # SET NEW HIT AREA
@@ -58,6 +56,8 @@ class ToggleButton(QCheckBox):
             # DRAW CIRCLE
             p.setBrush(QColor(self._circle_color_active))
             p.drawEllipse(2, 2, 16, 16)
+
+            
         else:
             # DRAW BG
             p.setBrush(QColor(self._active_color))
@@ -67,7 +67,12 @@ class ToggleButton(QCheckBox):
             p.setBrush(QColor(self._circle_color_disable))
             p.drawEllipse(22, 3, 16, 16)
 
+            
+
+
+
         # END DRAW
         p.end()
+    
 
        

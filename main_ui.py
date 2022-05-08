@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'main_uigIppBU.ui'
+## Form generated from reading UI file 'main_uiwKmhAg.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -312,13 +312,25 @@ class Ui_MainWindow(object):
         self.stackedWidget = QStackedWidget(self.centralwidget)
         self.stackedWidget.setObjectName(u"stackedWidget")
         self.stackedWidget.setLineWidth(0)
-        self.frame_dashboard = QWidget()
-        self.frame_dashboard.setObjectName(u"frame_dashboard")
-        self.frame_dashboard.setStyleSheet(u"background-color: rgb(244, 247, 254)")
-        self.verticalLayout_10 = QVBoxLayout(self.frame_dashboard)
-        self.verticalLayout_10.setSpacing(26)
+        self.frame_index_0 = QWidget()
+        self.frame_index_0.setObjectName(u"frame_index_0")
+        self.frame_index_0.setStyleSheet(u"")
+        self.verticalLayout_10 = QVBoxLayout(self.frame_index_0)
+        self.verticalLayout_10.setSpacing(0)
         self.verticalLayout_10.setObjectName(u"verticalLayout_10")
-        self.verticalLayout_10.setContentsMargins(26, 26, 26, 26)
+        self.verticalLayout_10.setContentsMargins(0, 0, 0, 0)
+        self.frame_dashboard = QFrame(self.frame_index_0)
+        self.frame_dashboard.setObjectName(u"frame_dashboard")
+        self.frame_dashboard.setStyleSheet(u"QFrame#frame_dashboard{\n"
+"	background-color: rgb(244, 247, 254)\n"
+"}")
+        self.frame_dashboard.setFrameShape(QFrame.NoFrame)
+        self.frame_dashboard.setFrameShadow(QFrame.Raised)
+        self.frame_dashboard.setLineWidth(0)
+        self.verticalLayout_22 = QVBoxLayout(self.frame_dashboard)
+        self.verticalLayout_22.setSpacing(26)
+        self.verticalLayout_22.setObjectName(u"verticalLayout_22")
+        self.verticalLayout_22.setContentsMargins(26, 26, 26, 26)
         self.frame_username = QFrame(self.frame_dashboard)
         self.frame_username.setObjectName(u"frame_username")
         self.frame_username.setMinimumSize(QSize(622, 72))
@@ -383,11 +395,12 @@ class Ui_MainWindow(object):
         self.verticalLayout_13.addWidget(self.frame_lb_hand)
 
 
-        self.verticalLayout_10.addWidget(self.frame_username)
+        self.verticalLayout_22.addWidget(self.frame_username)
 
         self.frame_device = QFrame(self.frame_dashboard)
         self.frame_device.setObjectName(u"frame_device")
         self.frame_device.setMaximumSize(QSize(16777215, 106))
+        self.frame_device.setStyleSheet(u"")
         self.frame_device.setFrameShape(QFrame.NoFrame)
         self.frame_device.setFrameShadow(QFrame.Raised)
         self.frame_device.setLineWidth(0)
@@ -398,10 +411,8 @@ class Ui_MainWindow(object):
         self.frame_television = QFrame(self.frame_device)
         self.frame_television.setObjectName(u"frame_television")
         self.frame_television.setCursor(QCursor(Qt.ArrowCursor))
-        self.frame_television.setStyleSheet(u"QFrame{\n"
-"	border-radius: 20px;\n"
-"	background-color:rgb(255, 255, 255);\n"
-"}")
+        self.frame_television.setStyleSheet(u"border-radius: 20px;\n"
+"background-color:rgb(255, 255, 255)")
         self.frame_television.setFrameShape(QFrame.NoFrame)
         self.frame_television.setFrameShadow(QFrame.Raised)
         self.frame_television.setLineWidth(0)
@@ -411,6 +422,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_14.setContentsMargins(0, 0, 0, 0)
         self.fr_tv_top = QFrame(self.frame_television)
         self.fr_tv_top.setObjectName(u"fr_tv_top")
+        self.fr_tv_top.setStyleSheet(u"")
         self.fr_tv_top.setFrameShape(QFrame.NoFrame)
         self.fr_tv_top.setFrameShadow(QFrame.Raised)
         self.fr_tv_top.setLineWidth(0)
@@ -427,10 +439,10 @@ class Ui_MainWindow(object):
         self.verticalLayout_18.setSpacing(0)
         self.verticalLayout_18.setObjectName(u"verticalLayout_18")
         self.verticalLayout_18.setContentsMargins(0, 10, 0, 0)
-        self.pushButton = QPushButton(self.fr_tv_ic)
-        self.pushButton.setObjectName(u"pushButton")
-        self.pushButton.setMaximumSize(QSize(42, 42))
-        self.pushButton.setStyleSheet(u"QPushButton{\n"
+        self.btn_televison = QPushButton(self.fr_tv_ic)
+        self.btn_televison.setObjectName(u"btn_televison")
+        self.btn_televison.setMaximumSize(QSize(42, 42))
+        self.btn_televison.setStyleSheet(u"QPushButton{\n"
 "	border: 0px solid;\n"
 "	border-radius: 20px;\n"
 "	background-color:\n"
@@ -441,10 +453,10 @@ class Ui_MainWindow(object):
 "}")
         icon4 = QIcon()
         icon4.addFile(u"icon/television_white.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton.setIcon(icon4)
-        self.pushButton.setIconSize(QSize(20, 20))
+        self.btn_televison.setIcon(icon4)
+        self.btn_televison.setIconSize(QSize(20, 20))
 
-        self.verticalLayout_18.addWidget(self.pushButton)
+        self.verticalLayout_18.addWidget(self.btn_televison)
 
 
         self.horizontalLayout_9.addWidget(self.fr_tv_ic)
@@ -480,6 +492,7 @@ class Ui_MainWindow(object):
 
         self.fr_tv_bottom = QFrame(self.frame_television)
         self.fr_tv_bottom.setObjectName(u"fr_tv_bottom")
+        self.fr_tv_bottom.setStyleSheet(u"")
         self.fr_tv_bottom.setFrameShape(QFrame.NoFrame)
         self.fr_tv_bottom.setFrameShadow(QFrame.Raised)
         self.fr_tv_bottom.setLineWidth(0)
@@ -495,7 +508,8 @@ class Ui_MainWindow(object):
         font5.setBold(True)
         font5.setWeight(75)
         self.lb_tv.setFont(font5)
-        self.lb_tv.setStyleSheet(u"color: rgb(43, 54, 116)")
+        self.lb_tv.setStyleSheet(u"color: rgb(43, 54, 116);\n"
+"")
         self.lb_tv.setLineWidth(0)
         self.lb_tv.setAlignment(Qt.AlignBottom|Qt.AlignLeading|Qt.AlignLeft)
 
@@ -537,10 +551,10 @@ class Ui_MainWindow(object):
         self.verticalLayout_19.setSpacing(0)
         self.verticalLayout_19.setObjectName(u"verticalLayout_19")
         self.verticalLayout_19.setContentsMargins(0, 10, 0, 0)
-        self.pushButton_2 = QPushButton(self.fr_ac_ic)
-        self.pushButton_2.setObjectName(u"pushButton_2")
-        self.pushButton_2.setMaximumSize(QSize(42, 42))
-        self.pushButton_2.setStyleSheet(u"QPushButton{\n"
+        self.btn_ac = QPushButton(self.fr_ac_ic)
+        self.btn_ac.setObjectName(u"btn_ac")
+        self.btn_ac.setMaximumSize(QSize(42, 42))
+        self.btn_ac.setStyleSheet(u"QPushButton{\n"
 "	border: 0px solid;\n"
 "	border-radius: 20px;\n"
 "	background-color:\n"
@@ -551,10 +565,10 @@ class Ui_MainWindow(object):
 "}")
         icon5 = QIcon()
         icon5.addFile(u"icon/ac_white.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_2.setIcon(icon5)
-        self.pushButton_2.setIconSize(QSize(20, 20))
+        self.btn_ac.setIcon(icon5)
+        self.btn_ac.setIconSize(QSize(20, 20))
 
-        self.verticalLayout_19.addWidget(self.pushButton_2)
+        self.verticalLayout_19.addWidget(self.btn_ac)
 
 
         self.horizontalLayout_10.addWidget(self.fr_ac_ic)
@@ -637,10 +651,10 @@ class Ui_MainWindow(object):
         self.verticalLayout_20.setSpacing(0)
         self.verticalLayout_20.setObjectName(u"verticalLayout_20")
         self.verticalLayout_20.setContentsMargins(0, 10, 0, 0)
-        self.pushButton_3 = QPushButton(self.fr_lamp_ic)
-        self.pushButton_3.setObjectName(u"pushButton_3")
-        self.pushButton_3.setMaximumSize(QSize(42, 42))
-        self.pushButton_3.setStyleSheet(u"QPushButton{\n"
+        self.btn_lamp = QPushButton(self.fr_lamp_ic)
+        self.btn_lamp.setObjectName(u"btn_lamp")
+        self.btn_lamp.setMaximumSize(QSize(42, 42))
+        self.btn_lamp.setStyleSheet(u"QPushButton{\n"
 "	border: 0px solid;\n"
 "	border-radius: 20px;\n"
 "	background-color:\n"
@@ -651,10 +665,10 @@ class Ui_MainWindow(object):
 "}")
         icon6 = QIcon()
         icon6.addFile(u"icon/lamp_white.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_3.setIcon(icon6)
-        self.pushButton_3.setIconSize(QSize(25, 25))
+        self.btn_lamp.setIcon(icon6)
+        self.btn_lamp.setIconSize(QSize(25, 25))
 
-        self.verticalLayout_20.addWidget(self.pushButton_3)
+        self.verticalLayout_20.addWidget(self.btn_lamp)
 
 
         self.horizontalLayout_11.addWidget(self.fr_lamp_ic)
@@ -735,10 +749,10 @@ class Ui_MainWindow(object):
         self.verticalLayout_21.setSpacing(0)
         self.verticalLayout_21.setObjectName(u"verticalLayout_21")
         self.verticalLayout_21.setContentsMargins(0, 10, 0, 0)
-        self.pushButton_4 = QPushButton(self.fr_wifi_ic)
-        self.pushButton_4.setObjectName(u"pushButton_4")
-        self.pushButton_4.setMaximumSize(QSize(42, 42))
-        self.pushButton_4.setStyleSheet(u"QPushButton{\n"
+        self.btn_wifi = QPushButton(self.fr_wifi_ic)
+        self.btn_wifi.setObjectName(u"btn_wifi")
+        self.btn_wifi.setMaximumSize(QSize(42, 42))
+        self.btn_wifi.setStyleSheet(u"QPushButton{\n"
 "	border: 0px solid;\n"
 "	border-radius: 20px;\n"
 "	background-color:\n"
@@ -749,10 +763,10 @@ class Ui_MainWindow(object):
 "}")
         icon7 = QIcon()
         icon7.addFile(u"icon/wifi_white.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_4.setIcon(icon7)
-        self.pushButton_4.setIconSize(QSize(20, 20))
+        self.btn_wifi.setIcon(icon7)
+        self.btn_wifi.setIconSize(QSize(20, 20))
 
-        self.verticalLayout_21.addWidget(self.pushButton_4)
+        self.verticalLayout_21.addWidget(self.btn_wifi)
 
 
         self.horizontalLayout_12.addWidget(self.fr_wifi_ic)
@@ -804,8 +818,12 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_4.addWidget(self.frame_wifi)
 
+        self.frame_ac.raise_()
+        self.frame_lamp.raise_()
+        self.frame_wifi.raise_()
+        self.frame_television.raise_()
 
-        self.verticalLayout_10.addWidget(self.frame_device)
+        self.verticalLayout_22.addWidget(self.frame_device)
 
         self.frame_3 = QFrame(self.frame_dashboard)
         self.frame_3.setObjectName(u"frame_3")
@@ -813,25 +831,28 @@ class Ui_MainWindow(object):
         self.frame_3.setFrameShadow(QFrame.Raised)
         self.frame_3.setLineWidth(0)
 
-        self.verticalLayout_10.addWidget(self.frame_3)
+        self.verticalLayout_22.addWidget(self.frame_3)
 
-        self.frame_4 = QFrame(self.frame_dashboard)
-        self.frame_4.setObjectName(u"frame_4")
-        self.frame_4.setFrameShape(QFrame.NoFrame)
-        self.frame_4.setFrameShadow(QFrame.Raised)
-        self.frame_4.setLineWidth(0)
+        self.frame_5 = QFrame(self.frame_dashboard)
+        self.frame_5.setObjectName(u"frame_5")
+        self.frame_5.setFrameShape(QFrame.NoFrame)
+        self.frame_5.setFrameShadow(QFrame.Raised)
+        self.frame_5.setLineWidth(0)
 
-        self.verticalLayout_10.addWidget(self.frame_4)
+        self.verticalLayout_22.addWidget(self.frame_5)
 
-        self.stackedWidget.addWidget(self.frame_dashboard)
-        self.frame_activity = QWidget()
-        self.frame_activity.setObjectName(u"frame_activity")
-        self.frame_activity.setStyleSheet(u"background-color: rgb(248, 252, 255)")
-        self.verticalLayout_11 = QVBoxLayout(self.frame_activity)
+
+        self.verticalLayout_10.addWidget(self.frame_dashboard)
+
+        self.stackedWidget.addWidget(self.frame_index_0)
+        self.frame_index_1 = QWidget()
+        self.frame_index_1.setObjectName(u"frame_index_1")
+        self.frame_index_1.setStyleSheet(u"background-color: rgb(248, 252, 255)")
+        self.verticalLayout_11 = QVBoxLayout(self.frame_index_1)
         self.verticalLayout_11.setSpacing(0)
         self.verticalLayout_11.setObjectName(u"verticalLayout_11")
         self.verticalLayout_11.setContentsMargins(0, 0, 0, 0)
-        self.label_2 = QLabel(self.frame_activity)
+        self.label_2 = QLabel(self.frame_index_1)
         self.label_2.setObjectName(u"label_2")
         font6 = QFont()
         font6.setPointSize(50)
@@ -841,15 +862,15 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_11.addWidget(self.label_2)
 
-        self.stackedWidget.addWidget(self.frame_activity)
-        self.frame_setting = QWidget()
-        self.frame_setting.setObjectName(u"frame_setting")
-        self.frame_setting.setStyleSheet(u"background-color: rgb(248, 252, 255)")
-        self.verticalLayout_12 = QVBoxLayout(self.frame_setting)
+        self.stackedWidget.addWidget(self.frame_index_1)
+        self.frame_index_2 = QWidget()
+        self.frame_index_2.setObjectName(u"frame_index_2")
+        self.frame_index_2.setStyleSheet(u"background-color: rgb(248, 252, 255)")
+        self.verticalLayout_12 = QVBoxLayout(self.frame_index_2)
         self.verticalLayout_12.setSpacing(0)
         self.verticalLayout_12.setObjectName(u"verticalLayout_12")
         self.verticalLayout_12.setContentsMargins(0, 0, 0, 0)
-        self.label_3 = QLabel(self.frame_setting)
+        self.label_3 = QLabel(self.frame_index_2)
         self.label_3.setObjectName(u"label_3")
         self.label_3.setFont(font6)
         self.label_3.setLineWidth(0)
@@ -857,7 +878,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_12.addWidget(self.label_3)
 
-        self.stackedWidget.addWidget(self.frame_setting)
+        self.stackedWidget.addWidget(self.frame_index_2)
 
         self.horizontalLayout.addWidget(self.stackedWidget)
 
@@ -882,16 +903,16 @@ class Ui_MainWindow(object):
 "access to all features!", None))
         self.lb_username.setText(QCoreApplication.translate("MainWindow", u"Good Morning, Raus", None))
         self.lb_hand.setText(QCoreApplication.translate("MainWindow", u"Have a nice day", None))
-        self.pushButton.setText("")
+        self.btn_televison.setText("")
         self.cb_tv.setText("")
         self.lb_tv.setText(QCoreApplication.translate("MainWindow", u"Television", None))
-        self.pushButton_2.setText("")
+        self.btn_ac.setText("")
         self.cb_ac.setText("")
         self.lb_ac.setText(QCoreApplication.translate("MainWindow", u"Air Conditioner", None))
-        self.pushButton_3.setText("")
+        self.btn_lamp.setText("")
         self.cb_lamp.setText("")
         self.lb_lamp.setText(QCoreApplication.translate("MainWindow", u"Lamp", None))
-        self.pushButton_4.setText("")
+        self.btn_wifi.setText("")
         self.cb_wifi.setText("")
         self.lb_wifi.setText(QCoreApplication.translate("MainWindow", u"Wifi", None))
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"Activity Page", None))

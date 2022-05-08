@@ -29,22 +29,23 @@ class MainWindow(QMainWindow):
         
 
         ## PAGES
-        self.ui.btn_dashboard.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.frame_dashboard))
-        self.ui.btn_activity.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.frame_activity))
-        self.ui.btn_setting.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.frame_setting))
+        self.ui.btn_dashboard.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.frame_index_0))
+        self.ui.btn_activity.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.frame_index_1))
+        self.ui.btn_setting.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.frame_index_2))
 
         ## GET CURRENT WIDGET
         self.ui.btn_dashboard.clicked.connect(lambda: UIFunctions.currentButton(self, self.ui.stackedWidget.currentIndex(),True))
         self.ui.btn_activity.clicked.connect(lambda: UIFunctions.currentButton(self, self.ui.stackedWidget.currentIndex(),True))
         self.ui.btn_setting.clicked.connect(lambda: UIFunctions.currentButton(self, self.ui.stackedWidget.currentIndex(),True))
 
-        # ADD TOGGLE BUTTON
-        # self.ui.verticalLayout_20 = QVBoxLayout(self.ui.fr_tv_button)
-        # self.ui.tv_toggle = PyToggle()
-        # self.ui.verticalLayout_20.addWidget(self.ui.tv_toggle)
+        ## SWITCH EVENT
+        self.ui.cb_tv.stateChanged.connect(lambda: UIFunctions.switchDeviceEvent(self, 0, self.ui.cb_tv.isChecked()))
+        self.ui.cb_ac.stateChanged.connect(lambda: UIFunctions.switchDeviceEvent(self, 1, self.ui.cb_ac.isChecked()))
+        self.ui.cb_lamp.stateChanged.connect(lambda: UIFunctions.switchDeviceEvent(self, 2, self.ui.cb_lamp.isChecked()))
+        self.ui.cb_wifi.stateChanged.connect(lambda: UIFunctions.switchDeviceEvent(self, 3, self.ui.cb_wifi.isChecked()))
         
 
-        ## SHOW ==> MAIN WINDOW
+        
         
 
 

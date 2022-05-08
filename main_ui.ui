@@ -715,39 +715,32 @@ access to all features!</string>
       <property name="currentIndex">
        <number>0</number>
       </property>
-      <widget class="QWidget" name="frame_dashboard">
+      <widget class="QWidget" name="frame_index_0">
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(244, 247, 254)</string>
+        <string notr="true"/>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_10">
         <property name="spacing">
-         <number>26</number>
+         <number>0</number>
         </property>
         <property name="leftMargin">
-         <number>26</number>
+         <number>0</number>
         </property>
         <property name="topMargin">
-         <number>26</number>
+         <number>0</number>
         </property>
         <property name="rightMargin">
-         <number>26</number>
+         <number>0</number>
         </property>
         <property name="bottomMargin">
-         <number>26</number>
+         <number>0</number>
         </property>
         <item>
-         <widget class="QFrame" name="frame_username">
-          <property name="minimumSize">
-           <size>
-            <width>622</width>
-            <height>72</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>16777215</width>
-            <height>72</height>
-           </size>
+         <widget class="QFrame" name="frame_dashboard">
+          <property name="styleSheet">
+           <string notr="true">QFrame#frame_dashboard{
+	background-color: rgb(244, 247, 254)
+}</string>
           </property>
           <property name="frameShape">
            <enum>QFrame::NoFrame</enum>
@@ -758,176 +751,35 @@ access to all features!</string>
           <property name="lineWidth">
            <number>0</number>
           </property>
-          <layout class="QVBoxLayout" name="verticalLayout_13">
-           <property name="spacing">
-            <number>0</number>
-           </property>
-           <property name="leftMargin">
-            <number>0</number>
-           </property>
-           <property name="topMargin">
-            <number>0</number>
-           </property>
-           <property name="rightMargin">
-            <number>0</number>
-           </property>
-           <property name="bottomMargin">
-            <number>0</number>
-           </property>
-           <item>
-            <widget class="QFrame" name="frame_lb_username">
-             <property name="frameShape">
-              <enum>QFrame::StyledPanel</enum>
-             </property>
-             <property name="frameShadow">
-              <enum>QFrame::Raised</enum>
-             </property>
-             <property name="lineWidth">
-              <number>0</number>
-             </property>
-             <layout class="QHBoxLayout" name="horizontalLayout_2">
-              <property name="spacing">
-               <number>0</number>
-              </property>
-              <property name="leftMargin">
-               <number>0</number>
-              </property>
-              <property name="topMargin">
-               <number>0</number>
-              </property>
-              <property name="rightMargin">
-               <number>0</number>
-              </property>
-              <property name="bottomMargin">
-               <number>0</number>
-              </property>
-              <item>
-               <widget class="QLabel" name="lb_username">
-                <property name="font">
-                 <font>
-                  <family>Segoe UI</family>
-                  <pointsize>27</pointsize>
-                  <weight>75</weight>
-                  <bold>true</bold>
-                 </font>
-                </property>
-                <property name="cursor">
-                 <cursorShape>ArrowCursor</cursorShape>
-                </property>
-                <property name="styleSheet">
-                 <string notr="true">color: rgb(43, 54, 116);</string>
-                </property>
-                <property name="lineWidth">
-                 <number>0</number>
-                </property>
-                <property name="text">
-                 <string>Good Morning, Raus</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </widget>
-           </item>
-           <item>
-            <widget class="QFrame" name="frame_lb_hand">
-             <property name="frameShape">
-              <enum>QFrame::StyledPanel</enum>
-             </property>
-             <property name="frameShadow">
-              <enum>QFrame::Raised</enum>
-             </property>
-             <property name="lineWidth">
-              <number>0</number>
-             </property>
-             <layout class="QHBoxLayout" name="horizontalLayout_3">
-              <property name="spacing">
-               <number>0</number>
-              </property>
-              <property name="leftMargin">
-               <number>0</number>
-              </property>
-              <property name="topMargin">
-               <number>0</number>
-              </property>
-              <property name="rightMargin">
-               <number>0</number>
-              </property>
-              <property name="bottomMargin">
-               <number>0</number>
-              </property>
-              <item>
-               <widget class="QLabel" name="lb_hand">
-                <property name="font">
-                 <font>
-                  <family>Segoe UI</family>
-                  <pointsize>12</pointsize>
-                  <weight>75</weight>
-                  <bold>true</bold>
-                 </font>
-                </property>
-                <property name="styleSheet">
-                 <string notr="true">color: rgb(112, 126, 174)</string>
-                </property>
-                <property name="frameShape">
-                 <enum>QFrame::NoFrame</enum>
-                </property>
-                <property name="lineWidth">
-                 <number>0</number>
-                </property>
-                <property name="text">
-                 <string>Have a nice day</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </widget>
-           </item>
-          </layout>
-         </widget>
-        </item>
-        <item>
-         <widget class="QFrame" name="frame_device">
-          <property name="maximumSize">
-           <size>
-            <width>16777215</width>
-            <height>106</height>
-           </size>
-          </property>
-          <property name="frameShape">
-           <enum>QFrame::NoFrame</enum>
-          </property>
-          <property name="frameShadow">
-           <enum>QFrame::Raised</enum>
-          </property>
-          <property name="lineWidth">
-           <number>0</number>
-          </property>
-          <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <layout class="QVBoxLayout" name="verticalLayout_22">
            <property name="spacing">
             <number>26</number>
            </property>
            <property name="leftMargin">
-            <number>0</number>
+            <number>26</number>
            </property>
            <property name="topMargin">
-            <number>0</number>
+            <number>26</number>
            </property>
            <property name="rightMargin">
-            <number>0</number>
+            <number>26</number>
            </property>
            <property name="bottomMargin">
-            <number>0</number>
+            <number>26</number>
            </property>
            <item>
-            <widget class="QFrame" name="frame_television">
-             <property name="cursor">
-              <cursorShape>ArrowCursor</cursorShape>
+            <widget class="QFrame" name="frame_username">
+             <property name="minimumSize">
+              <size>
+               <width>622</width>
+               <height>72</height>
+              </size>
              </property>
-             <property name="styleSheet">
-              <string notr="true">QFrame{
-	border-radius: 20px;
-	background-color:rgb(255, 255, 255);
-}</string>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>72</height>
+              </size>
              </property>
              <property name="frameShape">
               <enum>QFrame::NoFrame</enum>
@@ -938,7 +790,7 @@ access to all features!</string>
              <property name="lineWidth">
               <number>0</number>
              </property>
-             <layout class="QVBoxLayout" name="verticalLayout_14">
+             <layout class="QVBoxLayout" name="verticalLayout_13">
               <property name="spacing">
                <number>0</number>
               </property>
@@ -955,9 +807,9 @@ access to all features!</string>
                <number>0</number>
               </property>
               <item>
-               <widget class="QFrame" name="fr_tv_top">
+               <widget class="QFrame" name="frame_lb_username">
                 <property name="frameShape">
-                 <enum>QFrame::NoFrame</enum>
+                 <enum>QFrame::StyledPanel</enum>
                 </property>
                 <property name="frameShadow">
                  <enum>QFrame::Raised</enum>
@@ -965,382 +817,53 @@ access to all features!</string>
                 <property name="lineWidth">
                  <number>0</number>
                 </property>
-                <layout class="QHBoxLayout" name="horizontalLayout_9">
+                <layout class="QHBoxLayout" name="horizontalLayout_2">
                  <property name="spacing">
                   <number>0</number>
                  </property>
                  <property name="leftMargin">
-                  <number>15</number>
+                  <number>0</number>
                  </property>
                  <property name="topMargin">
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>15</number>
-                 </property>
-                 <property name="bottomMargin">
-                  <number>1</number>
-                 </property>
-                 <item>
-                  <widget class="QFrame" name="fr_tv_ic">
-                   <property name="frameShape">
-                    <enum>QFrame::NoFrame</enum>
-                   </property>
-                   <property name="frameShadow">
-                    <enum>QFrame::Raised</enum>
-                   </property>
-                   <property name="lineWidth">
-                    <number>0</number>
-                   </property>
-                   <layout class="QVBoxLayout" name="verticalLayout_18">
-                    <property name="spacing">
-                     <number>0</number>
-                    </property>
-                    <property name="leftMargin">
-                     <number>0</number>
-                    </property>
-                    <property name="topMargin">
-                     <number>10</number>
-                    </property>
-                    <property name="rightMargin">
-                     <number>0</number>
-                    </property>
-                    <property name="bottomMargin">
-                     <number>0</number>
-                    </property>
-                    <item>
-                     <widget class="QPushButton" name="pushButton">
-                      <property name="maximumSize">
-                       <size>
-                        <width>42</width>
-                        <height>42</height>
-                       </size>
-                      </property>
-                      <property name="styleSheet">
-                       <string notr="true">QPushButton{
-	border: 0px solid;
-	border-radius: 20px;
-	background-color:
-	qlineargradient(spread:
-	pad, x1:0, y1:0, x2:1, y2:1,
-	stop: 0 rgb(149, 148, 255),
-	stop: 1 rgb(78, 43, 255));
-}</string>
-                      </property>
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="icon">
-                       <iconset>
-                        <normaloff>icon/television_white.png</normaloff>icon/television_white.png</iconset>
-                      </property>
-                      <property name="iconSize">
-                       <size>
-                        <width>20</width>
-                        <height>20</height>
-                       </size>
-                      </property>
-                     </widget>
-                    </item>
-                   </layout>
-                  </widget>
-                 </item>
-                 <item alignment="Qt::AlignTop">
-                  <widget class="QFrame" name="fr_tv_button">
-                   <property name="focusPolicy">
-                    <enum>Qt::NoFocus</enum>
-                   </property>
-                   <property name="layoutDirection">
-                    <enum>Qt::LeftToRight</enum>
-                   </property>
-                   <property name="frameShape">
-                    <enum>QFrame::NoFrame</enum>
-                   </property>
-                   <property name="frameShadow">
-                    <enum>QFrame::Raised</enum>
-                   </property>
-                   <property name="lineWidth">
-                    <number>0</number>
-                   </property>
-                   <layout class="QHBoxLayout" name="horizontalLayout_13">
-                    <property name="spacing">
-                     <number>0</number>
-                    </property>
-                    <property name="leftMargin">
-                     <number>90</number>
-                    </property>
-                    <property name="topMargin">
-                     <number>20</number>
-                    </property>
-                    <property name="rightMargin">
-                     <number>0</number>
-                    </property>
-                    <property name="bottomMargin">
-                     <number>0</number>
-                    </property>
-                    <item>
-                     <widget class="ToggleButton" name="cb_tv">
-                      <property name="sizePolicy">
-                       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                        <horstretch>0</horstretch>
-                        <verstretch>0</verstretch>
-                       </sizepolicy>
-                      </property>
-                      <property name="cursor">
-                       <cursorShape>PointingHandCursor</cursorShape>
-                      </property>
-                      <property name="focusPolicy">
-                       <enum>Qt::NoFocus</enum>
-                      </property>
-                      <property name="text">
-                       <string/>
-                      </property>
-                     </widget>
-                    </item>
-                   </layout>
-                  </widget>
-                 </item>
-                </layout>
-               </widget>
-              </item>
-              <item>
-               <widget class="QFrame" name="fr_tv_bottom">
-                <property name="frameShape">
-                 <enum>QFrame::NoFrame</enum>
-                </property>
-                <property name="frameShadow">
-                 <enum>QFrame::Raised</enum>
-                </property>
-                <property name="lineWidth">
-                 <number>0</number>
-                </property>
-                <layout class="QHBoxLayout" name="horizontalLayout_5">
-                 <property name="spacing">
                   <number>0</number>
                  </property>
-                 <property name="leftMargin">
-                  <number>15</number>
-                 </property>
-                 <property name="topMargin">
+                 <property name="bottomMargin">
                   <number>0</number>
                  </property>
-                 <property name="rightMargin">
-                  <number>15</number>
-                 </property>
-                 <property name="bottomMargin">
-                  <number>16</number>
-                 </property>
                  <item>
-                  <widget class="QLabel" name="lb_tv">
+                  <widget class="QLabel" name="lb_username">
                    <property name="font">
                     <font>
                      <family>Segoe UI</family>
-                     <pointsize>16</pointsize>
+                     <pointsize>27</pointsize>
                      <weight>75</weight>
                      <bold>true</bold>
                     </font>
                    </property>
-                   <property name="styleSheet">
-                    <string notr="true">color: rgb(43, 54, 116)</string>
-                   </property>
-                   <property name="lineWidth">
-                    <number>0</number>
-                   </property>
-                   <property name="text">
-                    <string>Television</string>
-                   </property>
-                   <property name="alignment">
-                    <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
-                   </property>
-                  </widget>
-                 </item>
-                </layout>
-               </widget>
-              </item>
-             </layout>
-            </widget>
-           </item>
-           <item>
-            <widget class="QFrame" name="frame_ac">
-             <property name="cursor">
-              <cursorShape>ArrowCursor</cursorShape>
-             </property>
-             <property name="styleSheet">
-              <string notr="true">border-radius: 20px;
-background-color:rgb(255, 255, 255)</string>
-             </property>
-             <property name="frameShape">
-              <enum>QFrame::NoFrame</enum>
-             </property>
-             <property name="frameShadow">
-              <enum>QFrame::Raised</enum>
-             </property>
-             <property name="lineWidth">
-              <number>0</number>
-             </property>
-             <layout class="QVBoxLayout" name="verticalLayout_15">
-              <property name="spacing">
-               <number>0</number>
-              </property>
-              <property name="leftMargin">
-               <number>0</number>
-              </property>
-              <property name="topMargin">
-               <number>0</number>
-              </property>
-              <property name="rightMargin">
-               <number>0</number>
-              </property>
-              <property name="bottomMargin">
-               <number>0</number>
-              </property>
-              <item>
-               <widget class="QFrame" name="fr_ac_top">
-                <property name="frameShape">
-                 <enum>QFrame::NoFrame</enum>
-                </property>
-                <property name="frameShadow">
-                 <enum>QFrame::Raised</enum>
-                </property>
-                <property name="lineWidth">
-                 <number>0</number>
-                </property>
-                <layout class="QHBoxLayout" name="horizontalLayout_10">
-                 <property name="spacing">
-                  <number>0</number>
-                 </property>
-                 <property name="leftMargin">
-                  <number>15</number>
-                 </property>
-                 <property name="topMargin">
-                  <number>0</number>
-                 </property>
-                 <property name="rightMargin">
-                  <number>15</number>
-                 </property>
-                 <property name="bottomMargin">
-                  <number>1</number>
-                 </property>
-                 <item>
-                  <widget class="QFrame" name="fr_ac_ic">
-                   <property name="frameShape">
-                    <enum>QFrame::NoFrame</enum>
-                   </property>
-                   <property name="frameShadow">
-                    <enum>QFrame::Raised</enum>
-                   </property>
-                   <property name="lineWidth">
-                    <number>0</number>
-                   </property>
-                   <layout class="QVBoxLayout" name="verticalLayout_19">
-                    <property name="spacing">
-                     <number>0</number>
-                    </property>
-                    <property name="leftMargin">
-                     <number>0</number>
-                    </property>
-                    <property name="topMargin">
-                     <number>10</number>
-                    </property>
-                    <property name="rightMargin">
-                     <number>0</number>
-                    </property>
-                    <property name="bottomMargin">
-                     <number>0</number>
-                    </property>
-                    <item>
-                     <widget class="QPushButton" name="pushButton_2">
-                      <property name="maximumSize">
-                       <size>
-                        <width>42</width>
-                        <height>42</height>
-                       </size>
-                      </property>
-                      <property name="styleSheet">
-                       <string notr="true">QPushButton{
-	border: 0px solid;
-	border-radius: 20px;
-	background-color:
-	qlineargradient(spread:
-	pad, x1:0, y1:0, x2:1, y2:1,
-	stop: 0 rgb(149, 148, 255),
-	stop: 1 rgb(78, 43, 255));
-}</string>
-                      </property>
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="icon">
-                       <iconset>
-                        <normaloff>icon/ac_white.png</normaloff>icon/ac_white.png</iconset>
-                      </property>
-                      <property name="iconSize">
-                       <size>
-                        <width>20</width>
-                        <height>20</height>
-                       </size>
-                      </property>
-                     </widget>
-                    </item>
-                   </layout>
-                  </widget>
-                 </item>
-                 <item alignment="Qt::AlignTop">
-                  <widget class="QFrame" name="fr_ac_button">
                    <property name="cursor">
                     <cursorShape>ArrowCursor</cursorShape>
                    </property>
-                   <property name="layoutDirection">
-                    <enum>Qt::LeftToRight</enum>
-                   </property>
-                   <property name="frameShape">
-                    <enum>QFrame::NoFrame</enum>
-                   </property>
-                   <property name="frameShadow">
-                    <enum>QFrame::Raised</enum>
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(43, 54, 116);</string>
                    </property>
                    <property name="lineWidth">
                     <number>0</number>
                    </property>
-                   <layout class="QHBoxLayout" name="horizontalLayout_14">
-                    <property name="spacing">
-                     <number>0</number>
-                    </property>
-                    <property name="leftMargin">
-                     <number>90</number>
-                    </property>
-                    <property name="topMargin">
-                     <number>20</number>
-                    </property>
-                    <property name="rightMargin">
-                     <number>0</number>
-                    </property>
-                    <property name="bottomMargin">
-                     <number>0</number>
-                    </property>
-                    <item>
-                     <widget class="ToggleButton" name="cb_ac">
-                      <property name="cursor">
-                       <cursorShape>PointingHandCursor</cursorShape>
-                      </property>
-                      <property name="layoutDirection">
-                       <enum>Qt::RightToLeft</enum>
-                      </property>
-                      <property name="text">
-                       <string/>
-                      </property>
-                     </widget>
-                    </item>
-                   </layout>
+                   <property name="text">
+                    <string>Good Morning, Raus</string>
+                   </property>
                   </widget>
                  </item>
                 </layout>
                </widget>
               </item>
               <item>
-               <widget class="QFrame" name="fr_ac_bottom">
+               <widget class="QFrame" name="frame_lb_hand">
                 <property name="frameShape">
-                 <enum>QFrame::NoFrame</enum>
+                 <enum>QFrame::StyledPanel</enum>
                 </property>
                 <property name="frameShadow">
                  <enum>QFrame::Raised</enum>
@@ -1348,43 +871,43 @@ background-color:rgb(255, 255, 255)</string>
                 <property name="lineWidth">
                  <number>0</number>
                 </property>
-                <layout class="QHBoxLayout" name="horizontalLayout_6">
+                <layout class="QHBoxLayout" name="horizontalLayout_3">
                  <property name="spacing">
                   <number>0</number>
                  </property>
                  <property name="leftMargin">
-                  <number>15</number>
+                  <number>0</number>
                  </property>
                  <property name="topMargin">
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>15</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
-                  <number>16</number>
+                  <number>0</number>
                  </property>
                  <item>
-                  <widget class="QLabel" name="lb_ac">
+                  <widget class="QLabel" name="lb_hand">
                    <property name="font">
                     <font>
                      <family>Segoe UI</family>
-                     <pointsize>16</pointsize>
+                     <pointsize>12</pointsize>
                      <weight>75</weight>
                      <bold>true</bold>
                     </font>
                    </property>
                    <property name="styleSheet">
-                    <string notr="true">color: rgb(43, 54, 116)</string>
+                    <string notr="true">color: rgb(112, 126, 174)</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::NoFrame</enum>
                    </property>
                    <property name="lineWidth">
                     <number>0</number>
                    </property>
                    <property name="text">
-                    <string>Air Conditioner</string>
-                   </property>
-                   <property name="alignment">
-                    <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                    <string>Have a nice day</string>
                    </property>
                   </widget>
                  </item>
@@ -1395,13 +918,15 @@ background-color:rgb(255, 255, 255)</string>
             </widget>
            </item>
            <item>
-            <widget class="QFrame" name="frame_lamp">
-             <property name="cursor">
-              <cursorShape>ArrowCursor</cursorShape>
+            <widget class="QFrame" name="frame_device">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>106</height>
+              </size>
              </property>
              <property name="styleSheet">
-              <string notr="true">border-radius: 20px;
-background-color:rgb(255, 255, 255)</string>
+              <string notr="true"/>
              </property>
              <property name="frameShape">
               <enum>QFrame::NoFrame</enum>
@@ -1412,9 +937,9 @@ background-color:rgb(255, 255, 255)</string>
              <property name="lineWidth">
               <number>0</number>
              </property>
-             <layout class="QVBoxLayout" name="verticalLayout_17">
+             <layout class="QHBoxLayout" name="horizontalLayout_4">
               <property name="spacing">
-               <number>0</number>
+               <number>26</number>
               </property>
               <property name="leftMargin">
                <number>0</number>
@@ -1429,235 +954,14 @@ background-color:rgb(255, 255, 255)</string>
                <number>0</number>
               </property>
               <item>
-               <widget class="QFrame" name="fr_lamp_top">
-                <property name="frameShape">
-                 <enum>QFrame::NoFrame</enum>
+               <widget class="QFrame" name="frame_television">
+                <property name="cursor">
+                 <cursorShape>ArrowCursor</cursorShape>
                 </property>
-                <property name="frameShadow">
-                 <enum>QFrame::Raised</enum>
-                </property>
-                <property name="lineWidth">
-                 <number>0</number>
-                </property>
-                <layout class="QHBoxLayout" name="horizontalLayout_11">
-                 <property name="spacing">
-                  <number>0</number>
-                 </property>
-                 <property name="leftMargin">
-                  <number>15</number>
-                 </property>
-                 <property name="topMargin">
-                  <number>0</number>
-                 </property>
-                 <property name="rightMargin">
-                  <number>15</number>
-                 </property>
-                 <property name="bottomMargin">
-                  <number>1</number>
-                 </property>
-                 <item>
-                  <widget class="QFrame" name="fr_lamp_ic">
-                   <property name="frameShape">
-                    <enum>QFrame::NoFrame</enum>
-                   </property>
-                   <property name="frameShadow">
-                    <enum>QFrame::Raised</enum>
-                   </property>
-                   <property name="lineWidth">
-                    <number>0</number>
-                   </property>
-                   <layout class="QVBoxLayout" name="verticalLayout_20">
-                    <property name="spacing">
-                     <number>0</number>
-                    </property>
-                    <property name="leftMargin">
-                     <number>0</number>
-                    </property>
-                    <property name="topMargin">
-                     <number>10</number>
-                    </property>
-                    <property name="rightMargin">
-                     <number>0</number>
-                    </property>
-                    <property name="bottomMargin">
-                     <number>0</number>
-                    </property>
-                    <item>
-                     <widget class="QPushButton" name="pushButton_3">
-                      <property name="maximumSize">
-                       <size>
-                        <width>42</width>
-                        <height>42</height>
-                       </size>
-                      </property>
-                      <property name="styleSheet">
-                       <string notr="true">QPushButton{
-	border: 0px solid;
-	border-radius: 20px;
-	background-color:
-	qlineargradient(spread:
-	pad, x1:0, y1:0, x2:1, y2:1,
-	stop: 0 rgb(149, 148, 255),
-	stop: 1 rgb(78, 43, 255));
-}</string>
-                      </property>
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="icon">
-                       <iconset>
-                        <normaloff>icon/lamp_white.png</normaloff>icon/lamp_white.png</iconset>
-                      </property>
-                      <property name="iconSize">
-                       <size>
-                        <width>25</width>
-                        <height>25</height>
-                       </size>
-                      </property>
-                     </widget>
-                    </item>
-                   </layout>
-                  </widget>
-                 </item>
-                 <item alignment="Qt::AlignTop">
-                  <widget class="QFrame" name="fr_lamp_button">
-                   <property name="layoutDirection">
-                    <enum>Qt::LeftToRight</enum>
-                   </property>
-                   <property name="frameShape">
-                    <enum>QFrame::NoFrame</enum>
-                   </property>
-                   <property name="frameShadow">
-                    <enum>QFrame::Raised</enum>
-                   </property>
-                   <property name="lineWidth">
-                    <number>0</number>
-                   </property>
-                   <layout class="QHBoxLayout" name="horizontalLayout_15">
-                    <property name="spacing">
-                     <number>0</number>
-                    </property>
-                    <property name="leftMargin">
-                     <number>90</number>
-                    </property>
-                    <property name="topMargin">
-                     <number>20</number>
-                    </property>
-                    <property name="rightMargin">
-                     <number>0</number>
-                    </property>
-                    <property name="bottomMargin">
-                     <number>0</number>
-                    </property>
-                    <item>
-                     <widget class="ToggleButton" name="cb_lamp">
-                      <property name="cursor">
-                       <cursorShape>PointingHandCursor</cursorShape>
-                      </property>
-                      <property name="text">
-                       <string/>
-                      </property>
-                     </widget>
-                    </item>
-                   </layout>
-                  </widget>
-                 </item>
-                </layout>
-               </widget>
-              </item>
-              <item>
-               <widget class="QFrame" name="fr_lamp_bottom">
-                <property name="frameShape">
-                 <enum>QFrame::NoFrame</enum>
-                </property>
-                <property name="frameShadow">
-                 <enum>QFrame::Raised</enum>
-                </property>
-                <property name="lineWidth">
-                 <number>0</number>
-                </property>
-                <layout class="QHBoxLayout" name="horizontalLayout_7">
-                 <property name="spacing">
-                  <number>0</number>
-                 </property>
-                 <property name="leftMargin">
-                  <number>15</number>
-                 </property>
-                 <property name="topMargin">
-                  <number>0</number>
-                 </property>
-                 <property name="rightMargin">
-                  <number>15</number>
-                 </property>
-                 <property name="bottomMargin">
-                  <number>16</number>
-                 </property>
-                 <item>
-                  <widget class="QLabel" name="lb_lamp">
-                   <property name="font">
-                    <font>
-                     <family>Segoe UI</family>
-                     <pointsize>16</pointsize>
-                     <weight>75</weight>
-                     <bold>true</bold>
-                    </font>
-                   </property>
-                   <property name="styleSheet">
-                    <string notr="true">color: rgb(43, 54, 116)</string>
-                   </property>
-                   <property name="lineWidth">
-                    <number>0</number>
-                   </property>
-                   <property name="text">
-                    <string>Lamp</string>
-                   </property>
-                   <property name="alignment">
-                    <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
-                   </property>
-                  </widget>
-                 </item>
-                </layout>
-               </widget>
-              </item>
-             </layout>
-            </widget>
-           </item>
-           <item>
-            <widget class="QFrame" name="frame_wifi">
-             <property name="cursor">
-              <cursorShape>ArrowCursor</cursorShape>
-             </property>
-             <property name="styleSheet">
-              <string notr="true">border-radius: 20px;
+                <property name="styleSheet">
+                 <string notr="true">border-radius: 20px;
 background-color:rgb(255, 255, 255)</string>
-             </property>
-             <property name="frameShape">
-              <enum>QFrame::NoFrame</enum>
-             </property>
-             <property name="frameShadow">
-              <enum>QFrame::Raised</enum>
-             </property>
-             <property name="lineWidth">
-              <number>0</number>
-             </property>
-             <layout class="QVBoxLayout" name="verticalLayout_16">
-              <property name="spacing">
-               <number>0</number>
-              </property>
-              <property name="leftMargin">
-               <number>0</number>
-              </property>
-              <property name="topMargin">
-               <number>0</number>
-              </property>
-              <property name="rightMargin">
-               <number>0</number>
-              </property>
-              <property name="bottomMargin">
-               <number>0</number>
-              </property>
-              <item>
-               <widget class="QFrame" name="fr_wifi_top">
+                </property>
                 <property name="frameShape">
                  <enum>QFrame::NoFrame</enum>
                 </property>
@@ -1667,91 +971,24 @@ background-color:rgb(255, 255, 255)</string>
                 <property name="lineWidth">
                  <number>0</number>
                 </property>
-                <layout class="QHBoxLayout" name="horizontalLayout_12">
+                <layout class="QVBoxLayout" name="verticalLayout_14">
                  <property name="spacing">
                   <number>0</number>
                  </property>
                  <property name="leftMargin">
-                  <number>15</number>
+                  <number>0</number>
                  </property>
                  <property name="topMargin">
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>15</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
-                  <number>1</number>
+                  <number>0</number>
                  </property>
                  <item>
-                  <widget class="QFrame" name="fr_wifi_ic">
-                   <property name="frameShape">
-                    <enum>QFrame::NoFrame</enum>
-                   </property>
-                   <property name="frameShadow">
-                    <enum>QFrame::Raised</enum>
-                   </property>
-                   <property name="lineWidth">
-                    <number>0</number>
-                   </property>
-                   <layout class="QVBoxLayout" name="verticalLayout_21">
-                    <property name="spacing">
-                     <number>0</number>
-                    </property>
-                    <property name="leftMargin">
-                     <number>0</number>
-                    </property>
-                    <property name="topMargin">
-                     <number>10</number>
-                    </property>
-                    <property name="rightMargin">
-                     <number>0</number>
-                    </property>
-                    <property name="bottomMargin">
-                     <number>0</number>
-                    </property>
-                    <item>
-                     <widget class="QPushButton" name="pushButton_4">
-                      <property name="maximumSize">
-                       <size>
-                        <width>42</width>
-                        <height>42</height>
-                       </size>
-                      </property>
-                      <property name="styleSheet">
-                       <string notr="true">QPushButton{
-	border: 0px solid;
-	border-radius: 20px;
-	background-color:
-	qlineargradient(spread:
-	pad, x1:0, y1:0, x2:1, y2:1,
-	stop: 0 rgb(149, 148, 255),
-	stop: 1 rgb(78, 43, 255));
-}</string>
-                      </property>
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="icon">
-                       <iconset>
-                        <normaloff>icon/wifi_white.png</normaloff>icon/wifi_white.png</iconset>
-                      </property>
-                      <property name="iconSize">
-                       <size>
-                        <width>20</width>
-                        <height>20</height>
-                       </size>
-                      </property>
-                     </widget>
-                    </item>
-                   </layout>
-                  </widget>
-                 </item>
-                 <item alignment="Qt::AlignTop">
-                  <widget class="QFrame" name="fr_wifi_button">
-                   <property name="layoutDirection">
-                    <enum>Qt::LeftToRight</enum>
-                   </property>
+                  <widget class="QFrame" name="fr_tv_top">
                    <property name="styleSheet">
                     <string notr="true"/>
                    </property>
@@ -1764,29 +1001,196 @@ background-color:rgb(255, 255, 255)</string>
                    <property name="lineWidth">
                     <number>0</number>
                    </property>
-                   <layout class="QHBoxLayout" name="horizontalLayout_16">
+                   <layout class="QHBoxLayout" name="horizontalLayout_9">
                     <property name="spacing">
                      <number>0</number>
                     </property>
                     <property name="leftMargin">
-                     <number>90</number>
+                     <number>15</number>
                     </property>
                     <property name="topMargin">
-                     <number>20</number>
+                     <number>0</number>
                     </property>
                     <property name="rightMargin">
-                     <number>0</number>
+                     <number>15</number>
                     </property>
                     <property name="bottomMargin">
-                     <number>0</number>
+                     <number>1</number>
                     </property>
                     <item>
-                     <widget class="ToggleButton" name="cb_wifi">
-                      <property name="cursor">
-                       <cursorShape>PointingHandCursor</cursorShape>
+                     <widget class="QFrame" name="fr_tv_ic">
+                      <property name="frameShape">
+                       <enum>QFrame::NoFrame</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <property name="lineWidth">
+                       <number>0</number>
+                      </property>
+                      <layout class="QVBoxLayout" name="verticalLayout_18">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>10</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="QPushButton" name="btn_televison">
+                         <property name="maximumSize">
+                          <size>
+                           <width>42</width>
+                           <height>42</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton{
+	border: 0px solid;
+	border-radius: 20px;
+	background-color:
+	qlineargradient(spread:
+	pad, x1:0, y1:0, x2:1, y2:1,
+	stop: 0 rgb(149, 148, 255),
+	stop: 1 rgb(78, 43, 255));
+}</string>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="icon">
+                          <iconset>
+                           <normaloff>icon/television_white.png</normaloff>icon/television_white.png</iconset>
+                         </property>
+                         <property name="iconSize">
+                          <size>
+                           <width>20</width>
+                           <height>20</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item alignment="Qt::AlignTop">
+                     <widget class="QFrame" name="fr_tv_button">
+                      <property name="focusPolicy">
+                       <enum>Qt::NoFocus</enum>
+                      </property>
+                      <property name="layoutDirection">
+                       <enum>Qt::LeftToRight</enum>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::NoFrame</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <property name="lineWidth">
+                       <number>0</number>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_13">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>90</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>20</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="ToggleButton" name="cb_tv">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="cursor">
+                          <cursorShape>PointingHandCursor</cursorShape>
+                         </property>
+                         <property name="focusPolicy">
+                          <enum>Qt::NoFocus</enum>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="fr_tv_bottom">
+                   <property name="styleSheet">
+                    <string notr="true"/>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::NoFrame</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <property name="lineWidth">
+                    <number>0</number>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_5">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>15</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>15</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>16</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="lb_tv">
+                      <property name="font">
+                       <font>
+                        <family>Segoe UI</family>
+                        <pointsize>16</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(43, 54, 116);
+</string>
+                      </property>
+                      <property name="lineWidth">
+                       <number>0</number>
                       </property>
                       <property name="text">
-                       <string/>
+                       <string>Television</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -1797,7 +1201,14 @@ background-color:rgb(255, 255, 255)</string>
                </widget>
               </item>
               <item>
-               <widget class="QFrame" name="fr_wifi_bottom">
+               <widget class="QFrame" name="frame_ac">
+                <property name="cursor">
+                 <cursorShape>ArrowCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border-radius: 20px;
+background-color:rgb(255, 255, 255)</string>
+                </property>
                 <property name="frameShape">
                  <enum>QFrame::NoFrame</enum>
                 </property>
@@ -1807,84 +1218,720 @@ background-color:rgb(255, 255, 255)</string>
                 <property name="lineWidth">
                  <number>0</number>
                 </property>
-                <layout class="QHBoxLayout" name="horizontalLayout_8">
+                <layout class="QVBoxLayout" name="verticalLayout_15">
                  <property name="spacing">
                   <number>0</number>
                  </property>
                  <property name="leftMargin">
-                  <number>15</number>
+                  <number>0</number>
                  </property>
                  <property name="topMargin">
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>15</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
-                  <number>16</number>
+                  <number>0</number>
                  </property>
                  <item>
-                  <widget class="QLabel" name="lb_wifi">
-                   <property name="font">
-                    <font>
-                     <family>Segoe UI</family>
-                     <pointsize>16</pointsize>
-                     <weight>75</weight>
-                     <bold>true</bold>
-                    </font>
+                  <widget class="QFrame" name="fr_ac_top">
+                   <property name="frameShape">
+                    <enum>QFrame::NoFrame</enum>
                    </property>
-                   <property name="styleSheet">
-                    <string notr="true">color: rgb(43, 54, 116)</string>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
                    </property>
                    <property name="lineWidth">
                     <number>0</number>
                    </property>
-                   <property name="text">
-                    <string>Wifi</string>
+                   <layout class="QHBoxLayout" name="horizontalLayout_10">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>15</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>15</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>1</number>
+                    </property>
+                    <item>
+                     <widget class="QFrame" name="fr_ac_ic">
+                      <property name="frameShape">
+                       <enum>QFrame::NoFrame</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <property name="lineWidth">
+                       <number>0</number>
+                      </property>
+                      <layout class="QVBoxLayout" name="verticalLayout_19">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>10</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="QPushButton" name="btn_ac">
+                         <property name="maximumSize">
+                          <size>
+                           <width>42</width>
+                           <height>42</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton{
+	border: 0px solid;
+	border-radius: 20px;
+	background-color:
+	qlineargradient(spread:
+	pad, x1:0, y1:0, x2:1, y2:1,
+	stop: 0 rgb(149, 148, 255),
+	stop: 1 rgb(78, 43, 255));
+}</string>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="icon">
+                          <iconset>
+                           <normaloff>icon/ac_white.png</normaloff>icon/ac_white.png</iconset>
+                         </property>
+                         <property name="iconSize">
+                          <size>
+                           <width>20</width>
+                           <height>20</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item alignment="Qt::AlignTop">
+                     <widget class="QFrame" name="fr_ac_button">
+                      <property name="cursor">
+                       <cursorShape>ArrowCursor</cursorShape>
+                      </property>
+                      <property name="layoutDirection">
+                       <enum>Qt::LeftToRight</enum>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::NoFrame</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <property name="lineWidth">
+                       <number>0</number>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_14">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>90</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>20</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="ToggleButton" name="cb_ac">
+                         <property name="cursor">
+                          <cursorShape>PointingHandCursor</cursorShape>
+                         </property>
+                         <property name="layoutDirection">
+                          <enum>Qt::RightToLeft</enum>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="fr_ac_bottom">
+                   <property name="frameShape">
+                    <enum>QFrame::NoFrame</enum>
                    </property>
-                   <property name="alignment">
-                    <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
                    </property>
+                   <property name="lineWidth">
+                    <number>0</number>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_6">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>15</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>15</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>16</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="lb_ac">
+                      <property name="font">
+                       <font>
+                        <family>Segoe UI</family>
+                        <pointsize>16</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(43, 54, 116)</string>
+                      </property>
+                      <property name="lineWidth">
+                       <number>0</number>
+                      </property>
+                      <property name="text">
+                       <string>Air Conditioner</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="frame_lamp">
+                <property name="cursor">
+                 <cursorShape>ArrowCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border-radius: 20px;
+background-color:rgb(255, 255, 255)</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::NoFrame</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <property name="lineWidth">
+                 <number>0</number>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_17">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QFrame" name="fr_lamp_top">
+                   <property name="frameShape">
+                    <enum>QFrame::NoFrame</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <property name="lineWidth">
+                    <number>0</number>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_11">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>15</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>15</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>1</number>
+                    </property>
+                    <item>
+                     <widget class="QFrame" name="fr_lamp_ic">
+                      <property name="frameShape">
+                       <enum>QFrame::NoFrame</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <property name="lineWidth">
+                       <number>0</number>
+                      </property>
+                      <layout class="QVBoxLayout" name="verticalLayout_20">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>10</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="QPushButton" name="btn_lamp">
+                         <property name="maximumSize">
+                          <size>
+                           <width>42</width>
+                           <height>42</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton{
+	border: 0px solid;
+	border-radius: 20px;
+	background-color:
+	qlineargradient(spread:
+	pad, x1:0, y1:0, x2:1, y2:1,
+	stop: 0 rgb(149, 148, 255),
+	stop: 1 rgb(78, 43, 255));
+}</string>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="icon">
+                          <iconset>
+                           <normaloff>icon/lamp_white.png</normaloff>icon/lamp_white.png</iconset>
+                         </property>
+                         <property name="iconSize">
+                          <size>
+                           <width>25</width>
+                           <height>25</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item alignment="Qt::AlignTop">
+                     <widget class="QFrame" name="fr_lamp_button">
+                      <property name="layoutDirection">
+                       <enum>Qt::LeftToRight</enum>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::NoFrame</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <property name="lineWidth">
+                       <number>0</number>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_15">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>90</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>20</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="ToggleButton" name="cb_lamp">
+                         <property name="cursor">
+                          <cursorShape>PointingHandCursor</cursorShape>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="fr_lamp_bottom">
+                   <property name="frameShape">
+                    <enum>QFrame::NoFrame</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <property name="lineWidth">
+                    <number>0</number>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_7">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>15</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>15</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>16</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="lb_lamp">
+                      <property name="font">
+                       <font>
+                        <family>Segoe UI</family>
+                        <pointsize>16</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(43, 54, 116)</string>
+                      </property>
+                      <property name="lineWidth">
+                       <number>0</number>
+                      </property>
+                      <property name="text">
+                       <string>Lamp</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="frame_wifi">
+                <property name="cursor">
+                 <cursorShape>ArrowCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border-radius: 20px;
+background-color:rgb(255, 255, 255)</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::NoFrame</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <property name="lineWidth">
+                 <number>0</number>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_16">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QFrame" name="fr_wifi_top">
+                   <property name="frameShape">
+                    <enum>QFrame::NoFrame</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <property name="lineWidth">
+                    <number>0</number>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_12">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>15</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>15</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>1</number>
+                    </property>
+                    <item>
+                     <widget class="QFrame" name="fr_wifi_ic">
+                      <property name="frameShape">
+                       <enum>QFrame::NoFrame</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <property name="lineWidth">
+                       <number>0</number>
+                      </property>
+                      <layout class="QVBoxLayout" name="verticalLayout_21">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>10</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="QPushButton" name="btn_wifi">
+                         <property name="maximumSize">
+                          <size>
+                           <width>42</width>
+                           <height>42</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton{
+	border: 0px solid;
+	border-radius: 20px;
+	background-color:
+	qlineargradient(spread:
+	pad, x1:0, y1:0, x2:1, y2:1,
+	stop: 0 rgb(149, 148, 255),
+	stop: 1 rgb(78, 43, 255));
+}</string>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="icon">
+                          <iconset>
+                           <normaloff>icon/wifi_white.png</normaloff>icon/wifi_white.png</iconset>
+                         </property>
+                         <property name="iconSize">
+                          <size>
+                           <width>20</width>
+                           <height>20</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item alignment="Qt::AlignTop">
+                     <widget class="QFrame" name="fr_wifi_button">
+                      <property name="layoutDirection">
+                       <enum>Qt::LeftToRight</enum>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true"/>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::NoFrame</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <property name="lineWidth">
+                       <number>0</number>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_16">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>90</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>20</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="ToggleButton" name="cb_wifi">
+                         <property name="cursor">
+                          <cursorShape>PointingHandCursor</cursorShape>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="fr_wifi_bottom">
+                   <property name="frameShape">
+                    <enum>QFrame::NoFrame</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <property name="lineWidth">
+                    <number>0</number>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_8">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>15</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>15</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>16</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="lb_wifi">
+                      <property name="font">
+                       <font>
+                        <family>Segoe UI</family>
+                        <pointsize>16</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(43, 54, 116)</string>
+                      </property>
+                      <property name="lineWidth">
+                       <number>0</number>
+                      </property>
+                      <property name="text">
+                       <string>Wifi</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
                   </widget>
                  </item>
                 </layout>
                </widget>
               </item>
              </layout>
+             <zorder>frame_ac</zorder>
+             <zorder>frame_lamp</zorder>
+             <zorder>frame_wifi</zorder>
+             <zorder>frame_television</zorder>
+            </widget>
+           </item>
+           <item>
+            <widget class="QFrame" name="frame_3">
+             <property name="frameShape">
+              <enum>QFrame::NoFrame</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <property name="lineWidth">
+              <number>0</number>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QFrame" name="frame_5">
+             <property name="frameShape">
+              <enum>QFrame::NoFrame</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <property name="lineWidth">
+              <number>0</number>
+             </property>
             </widget>
            </item>
           </layout>
          </widget>
         </item>
-        <item>
-         <widget class="QFrame" name="frame_3">
-          <property name="frameShape">
-           <enum>QFrame::NoFrame</enum>
-          </property>
-          <property name="frameShadow">
-           <enum>QFrame::Raised</enum>
-          </property>
-          <property name="lineWidth">
-           <number>0</number>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QFrame" name="frame_4">
-          <property name="frameShape">
-           <enum>QFrame::NoFrame</enum>
-          </property>
-          <property name="frameShadow">
-           <enum>QFrame::Raised</enum>
-          </property>
-          <property name="lineWidth">
-           <number>0</number>
-          </property>
-         </widget>
-        </item>
        </layout>
       </widget>
-      <widget class="QWidget" name="frame_activity">
+      <widget class="QWidget" name="frame_index_1">
        <property name="styleSheet">
         <string notr="true">background-color: rgb(248, 252, 255)</string>
        </property>
@@ -1924,7 +1971,7 @@ background-color:rgb(255, 255, 255)</string>
         </item>
        </layout>
       </widget>
-      <widget class="QWidget" name="frame_setting">
+      <widget class="QWidget" name="frame_index_2">
        <property name="styleSheet">
         <string notr="true">background-color: rgb(248, 252, 255)</string>
        </property>
