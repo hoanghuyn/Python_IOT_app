@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'main_uiwKmhAg.ui'
+## Form generated from reading UI file 'main_uizIJSon.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -322,7 +322,7 @@ class Ui_MainWindow(object):
         self.frame_dashboard = QFrame(self.frame_index_0)
         self.frame_dashboard.setObjectName(u"frame_dashboard")
         self.frame_dashboard.setStyleSheet(u"QFrame#frame_dashboard{\n"
-"	background-color: rgb(244, 247, 254)\n"
+"	background-color: #F1F3F9;\n"
 "}")
         self.frame_dashboard.setFrameShape(QFrame.NoFrame)
         self.frame_dashboard.setFrameShadow(QFrame.Raised)
@@ -502,12 +502,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout_5.setContentsMargins(15, 0, 15, 16)
         self.lb_tv = QLabel(self.fr_tv_bottom)
         self.lb_tv.setObjectName(u"lb_tv")
-        font5 = QFont()
-        font5.setFamily(u"Segoe UI")
-        font5.setPointSize(16)
-        font5.setBold(True)
-        font5.setWeight(75)
-        self.lb_tv.setFont(font5)
+        self.lb_tv.setFont(font1)
         self.lb_tv.setStyleSheet(u"color: rgb(43, 54, 116);\n"
 "")
         self.lb_tv.setLineWidth(0)
@@ -608,7 +603,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout_6.setContentsMargins(15, 0, 15, 16)
         self.lb_ac = QLabel(self.fr_ac_bottom)
         self.lb_ac.setObjectName(u"lb_ac")
-        self.lb_ac.setFont(font5)
+        self.lb_ac.setFont(font1)
         self.lb_ac.setStyleSheet(u"color: rgb(43, 54, 116)")
         self.lb_ac.setLineWidth(0)
         self.lb_ac.setAlignment(Qt.AlignBottom|Qt.AlignLeading|Qt.AlignLeft)
@@ -706,7 +701,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout_7.setContentsMargins(15, 0, 15, 16)
         self.lb_lamp = QLabel(self.fr_lamp_bottom)
         self.lb_lamp.setObjectName(u"lb_lamp")
-        self.lb_lamp.setFont(font5)
+        self.lb_lamp.setFont(font1)
         self.lb_lamp.setStyleSheet(u"color: rgb(43, 54, 116)")
         self.lb_lamp.setLineWidth(0)
         self.lb_lamp.setAlignment(Qt.AlignBottom|Qt.AlignLeading|Qt.AlignLeft)
@@ -805,7 +800,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout_8.setContentsMargins(15, 0, 15, 16)
         self.lb_wifi = QLabel(self.fr_wifi_bottom)
         self.lb_wifi.setObjectName(u"lb_wifi")
-        self.lb_wifi.setFont(font5)
+        self.lb_wifi.setFont(font1)
         self.lb_wifi.setStyleSheet(u"color: rgb(43, 54, 116)")
         self.lb_wifi.setLineWidth(0)
         self.lb_wifi.setAlignment(Qt.AlignBottom|Qt.AlignLeading|Qt.AlignLeft)
@@ -825,13 +820,173 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_22.addWidget(self.frame_device)
 
-        self.frame_3 = QFrame(self.frame_dashboard)
-        self.frame_3.setObjectName(u"frame_3")
-        self.frame_3.setFrameShape(QFrame.NoFrame)
-        self.frame_3.setFrameShadow(QFrame.Raised)
-        self.frame_3.setLineWidth(0)
+        self.frame_camera = QFrame(self.frame_dashboard)
+        self.frame_camera.setObjectName(u"frame_camera")
+        self.frame_camera.setMinimumSize(QSize(962, 284))
+        self.frame_camera.setMaximumSize(QSize(9999, 284))
+        self.frame_camera.setFrameShape(QFrame.NoFrame)
+        self.frame_camera.setFrameShadow(QFrame.Raised)
+        self.frame_camera.setLineWidth(0)
+        self.horizontalLayout_17 = QHBoxLayout(self.frame_camera)
+        self.horizontalLayout_17.setSpacing(26)
+        self.horizontalLayout_17.setObjectName(u"horizontalLayout_17")
+        self.horizontalLayout_17.setContentsMargins(0, 0, 0, 0)
+        self.frame_docSach = QFrame(self.frame_camera)
+        self.frame_docSach.setObjectName(u"frame_docSach")
+        self.frame_docSach.setMinimumSize(QSize(591, 284))
+        self.frame_docSach.setMaximumSize(QSize(999, 999))
+        self.frame_docSach.setStyleSheet(u"border-radius: 20px;")
+        self.frame_docSach.setFrameShape(QFrame.NoFrame)
+        self.frame_docSach.setFrameShadow(QFrame.Raised)
+        self.frame_docSach.setLineWidth(0)
+        self.verticalLayout_24 = QVBoxLayout(self.frame_docSach)
+        self.verticalLayout_24.setSpacing(0)
+        self.verticalLayout_24.setObjectName(u"verticalLayout_24")
+        self.verticalLayout_24.setContentsMargins(0, 0, 0, 0)
+        self.lb_docSach = QLabel(self.frame_docSach)
+        self.lb_docSach.setObjectName(u"lb_docSach")
+        self.lb_docSach.setLineWidth(0)
+        self.lb_docSach.setPixmap(QPixmap(u"icon/docSach.png"))
+        self.lb_docSach.setScaledContents(True)
 
-        self.verticalLayout_22.addWidget(self.frame_3)
+        self.verticalLayout_24.addWidget(self.lb_docSach)
+
+
+        self.horizontalLayout_17.addWidget(self.frame_docSach, 0, Qt.AlignHCenter|Qt.AlignVCenter)
+
+        self.frame_finger = QFrame(self.frame_camera)
+        self.frame_finger.setObjectName(u"frame_finger")
+        self.frame_finger.setMinimumSize(QSize(345, 284))
+        self.frame_finger.setMaximumSize(QSize(999, 284))
+        self.frame_finger.setStyleSheet(u"border-radius: 20px;\n"
+"background-color:rgb(255, 255, 255)")
+        self.frame_finger.setFrameShape(QFrame.NoFrame)
+        self.frame_finger.setFrameShadow(QFrame.Raised)
+        self.frame_finger.setLineWidth(0)
+        self.verticalLayout_23 = QVBoxLayout(self.frame_finger)
+        self.verticalLayout_23.setSpacing(0)
+        self.verticalLayout_23.setObjectName(u"verticalLayout_23")
+        self.verticalLayout_23.setContentsMargins(23, 23, 23, 16)
+        self.frame_finger_1 = QFrame(self.frame_finger)
+        self.frame_finger_1.setObjectName(u"frame_finger_1")
+        self.frame_finger_1.setFrameShape(QFrame.NoFrame)
+        self.frame_finger_1.setFrameShadow(QFrame.Raised)
+        self.frame_finger_1.setLineWidth(0)
+        self.verticalLayout_25 = QVBoxLayout(self.frame_finger_1)
+        self.verticalLayout_25.setSpacing(0)
+        self.verticalLayout_25.setObjectName(u"verticalLayout_25")
+        self.verticalLayout_25.setContentsMargins(0, 0, 0, 0)
+        self.btn_finger = QPushButton(self.frame_finger_1)
+        self.btn_finger.setObjectName(u"btn_finger")
+        icon8 = QIcon()
+        icon8.addFile(u"icon/finger.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_finger.setIcon(icon8)
+        self.btn_finger.setIconSize(QSize(59, 69))
+
+        self.verticalLayout_25.addWidget(self.btn_finger)
+
+
+        self.verticalLayout_23.addWidget(self.frame_finger_1, 0, Qt.AlignLeft)
+
+        self.frame_title = QFrame(self.frame_finger)
+        self.frame_title.setObjectName(u"frame_title")
+        self.frame_title.setFrameShape(QFrame.NoFrame)
+        self.frame_title.setFrameShadow(QFrame.Raised)
+        self.frame_title.setLineWidth(0)
+        self.verticalLayout_26 = QVBoxLayout(self.frame_title)
+        self.verticalLayout_26.setSpacing(0)
+        self.verticalLayout_26.setObjectName(u"verticalLayout_26")
+        self.verticalLayout_26.setContentsMargins(0, 15, 0, 0)
+        self.lb_title = QLabel(self.frame_title)
+        self.lb_title.setObjectName(u"lb_title")
+        font5 = QFont()
+        font5.setFamily(u"Segoe UI")
+        font5.setPointSize(16)
+        font5.setBold(True)
+        font5.setWeight(75)
+        self.lb_title.setFont(font5)
+        self.lb_title.setStyleSheet(u"color: rgb(43, 54, 116)")
+        self.lb_title.setLineWidth(0)
+        self.lb_title.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
+
+        self.verticalLayout_26.addWidget(self.lb_title)
+
+
+        self.verticalLayout_23.addWidget(self.frame_title, 0, Qt.AlignLeft|Qt.AlignTop)
+
+        self.frame_des = QFrame(self.frame_finger)
+        self.frame_des.setObjectName(u"frame_des")
+        self.frame_des.setFrameShape(QFrame.NoFrame)
+        self.frame_des.setFrameShadow(QFrame.Raised)
+        self.frame_des.setLineWidth(0)
+        self.verticalLayout_27 = QVBoxLayout(self.frame_des)
+        self.verticalLayout_27.setSpacing(0)
+        self.verticalLayout_27.setObjectName(u"verticalLayout_27")
+        self.verticalLayout_27.setContentsMargins(0, 11, 0, 0)
+        self.lb_des = QLabel(self.frame_des)
+        self.lb_des.setObjectName(u"lb_des")
+        font6 = QFont()
+        font6.setFamily(u"Segoe UI Semibold")
+        font6.setPointSize(9)
+        font6.setBold(False)
+        font6.setItalic(False)
+        font6.setWeight(50)
+        self.lb_des.setFont(font6)
+        self.lb_des.setStyleSheet(u"color: #A3AED0")
+        self.lb_des.setLineWidth(0)
+        self.lb_des.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
+
+        self.verticalLayout_27.addWidget(self.lb_des)
+
+
+        self.verticalLayout_23.addWidget(self.frame_des, 0, Qt.AlignTop)
+
+        self.frame_btn_show_me = QFrame(self.frame_finger)
+        self.frame_btn_show_me.setObjectName(u"frame_btn_show_me")
+        self.frame_btn_show_me.setMinimumSize(QSize(299, 44))
+        self.frame_btn_show_me.setFrameShape(QFrame.NoFrame)
+        self.frame_btn_show_me.setFrameShadow(QFrame.Raised)
+        self.frame_btn_show_me.setLineWidth(0)
+        self.verticalLayout_28 = QVBoxLayout(self.frame_btn_show_me)
+        self.verticalLayout_28.setSpacing(0)
+        self.verticalLayout_28.setObjectName(u"verticalLayout_28")
+        self.verticalLayout_28.setContentsMargins(0, 0, 0, 0)
+        self.btn_show_me = QPushButton(self.frame_btn_show_me)
+        self.btn_show_me.setObjectName(u"btn_show_me")
+        self.btn_show_me.setMinimumSize(QSize(299, 44))
+        font7 = QFont()
+        font7.setFamily(u"Segoe UI Semibold")
+        font7.setPointSize(11)
+        font7.setBold(True)
+        font7.setWeight(75)
+        self.btn_show_me.setFont(font7)
+        self.btn_show_me.setLayoutDirection(Qt.LeftToRight)
+        self.btn_show_me.setStyleSheet(u"QPushButton{\n"
+"	color: rgb(255, 255, 255);\n"
+"	padding-left:11px;\n"
+"	border: 0px solid;\n"
+"	border-radius: 22px;\n"
+"	background-color: #4318FF;\n"
+"}\n"
+"QPushButton:hover {\n"
+"	background-color:\n"
+"    qlineargradient(spread:\n"
+"  	pad, x1:0, y1:0, x2:1, y2:1,\n"
+"   	stop: 0 rgb(92, 68, 255),\n"
+"    stop: 1 rgb(129, 132, 255));\n"
+"}\n"
+"")
+
+        self.verticalLayout_28.addWidget(self.btn_show_me)
+
+
+        self.verticalLayout_23.addWidget(self.frame_btn_show_me, 0, Qt.AlignHCenter|Qt.AlignVCenter)
+
+
+        self.horizontalLayout_17.addWidget(self.frame_finger)
+
+
+        self.verticalLayout_22.addWidget(self.frame_camera)
 
         self.frame_5 = QFrame(self.frame_dashboard)
         self.frame_5.setObjectName(u"frame_5")
@@ -854,9 +1009,9 @@ class Ui_MainWindow(object):
         self.verticalLayout_11.setContentsMargins(0, 0, 0, 0)
         self.label_2 = QLabel(self.frame_index_1)
         self.label_2.setObjectName(u"label_2")
-        font6 = QFont()
-        font6.setPointSize(50)
-        self.label_2.setFont(font6)
+        font8 = QFont()
+        font8.setPointSize(50)
+        self.label_2.setFont(font8)
         self.label_2.setLineWidth(0)
         self.label_2.setAlignment(Qt.AlignCenter)
 
@@ -872,7 +1027,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_12.setContentsMargins(0, 0, 0, 0)
         self.label_3 = QLabel(self.frame_index_2)
         self.label_3.setObjectName(u"label_3")
-        self.label_3.setFont(font6)
+        self.label_3.setFont(font8)
         self.label_3.setLineWidth(0)
         self.label_3.setAlignment(Qt.AlignCenter)
 
@@ -915,6 +1070,13 @@ class Ui_MainWindow(object):
         self.btn_wifi.setText("")
         self.cb_wifi.setText("")
         self.lb_wifi.setText(QCoreApplication.translate("MainWindow", u"Wifi", None))
+        self.lb_docSach.setText("")
+        self.btn_finger.setText("")
+        self.lb_title.setText(QCoreApplication.translate("MainWindow", u"Control your favorite room in\n"
+"app with a tap", None))
+        self.lb_des.setText(QCoreApplication.translate("MainWindow", u"Discover our support benefits, with\n"
+"one tap", None))
+        self.btn_show_me.setText(QCoreApplication.translate("MainWindow", u"Show me", None))
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"Activity Page", None))
         self.label_3.setText(QCoreApplication.translate("MainWindow", u"Setting Page", None))
     # retranslateUi

@@ -21,6 +21,7 @@ class UIFunctions(MainWindow):
         }
         QPushButton:hover {
 	        background-color: rgb(241, 243, 244);
+            border-radius: 5px;
         }
         """
         btn_style_choosen = """
@@ -184,6 +185,7 @@ class UIFunctions(MainWindow):
                 self.ui.btn_wifi.setStyleSheet(circle_style_disable)
                 self.ui.btn_wifi.setIcon(QIcon('icon/wifi_white.png'))
                 print("Wifi: Off")
-
+    def fingerButton(self, enable):
+        pass
 
 

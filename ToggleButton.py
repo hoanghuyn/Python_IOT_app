@@ -65,12 +65,9 @@ class ToggleButton(QCheckBox):
 
             # DRAW CIRCLE
             p.setBrush(QColor(self._circle_color_disable))
-            p.drawEllipse(22, 3, 16, 16)
+            p.drawEllipse(22, 2, 16, 16)
 
             
-
-
-
         # END DRAW
         p.end()
     

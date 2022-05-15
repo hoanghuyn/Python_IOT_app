@@ -16,8 +16,8 @@ from main_ui import Ui_MainWindow
 # IMPORT FUNCTIONS
 from ui_functions import *
 
+# IMPORT CUSTOM BUTTON
 from ToggleButton import ToggleButton
-
 
 
 class MainWindow(QMainWindow):
@@ -27,7 +27,6 @@ class MainWindow(QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
         
-
         ## PAGES
         self.ui.btn_dashboard.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.frame_index_0))
         self.ui.btn_activity.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.frame_index_1))
@@ -44,10 +43,6 @@ class MainWindow(QMainWindow):
         self.ui.cb_lamp.stateChanged.connect(lambda: UIFunctions.switchDeviceEvent(self, 2, self.ui.cb_lamp.isChecked()))
         self.ui.cb_wifi.stateChanged.connect(lambda: UIFunctions.switchDeviceEvent(self, 3, self.ui.cb_wifi.isChecked()))
         
-
-        
-        
-
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
