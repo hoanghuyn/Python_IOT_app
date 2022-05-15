@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'main_uizIJSon.ui'
+## Form generated from reading UI file 'main_uixjdnti.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -960,6 +960,7 @@ class Ui_MainWindow(object):
         font7.setBold(True)
         font7.setWeight(75)
         self.btn_show_me.setFont(font7)
+        self.btn_show_me.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_show_me.setLayoutDirection(Qt.LeftToRight)
         self.btn_show_me.setStyleSheet(u"QPushButton{\n"
 "	color: rgb(255, 255, 255);\n"
@@ -969,11 +970,7 @@ class Ui_MainWindow(object):
 "	background-color: #4318FF;\n"
 "}\n"
 "QPushButton:hover {\n"
-"	background-color:\n"
-"    qlineargradient(spread:\n"
-"  	pad, x1:0, y1:0, x2:1, y2:1,\n"
-"   	stop: 0 rgb(92, 68, 255),\n"
-"    stop: 1 rgb(129, 132, 255));\n"
+"	background-color: rgb(42, 63, 255);\n"
 "}\n"
 "")
 
