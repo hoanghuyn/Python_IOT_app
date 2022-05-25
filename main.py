@@ -26,7 +26,6 @@ class MainWindow(QMainWindow):
         QMainWindow.__init__(self)
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
-        self.setWindowTitle("Smart Home")
         self.center_UI()
         
         ## PAGES
