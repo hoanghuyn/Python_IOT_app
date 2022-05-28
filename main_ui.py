@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'main_uixhZajo.ui'
+## Form generated from reading UI file 'main_uiGWkIqV.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -34,6 +34,7 @@ class Ui_MainWindow(object):
         MainWindow.setWindowOpacity(1.000000000000000)
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
+        self.centralwidget.setMaximumSize(QSize(1280, 940))
         self.horizontalLayout = QHBoxLayout(self.centralwidget)
         self.horizontalLayout.setSpacing(0)
         self.horizontalLayout.setObjectName(u"horizontalLayout")
@@ -463,7 +464,7 @@ class Ui_MainWindow(object):
         self.btn_televison.setMaximumSize(QSize(42, 42))
         self.btn_televison.setStyleSheet(u"QPushButton{\n"
 "	border: 0px solid;\n"
-"	border-radius: 20px;\n"
+"	border-radius: 21px;\n"
 "	background-color:\n"
 "	qlineargradient(spread:\n"
 "	pad, x1:0, y1:0, x2:1, y2:1,\n"
@@ -577,7 +578,7 @@ class Ui_MainWindow(object):
         self.btn_ac.setMaximumSize(QSize(42, 42))
         self.btn_ac.setStyleSheet(u"QPushButton{\n"
 "	border: 0px solid;\n"
-"	border-radius: 20px;\n"
+"	border-radius: 21px;\n"
 "	background-color:\n"
 "	qlineargradient(spread:\n"
 "	pad, x1:0, y1:0, x2:1, y2:1,\n"
@@ -684,7 +685,7 @@ class Ui_MainWindow(object):
         self.btn_lamp.setMaximumSize(QSize(42, 42))
         self.btn_lamp.setStyleSheet(u"QPushButton{\n"
 "	border: 0px solid;\n"
-"	border-radius: 20px;\n"
+"	border-radius: 21px;\n"
 "	background-color:\n"
 "	qlineargradient(spread:\n"
 "	pad, x1:0, y1:0, x2:1, y2:1,\n"
@@ -789,7 +790,7 @@ class Ui_MainWindow(object):
         self.btn_wifi.setMaximumSize(QSize(42, 42))
         self.btn_wifi.setStyleSheet(u"QPushButton{\n"
 "	border: 0px solid;\n"
-"	border-radius: 20px;\n"
+"	border-radius: 21px;\n"
 "	background-color:\n"
 "	qlineargradient(spread:\n"
 "	pad, x1:0, y1:0, x2:1, y2:1,\n"
@@ -2091,13 +2092,1131 @@ class Ui_MainWindow(object):
         self.verticalLayout_12.setSpacing(0)
         self.verticalLayout_12.setObjectName(u"verticalLayout_12")
         self.verticalLayout_12.setContentsMargins(0, 0, 0, 0)
-        self.label_3 = QLabel(self.frame_index_2)
-        self.label_3.setObjectName(u"label_3")
-        self.label_3.setFont(font14)
-        self.label_3.setLineWidth(0)
-        self.label_3.setAlignment(Qt.AlignCenter)
+        self.frame_setting = QFrame(self.frame_index_2)
+        self.frame_setting.setObjectName(u"frame_setting")
+        self.frame_setting.setStyleSheet(u"QFrame#frame_setting{\n"
+"	background-color: #F4F7FE;\n"
+"}")
+        self.frame_setting.setFrameShape(QFrame.NoFrame)
+        self.frame_setting.setFrameShadow(QFrame.Raised)
+        self.frame_setting.setLineWidth(0)
+        self.verticalLayout_66 = QVBoxLayout(self.frame_setting)
+        self.verticalLayout_66.setSpacing(26)
+        self.verticalLayout_66.setObjectName(u"verticalLayout_66")
+        self.verticalLayout_66.setContentsMargins(26, 26, 26, 26)
+        self.frame_setting_top = QFrame(self.frame_setting)
+        self.frame_setting_top.setObjectName(u"frame_setting_top")
+        self.frame_setting_top.setMinimumSize(QSize(0, 790))
+        self.frame_setting_top.setStyleSheet(u"QFrame#frame_setting_top{\n"
+"	background-color: rgb(255, 255, 255);\n"
+"	border-radius: 20px;\n"
+"}")
+        self.frame_setting_top.setFrameShape(QFrame.NoFrame)
+        self.frame_setting_top.setFrameShadow(QFrame.Raised)
+        self.frame_setting_top.setLineWidth(0)
+        self.verticalLayout_76 = QVBoxLayout(self.frame_setting_top)
+        self.verticalLayout_76.setSpacing(10)
+        self.verticalLayout_76.setObjectName(u"verticalLayout_76")
+        self.verticalLayout_76.setContentsMargins(20, 20, 20, 10)
+        self.frame_user_wall = QFrame(self.frame_setting_top)
+        self.frame_user_wall.setObjectName(u"frame_user_wall")
+        self.frame_user_wall.setStyleSheet(u"QFrame#frame_user_wall{\n"
+"	background-color: rgb(255, 255, 255);\n"
+"	border-radius: 20px;\n"
+"}")
+        self.frame_user_wall.setFrameShape(QFrame.NoFrame)
+        self.frame_user_wall.setFrameShadow(QFrame.Raised)
+        self.frame_user_wall.setLineWidth(0)
+        self.frame_cover_image = QFrame(self.frame_user_wall)
+        self.frame_cover_image.setObjectName(u"frame_cover_image")
+        self.frame_cover_image.setGeometry(QRect(0, 0, 921, 230))
+        self.frame_cover_image.setMinimumSize(QSize(0, 230))
+        self.frame_cover_image.setStyleSheet(u"QFrame{\n"
+"	background-color: rgb(255, 255, 255);\n"
+"	border-radius: 20px;\n"
+"}\n"
+"")
+        self.frame_cover_image.setFrameShape(QFrame.NoFrame)
+        self.frame_cover_image.setFrameShadow(QFrame.Raised)
+        self.frame_cover_image.setLineWidth(0)
+        self.gridLayout = QGridLayout(self.frame_cover_image)
+        self.gridLayout.setObjectName(u"gridLayout")
+        self.gridLayout.setContentsMargins(0, 0, 0, 0)
+        self.frame_2 = QFrame(self.frame_user_wall)
+        self.frame_2.setObjectName(u"frame_2")
+        self.frame_2.setGeometry(QRect(54, 155, 150, 150))
+        self.frame_2.setMinimumSize(QSize(150, 150))
+        self.frame_2.setMaximumSize(QSize(150, 150))
+        self.frame_2.setStyleSheet(u"background-color: solid;\n"
+"border-radius: 20px;")
+        self.frame_2.setFrameShape(QFrame.NoFrame)
+        self.frame_2.setFrameShadow(QFrame.Raised)
+        self.frame_2.setLineWidth(0)
+        self.verticalLayout_77 = QVBoxLayout(self.frame_2)
+        self.verticalLayout_77.setSpacing(0)
+        self.verticalLayout_77.setObjectName(u"verticalLayout_77")
+        self.verticalLayout_77.setContentsMargins(0, 0, 0, 0)
+        self.lb_avatar_image = QLabel(self.frame_2)
+        self.lb_avatar_image.setObjectName(u"lb_avatar_image")
+        self.lb_avatar_image.setLineWidth(0)
+        self.lb_avatar_image.setScaledContents(True)
 
-        self.verticalLayout_12.addWidget(self.label_3)
+        self.verticalLayout_77.addWidget(self.lb_avatar_image)
+
+        self.btn_upload_cover = QPushButton(self.frame_user_wall)
+        self.btn_upload_cover.setObjectName(u"btn_upload_cover")
+        self.btn_upload_cover.setGeometry(QRect(815, 5, 99, 24))
+        font15 = QFont()
+        font15.setFamily(u"Segoe UI Semibold")
+        font15.setPointSize(9)
+        font15.setBold(False)
+        font15.setWeight(50)
+        self.btn_upload_cover.setFont(font15)
+        self.btn_upload_cover.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_upload_cover.setLayoutDirection(Qt.RightToLeft)
+        self.btn_upload_cover.setStyleSheet(u"QPushButton{\n"
+"		    color: transparent;\n"
+"		    padding-left:11px;\n"
+"		    border: 0px solid;\n"
+"		    border-radius: 8px;\n"
+"		    background-color: solid;\n"
+"}")
+        self.frame_update_avatar = QFrame(self.frame_user_wall)
+        self.frame_update_avatar.setObjectName(u"frame_update_avatar")
+        self.frame_update_avatar.setGeometry(QRect(54, 307, 150, 30))
+        self.frame_update_avatar.setMinimumSize(QSize(150, 0))
+        self.frame_update_avatar.setMaximumSize(QSize(150, 30))
+        self.frame_update_avatar.setStyleSheet(u"QFrame#frame_update_avatar{\n"
+"	background-color:rgb(255, 255, 255);\n"
+"}")
+        self.frame_update_avatar.setFrameShape(QFrame.NoFrame)
+        self.frame_update_avatar.setFrameShadow(QFrame.Raised)
+        self.frame_update_avatar.setLineWidth(0)
+        self.horizontalLayout_36 = QHBoxLayout(self.frame_update_avatar)
+        self.horizontalLayout_36.setObjectName(u"horizontalLayout_36")
+        self.horizontalLayout_36.setContentsMargins(0, 0, 0, 0)
+        self.btn_change = QPushButton(self.frame_update_avatar)
+        self.btn_change.setObjectName(u"btn_change")
+        font16 = QFont()
+        font16.setFamily(u"Segoe UI")
+        font16.setPointSize(10)
+        font16.setBold(True)
+        font16.setWeight(75)
+        self.btn_change.setFont(font16)
+        self.btn_change.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_change.setStyleSheet(u"QPushButton{\n"
+"		    color: #53A3EE;\n"
+"		    padding-left:11px;\n"
+"		    border: 0px solid;\n"
+"		    border-radius: 8px;\n"
+"		    background-color: solid;\n"
+"}")
+
+        self.horizontalLayout_36.addWidget(self.btn_change)
+
+        self.btn_delete = QPushButton(self.frame_update_avatar)
+        self.btn_delete.setObjectName(u"btn_delete")
+        self.btn_delete.setFont(font16)
+        self.btn_delete.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_delete.setLayoutDirection(Qt.RightToLeft)
+        self.btn_delete.setStyleSheet(u"QPushButton{\n"
+"		    color: #53A3EE;\n"
+"		    padding-left:11px;\n"
+"		    border: 0px solid;\n"
+"		    border-radius: 8px;\n"
+"		    background-color: solid;\n"
+"}")
+
+        self.horizontalLayout_36.addWidget(self.btn_delete)
+
+        self.frame_user_info = QFrame(self.frame_user_wall)
+        self.frame_user_info.setObjectName(u"frame_user_info")
+        self.frame_user_info.setGeometry(QRect(204, 230, 400, 75))
+        self.frame_user_info.setMinimumSize(QSize(400, 75))
+        self.frame_user_info.setMaximumSize(QSize(700, 75))
+        self.frame_user_info.setStyleSheet(u"QFrame{\n"
+"	background-color:rgb(255, 255, 255);\n"
+"}")
+        self.frame_user_info.setFrameShape(QFrame.NoFrame)
+        self.frame_user_info.setFrameShadow(QFrame.Raised)
+        self.frame_user_info.setLineWidth(0)
+        self.verticalLayout_78 = QVBoxLayout(self.frame_user_info)
+        self.verticalLayout_78.setSpacing(1)
+        self.verticalLayout_78.setObjectName(u"verticalLayout_78")
+        self.verticalLayout_78.setContentsMargins(18, 10, -1, 0)
+        self.frame_username_inf = QFrame(self.frame_user_info)
+        self.frame_username_inf.setObjectName(u"frame_username_inf")
+        self.frame_username_inf.setMaximumSize(QSize(16777215, 999))
+        self.frame_username_inf.setStyleSheet(u"QFrame{\n"
+" background-color: rgb(255, 255, 255);\n"
+"}")
+        self.frame_username_inf.setFrameShape(QFrame.NoFrame)
+        self.frame_username_inf.setFrameShadow(QFrame.Raised)
+        self.frame_username_inf.setLineWidth(0)
+        self.verticalLayout_79 = QVBoxLayout(self.frame_username_inf)
+        self.verticalLayout_79.setSpacing(0)
+        self.verticalLayout_79.setObjectName(u"verticalLayout_79")
+        self.verticalLayout_79.setContentsMargins(0, 0, 0, 0)
+        self.lb_username_inf = QLabel(self.frame_username_inf)
+        self.lb_username_inf.setObjectName(u"lb_username_inf")
+        font17 = QFont()
+        font17.setFamily(u"Segoe UI")
+        font17.setPointSize(22)
+        font17.setBold(True)
+        font17.setWeight(75)
+        self.lb_username_inf.setFont(font17)
+        self.lb_username_inf.setStyleSheet(u"color: #454555;\n"
+"\n"
+"")
+        self.lb_username_inf.setLineWidth(0)
+
+        self.verticalLayout_79.addWidget(self.lb_username_inf)
+
+
+        self.verticalLayout_78.addWidget(self.frame_username_inf)
+
+        self.frame_user_des = QFrame(self.frame_user_info)
+        self.frame_user_des.setObjectName(u"frame_user_des")
+        self.frame_user_des.setMinimumSize(QSize(0, 17))
+        self.frame_user_des.setMaximumSize(QSize(16777215, 30))
+        self.frame_user_des.setFrameShape(QFrame.NoFrame)
+        self.frame_user_des.setFrameShadow(QFrame.Raised)
+        self.frame_user_des.setLineWidth(0)
+        self.horizontalLayout_37 = QHBoxLayout(self.frame_user_des)
+        self.horizontalLayout_37.setSpacing(5)
+        self.horizontalLayout_37.setObjectName(u"horizontalLayout_37")
+        self.horizontalLayout_37.setContentsMargins(0, 0, 0, 0)
+        self.frame_user_des_2 = QFrame(self.frame_user_des)
+        self.frame_user_des_2.setObjectName(u"frame_user_des_2")
+        self.frame_user_des_2.setMinimumSize(QSize(0, 0))
+        self.frame_user_des_2.setMaximumSize(QSize(250, 16777215))
+        self.frame_user_des_2.setStyleSheet(u"QFrame{\n"
+" background-color: rgb(255, 255, 255);\n"
+"}")
+        self.frame_user_des_2.setFrameShape(QFrame.NoFrame)
+        self.frame_user_des_2.setFrameShadow(QFrame.Raised)
+        self.frame_user_des_2.setLineWidth(0)
+        self.verticalLayout_80 = QVBoxLayout(self.frame_user_des_2)
+        self.verticalLayout_80.setSpacing(0)
+        self.verticalLayout_80.setObjectName(u"verticalLayout_80")
+        self.verticalLayout_80.setContentsMargins(0, 0, 0, 0)
+        self.lb_user_des = QLabel(self.frame_user_des_2)
+        self.lb_user_des.setObjectName(u"lb_user_des")
+        self.lb_user_des.setMinimumSize(QSize(160, 0))
+        self.lb_user_des.setMaximumSize(QSize(250, 16777215))
+        font18 = QFont()
+        font18.setFamily(u"Segoe UI")
+        font18.setPointSize(13)
+        font18.setBold(False)
+        font18.setWeight(50)
+        self.lb_user_des.setFont(font18)
+        self.lb_user_des.setStyleSheet(u"color: #454555;")
+        self.lb_user_des.setLineWidth(0)
+
+        self.verticalLayout_80.addWidget(self.lb_user_des)
+
+
+        self.horizontalLayout_37.addWidget(self.frame_user_des_2)
+
+        self.frame_user_location = QFrame(self.frame_user_des)
+        self.frame_user_location.setObjectName(u"frame_user_location")
+        font19 = QFont()
+        font19.setFamily(u"Segoe UI Semibold")
+        font19.setBold(True)
+        font19.setWeight(75)
+        self.frame_user_location.setFont(font19)
+        self.frame_user_location.setFrameShape(QFrame.NoFrame)
+        self.frame_user_location.setFrameShadow(QFrame.Raised)
+        self.frame_user_location.setLineWidth(0)
+        self.verticalLayout_81 = QVBoxLayout(self.frame_user_location)
+        self.verticalLayout_81.setSpacing(0)
+        self.verticalLayout_81.setObjectName(u"verticalLayout_81")
+        self.verticalLayout_81.setContentsMargins(0, 0, 0, 0)
+        self.btn_user_location = QPushButton(self.frame_user_location)
+        self.btn_user_location.setObjectName(u"btn_user_location")
+        font20 = QFont()
+        font20.setFamily(u"Segoe UI")
+        font20.setPointSize(13)
+        self.btn_user_location.setFont(font20)
+        self.btn_user_location.setStyleSheet(u"QPushButton{\n"
+"	background-color: rgb(255, 255, 255);\n"
+"	border: 0px solid;\n"
+"	color: #454555;\n"
+"}")
+        icon16 = QIcon()
+        icon16.addFile(u"icon/location.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_user_location.setIcon(icon16)
+        self.btn_user_location.setIconSize(QSize(10, 12))
+
+        self.verticalLayout_81.addWidget(self.btn_user_location)
+
+
+        self.horizontalLayout_37.addWidget(self.frame_user_location, 0, Qt.AlignVCenter)
+
+
+        self.verticalLayout_78.addWidget(self.frame_user_des, 0, Qt.AlignLeft)
+
+
+        self.verticalLayout_76.addWidget(self.frame_user_wall)
+
+        self.frame_edit_user_infor = QFrame(self.frame_setting_top)
+        self.frame_edit_user_infor.setObjectName(u"frame_edit_user_infor")
+        self.frame_edit_user_infor.setMinimumSize(QSize(0, 410))
+        self.frame_edit_user_infor.setStyleSheet(u"QFrame#frame_edit_user_infor{\n"
+"	background-color: #ffffff;\n"
+"}")
+        self.frame_edit_user_infor.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_user_infor.setFrameShadow(QFrame.Raised)
+        self.frame_edit_user_infor.setLineWidth(0)
+        self.verticalLayout_100 = QVBoxLayout(self.frame_edit_user_infor)
+        self.verticalLayout_100.setSpacing(0)
+        self.verticalLayout_100.setObjectName(u"verticalLayout_100")
+        self.verticalLayout_100.setContentsMargins(54, -1, 0, 0)
+        self.frame_edit_name = QFrame(self.frame_edit_user_infor)
+        self.frame_edit_name.setObjectName(u"frame_edit_name")
+        self.frame_edit_name.setMinimumSize(QSize(820, 59))
+        self.frame_edit_name.setMaximumSize(QSize(820, 59))
+        self.frame_edit_name.setStyleSheet(u"QFrame#frame_edit_name{\n"
+"	background-color: #ffffff;\n"
+"	border-bottom: 1px solid #E7E7E7;\n"
+"}")
+        self.frame_edit_name.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_name.setFrameShadow(QFrame.Raised)
+        self.frame_edit_name.setLineWidth(0)
+        self.horizontalLayout_38 = QHBoxLayout(self.frame_edit_name)
+        self.horizontalLayout_38.setSpacing(5)
+        self.horizontalLayout_38.setObjectName(u"horizontalLayout_38")
+        self.horizontalLayout_38.setContentsMargins(0, 0, 0, 0)
+        self.frame_edit_name_1 = QFrame(self.frame_edit_name)
+        self.frame_edit_name_1.setObjectName(u"frame_edit_name_1")
+        self.frame_edit_name_1.setMaximumSize(QSize(230, 16777215))
+        self.frame_edit_name_1.setStyleSheet(u"\n"
+"	background-color: #ffffff;\n"
+"")
+        self.frame_edit_name_1.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_name_1.setFrameShadow(QFrame.Raised)
+        self.frame_edit_name_1.setLineWidth(0)
+        self.verticalLayout_82 = QVBoxLayout(self.frame_edit_name_1)
+        self.verticalLayout_82.setSpacing(0)
+        self.verticalLayout_82.setObjectName(u"verticalLayout_82")
+        self.verticalLayout_82.setContentsMargins(0, 0, 0, 0)
+        self.lb_name_1 = QLabel(self.frame_edit_name_1)
+        self.lb_name_1.setObjectName(u"lb_name_1")
+        self.lb_name_1.setMinimumSize(QSize(0, 0))
+        self.lb_name_1.setMaximumSize(QSize(99999, 16777215))
+        font21 = QFont()
+        font21.setFamily(u"Segoe UI Semibold")
+        font21.setPointSize(16)
+        font21.setBold(True)
+        font21.setWeight(75)
+        self.lb_name_1.setFont(font21)
+        self.lb_name_1.setLineWidth(0)
+
+        self.verticalLayout_82.addWidget(self.lb_name_1)
+
+
+        self.horizontalLayout_38.addWidget(self.frame_edit_name_1, 0, Qt.AlignVCenter)
+
+        self.frame_edit_name_2 = QFrame(self.frame_edit_name)
+        self.frame_edit_name_2.setObjectName(u"frame_edit_name_2")
+        self.frame_edit_name_2.setStyleSheet(u"\n"
+"	background-color: #ffffff;\n"
+"")
+        self.frame_edit_name_2.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_name_2.setFrameShadow(QFrame.Raised)
+        self.frame_edit_name_2.setLineWidth(0)
+        self.verticalLayout_83 = QVBoxLayout(self.frame_edit_name_2)
+        self.verticalLayout_83.setSpacing(0)
+        self.verticalLayout_83.setObjectName(u"verticalLayout_83")
+        self.verticalLayout_83.setContentsMargins(0, 0, 0, 0)
+        self.lb_name_2 = QLabel(self.frame_edit_name_2)
+        self.lb_name_2.setObjectName(u"lb_name_2")
+        font22 = QFont()
+        font22.setFamily(u"Segoe UI Semibold")
+        font22.setPointSize(15)
+        font22.setBold(True)
+        font22.setWeight(75)
+        self.lb_name_2.setFont(font22)
+        self.lb_name_2.setLineWidth(0)
+
+        self.verticalLayout_83.addWidget(self.lb_name_2)
+
+
+        self.horizontalLayout_38.addWidget(self.frame_edit_name_2, 0, Qt.AlignVCenter)
+
+        self.frame_edit_name_3 = QFrame(self.frame_edit_name)
+        self.frame_edit_name_3.setObjectName(u"frame_edit_name_3")
+        self.frame_edit_name_3.setMaximumSize(QSize(50, 16777215))
+        self.frame_edit_name_3.setStyleSheet(u"\n"
+"	background-color: #ffffff;\n"
+"")
+        self.frame_edit_name_3.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_name_3.setFrameShadow(QFrame.Raised)
+        self.frame_edit_name_3.setLineWidth(0)
+        self.verticalLayout_84 = QVBoxLayout(self.frame_edit_name_3)
+        self.verticalLayout_84.setSpacing(0)
+        self.verticalLayout_84.setObjectName(u"verticalLayout_84")
+        self.verticalLayout_84.setContentsMargins(0, 0, 0, 0)
+        self.btn_edit_1 = QPushButton(self.frame_edit_name_3)
+        self.btn_edit_1.setObjectName(u"btn_edit_1")
+        self.btn_edit_1.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_edit_1.setStyleSheet(u"QPushButton{\n"
+"	border: 0px solid;\n"
+"	background-color: #ffffff;\n"
+"}")
+        icon17 = QIcon()
+        icon17.addFile(u"icon/edit.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_edit_1.setIcon(icon17)
+        self.btn_edit_1.setIconSize(QSize(21, 20))
+
+        self.verticalLayout_84.addWidget(self.btn_edit_1)
+
+
+        self.horizontalLayout_38.addWidget(self.frame_edit_name_3, 0, Qt.AlignVCenter)
+
+
+        self.verticalLayout_100.addWidget(self.frame_edit_name)
+
+        self.frame_edit_des = QFrame(self.frame_edit_user_infor)
+        self.frame_edit_des.setObjectName(u"frame_edit_des")
+        self.frame_edit_des.setMinimumSize(QSize(820, 59))
+        self.frame_edit_des.setMaximumSize(QSize(820, 59))
+        self.frame_edit_des.setStyleSheet(u"QFrame#frame_edit_des{\n"
+"	background-color: #ffffff;\n"
+"	border-bottom: 1px solid #E7E7E7;\n"
+"}")
+        self.frame_edit_des.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_des.setFrameShadow(QFrame.Raised)
+        self.frame_edit_des.setLineWidth(0)
+        self.horizontalLayout_39 = QHBoxLayout(self.frame_edit_des)
+        self.horizontalLayout_39.setSpacing(5)
+        self.horizontalLayout_39.setObjectName(u"horizontalLayout_39")
+        self.horizontalLayout_39.setContentsMargins(0, 0, 0, 0)
+        self.frame_edit_des_1 = QFrame(self.frame_edit_des)
+        self.frame_edit_des_1.setObjectName(u"frame_edit_des_1")
+        self.frame_edit_des_1.setMaximumSize(QSize(230, 16777215))
+        self.frame_edit_des_1.setStyleSheet(u"\n"
+"	background-color: #ffffff;\n"
+"")
+        self.frame_edit_des_1.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_des_1.setFrameShadow(QFrame.Raised)
+        self.frame_edit_des_1.setLineWidth(0)
+        self.verticalLayout_85 = QVBoxLayout(self.frame_edit_des_1)
+        self.verticalLayout_85.setSpacing(0)
+        self.verticalLayout_85.setObjectName(u"verticalLayout_85")
+        self.verticalLayout_85.setContentsMargins(0, 0, 0, 0)
+        self.lb_des_2 = QLabel(self.frame_edit_des_1)
+        self.lb_des_2.setObjectName(u"lb_des_2")
+        self.lb_des_2.setMinimumSize(QSize(0, 0))
+        self.lb_des_2.setMaximumSize(QSize(99999, 16777215))
+        self.lb_des_2.setFont(font21)
+        self.lb_des_2.setLineWidth(0)
+
+        self.verticalLayout_85.addWidget(self.lb_des_2)
+
+
+        self.horizontalLayout_39.addWidget(self.frame_edit_des_1, 0, Qt.AlignVCenter)
+
+        self.frame_edit_des_2 = QFrame(self.frame_edit_des)
+        self.frame_edit_des_2.setObjectName(u"frame_edit_des_2")
+        self.frame_edit_des_2.setStyleSheet(u"\n"
+"	background-color: #ffffff;\n"
+"")
+        self.frame_edit_des_2.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_des_2.setFrameShadow(QFrame.Raised)
+        self.frame_edit_des_2.setLineWidth(0)
+        self.verticalLayout_86 = QVBoxLayout(self.frame_edit_des_2)
+        self.verticalLayout_86.setSpacing(0)
+        self.verticalLayout_86.setObjectName(u"verticalLayout_86")
+        self.verticalLayout_86.setContentsMargins(0, 0, 0, 0)
+        self.lb_des_3 = QLabel(self.frame_edit_des_2)
+        self.lb_des_3.setObjectName(u"lb_des_3")
+        self.lb_des_3.setFont(font22)
+        self.lb_des_3.setLineWidth(0)
+
+        self.verticalLayout_86.addWidget(self.lb_des_3)
+
+
+        self.horizontalLayout_39.addWidget(self.frame_edit_des_2, 0, Qt.AlignVCenter)
+
+        self.frame_edit_des_3 = QFrame(self.frame_edit_des)
+        self.frame_edit_des_3.setObjectName(u"frame_edit_des_3")
+        self.frame_edit_des_3.setMaximumSize(QSize(50, 16777215))
+        self.frame_edit_des_3.setStyleSheet(u"\n"
+"	background-color: #ffffff;\n"
+"")
+        self.frame_edit_des_3.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_des_3.setFrameShadow(QFrame.Raised)
+        self.frame_edit_des_3.setLineWidth(0)
+        self.verticalLayout_87 = QVBoxLayout(self.frame_edit_des_3)
+        self.verticalLayout_87.setSpacing(0)
+        self.verticalLayout_87.setObjectName(u"verticalLayout_87")
+        self.verticalLayout_87.setContentsMargins(0, 0, 0, 0)
+        self.btn_edit_2 = QPushButton(self.frame_edit_des_3)
+        self.btn_edit_2.setObjectName(u"btn_edit_2")
+        self.btn_edit_2.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_edit_2.setStyleSheet(u"QPushButton{\n"
+"	border: 0px solid;\n"
+"	background-color: #ffffff;\n"
+"}")
+        self.btn_edit_2.setIcon(icon17)
+        self.btn_edit_2.setIconSize(QSize(21, 20))
+
+        self.verticalLayout_87.addWidget(self.btn_edit_2)
+
+
+        self.horizontalLayout_39.addWidget(self.frame_edit_des_3, 0, Qt.AlignVCenter)
+
+
+        self.verticalLayout_100.addWidget(self.frame_edit_des)
+
+        self.frame_edit_email = QFrame(self.frame_edit_user_infor)
+        self.frame_edit_email.setObjectName(u"frame_edit_email")
+        self.frame_edit_email.setMinimumSize(QSize(820, 59))
+        self.frame_edit_email.setMaximumSize(QSize(820, 59))
+        self.frame_edit_email.setStyleSheet(u"QFrame#frame_edit_email{\n"
+"	background-color: #ffffff;\n"
+"	border-bottom: 1px solid #E7E7E7;\n"
+"}")
+        self.frame_edit_email.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_email.setFrameShadow(QFrame.Raised)
+        self.frame_edit_email.setLineWidth(0)
+        self.horizontalLayout_40 = QHBoxLayout(self.frame_edit_email)
+        self.horizontalLayout_40.setSpacing(5)
+        self.horizontalLayout_40.setObjectName(u"horizontalLayout_40")
+        self.horizontalLayout_40.setContentsMargins(0, 0, 0, 0)
+        self.frame_edit_email_1 = QFrame(self.frame_edit_email)
+        self.frame_edit_email_1.setObjectName(u"frame_edit_email_1")
+        self.frame_edit_email_1.setMaximumSize(QSize(230, 16777215))
+        self.frame_edit_email_1.setStyleSheet(u"\n"
+"	background-color: #ffffff;\n"
+"")
+        self.frame_edit_email_1.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_email_1.setFrameShadow(QFrame.Raised)
+        self.frame_edit_email_1.setLineWidth(0)
+        self.verticalLayout_88 = QVBoxLayout(self.frame_edit_email_1)
+        self.verticalLayout_88.setSpacing(0)
+        self.verticalLayout_88.setObjectName(u"verticalLayout_88")
+        self.verticalLayout_88.setContentsMargins(0, 0, 0, 0)
+        self.lb_email_1 = QLabel(self.frame_edit_email_1)
+        self.lb_email_1.setObjectName(u"lb_email_1")
+        self.lb_email_1.setMinimumSize(QSize(0, 0))
+        self.lb_email_1.setMaximumSize(QSize(99999, 16777215))
+        self.lb_email_1.setFont(font21)
+        self.lb_email_1.setLineWidth(0)
+
+        self.verticalLayout_88.addWidget(self.lb_email_1)
+
+
+        self.horizontalLayout_40.addWidget(self.frame_edit_email_1, 0, Qt.AlignVCenter)
+
+        self.frame_edit_email_2 = QFrame(self.frame_edit_email)
+        self.frame_edit_email_2.setObjectName(u"frame_edit_email_2")
+        self.frame_edit_email_2.setStyleSheet(u"\n"
+"	background-color: #ffffff;\n"
+"")
+        self.frame_edit_email_2.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_email_2.setFrameShadow(QFrame.Raised)
+        self.frame_edit_email_2.setLineWidth(0)
+        self.verticalLayout_89 = QVBoxLayout(self.frame_edit_email_2)
+        self.verticalLayout_89.setSpacing(0)
+        self.verticalLayout_89.setObjectName(u"verticalLayout_89")
+        self.verticalLayout_89.setContentsMargins(0, 0, 0, 0)
+        self.lb_email_2 = QLabel(self.frame_edit_email_2)
+        self.lb_email_2.setObjectName(u"lb_email_2")
+        self.lb_email_2.setFont(font22)
+        self.lb_email_2.setLineWidth(0)
+
+        self.verticalLayout_89.addWidget(self.lb_email_2)
+
+
+        self.horizontalLayout_40.addWidget(self.frame_edit_email_2, 0, Qt.AlignVCenter)
+
+        self.frame_edit_email_3 = QFrame(self.frame_edit_email)
+        self.frame_edit_email_3.setObjectName(u"frame_edit_email_3")
+        self.frame_edit_email_3.setMaximumSize(QSize(50, 16777215))
+        self.frame_edit_email_3.setStyleSheet(u"\n"
+"	background-color: #ffffff;\n"
+"")
+        self.frame_edit_email_3.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_email_3.setFrameShadow(QFrame.Raised)
+        self.frame_edit_email_3.setLineWidth(0)
+        self.verticalLayout_90 = QVBoxLayout(self.frame_edit_email_3)
+        self.verticalLayout_90.setSpacing(0)
+        self.verticalLayout_90.setObjectName(u"verticalLayout_90")
+        self.verticalLayout_90.setContentsMargins(0, 0, 0, 0)
+        self.btn_edit_3 = QPushButton(self.frame_edit_email_3)
+        self.btn_edit_3.setObjectName(u"btn_edit_3")
+        self.btn_edit_3.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_edit_3.setStyleSheet(u"QPushButton{\n"
+"	border: 0px solid;\n"
+"	background-color: #ffffff;\n"
+"}")
+        self.btn_edit_3.setIcon(icon17)
+        self.btn_edit_3.setIconSize(QSize(21, 20))
+
+        self.verticalLayout_90.addWidget(self.btn_edit_3)
+
+
+        self.horizontalLayout_40.addWidget(self.frame_edit_email_3, 0, Qt.AlignVCenter)
+
+
+        self.verticalLayout_100.addWidget(self.frame_edit_email)
+
+        self.frame_edit_phone = QFrame(self.frame_edit_user_infor)
+        self.frame_edit_phone.setObjectName(u"frame_edit_phone")
+        self.frame_edit_phone.setMinimumSize(QSize(820, 59))
+        self.frame_edit_phone.setMaximumSize(QSize(820, 59))
+        self.frame_edit_phone.setStyleSheet(u"QFrame#frame_edit_phone{\n"
+"	background-color: #ffffff;\n"
+"	border-bottom: 1px solid #E7E7E7;\n"
+"}")
+        self.frame_edit_phone.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_phone.setFrameShadow(QFrame.Raised)
+        self.frame_edit_phone.setLineWidth(0)
+        self.horizontalLayout_41 = QHBoxLayout(self.frame_edit_phone)
+        self.horizontalLayout_41.setSpacing(5)
+        self.horizontalLayout_41.setObjectName(u"horizontalLayout_41")
+        self.horizontalLayout_41.setContentsMargins(0, 0, 0, 0)
+        self.frame_edit_phone_1 = QFrame(self.frame_edit_phone)
+        self.frame_edit_phone_1.setObjectName(u"frame_edit_phone_1")
+        self.frame_edit_phone_1.setMaximumSize(QSize(230, 16777215))
+        self.frame_edit_phone_1.setStyleSheet(u"\n"
+"	background-color: #ffffff;\n"
+"")
+        self.frame_edit_phone_1.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_phone_1.setFrameShadow(QFrame.Raised)
+        self.frame_edit_phone_1.setLineWidth(0)
+        self.verticalLayout_91 = QVBoxLayout(self.frame_edit_phone_1)
+        self.verticalLayout_91.setSpacing(0)
+        self.verticalLayout_91.setObjectName(u"verticalLayout_91")
+        self.verticalLayout_91.setContentsMargins(0, 0, 0, 0)
+        self.lb_phone_1 = QLabel(self.frame_edit_phone_1)
+        self.lb_phone_1.setObjectName(u"lb_phone_1")
+        self.lb_phone_1.setMinimumSize(QSize(0, 0))
+        self.lb_phone_1.setMaximumSize(QSize(99999, 16777215))
+        self.lb_phone_1.setFont(font21)
+        self.lb_phone_1.setLineWidth(0)
+
+        self.verticalLayout_91.addWidget(self.lb_phone_1)
+
+
+        self.horizontalLayout_41.addWidget(self.frame_edit_phone_1, 0, Qt.AlignVCenter)
+
+        self.frame_edit_phone_2 = QFrame(self.frame_edit_phone)
+        self.frame_edit_phone_2.setObjectName(u"frame_edit_phone_2")
+        self.frame_edit_phone_2.setStyleSheet(u"\n"
+"	background-color: #ffffff;\n"
+"")
+        self.frame_edit_phone_2.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_phone_2.setFrameShadow(QFrame.Raised)
+        self.frame_edit_phone_2.setLineWidth(0)
+        self.verticalLayout_92 = QVBoxLayout(self.frame_edit_phone_2)
+        self.verticalLayout_92.setSpacing(0)
+        self.verticalLayout_92.setObjectName(u"verticalLayout_92")
+        self.verticalLayout_92.setContentsMargins(0, 0, 0, 0)
+        self.lb_phone_2 = QLabel(self.frame_edit_phone_2)
+        self.lb_phone_2.setObjectName(u"lb_phone_2")
+        self.lb_phone_2.setFont(font22)
+        self.lb_phone_2.setLineWidth(0)
+
+        self.verticalLayout_92.addWidget(self.lb_phone_2)
+
+
+        self.horizontalLayout_41.addWidget(self.frame_edit_phone_2, 0, Qt.AlignVCenter)
+
+        self.frame_edit_phone_3 = QFrame(self.frame_edit_phone)
+        self.frame_edit_phone_3.setObjectName(u"frame_edit_phone_3")
+        self.frame_edit_phone_3.setMaximumSize(QSize(50, 16777215))
+        self.frame_edit_phone_3.setStyleSheet(u"\n"
+"	background-color: #ffffff;\n"
+"")
+        self.frame_edit_phone_3.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_phone_3.setFrameShadow(QFrame.Raised)
+        self.frame_edit_phone_3.setLineWidth(0)
+        self.verticalLayout_93 = QVBoxLayout(self.frame_edit_phone_3)
+        self.verticalLayout_93.setSpacing(0)
+        self.verticalLayout_93.setObjectName(u"verticalLayout_93")
+        self.verticalLayout_93.setContentsMargins(0, 0, 0, 0)
+        self.btn_edit_4 = QPushButton(self.frame_edit_phone_3)
+        self.btn_edit_4.setObjectName(u"btn_edit_4")
+        self.btn_edit_4.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_edit_4.setStyleSheet(u"QPushButton{\n"
+"	border: 0px solid;\n"
+"	background-color: #ffffff;\n"
+"}")
+        self.btn_edit_4.setIcon(icon17)
+        self.btn_edit_4.setIconSize(QSize(21, 20))
+
+        self.verticalLayout_93.addWidget(self.btn_edit_4)
+
+
+        self.horizontalLayout_41.addWidget(self.frame_edit_phone_3, 0, Qt.AlignVCenter)
+
+
+        self.verticalLayout_100.addWidget(self.frame_edit_phone)
+
+        self.frame_edit_password = QFrame(self.frame_edit_user_infor)
+        self.frame_edit_password.setObjectName(u"frame_edit_password")
+        self.frame_edit_password.setMinimumSize(QSize(820, 59))
+        self.frame_edit_password.setMaximumSize(QSize(820, 59))
+        self.frame_edit_password.setStyleSheet(u"QFrame#frame_edit_password{\n"
+"	background-color: #ffffff;\n"
+"	border-bottom: 1px solid #E7E7E7;\n"
+"}")
+        self.frame_edit_password.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_password.setFrameShadow(QFrame.Raised)
+        self.frame_edit_password.setLineWidth(0)
+        self.horizontalLayout_42 = QHBoxLayout(self.frame_edit_password)
+        self.horizontalLayout_42.setSpacing(5)
+        self.horizontalLayout_42.setObjectName(u"horizontalLayout_42")
+        self.horizontalLayout_42.setContentsMargins(0, 0, 0, 0)
+        self.frame_edit_password_1 = QFrame(self.frame_edit_password)
+        self.frame_edit_password_1.setObjectName(u"frame_edit_password_1")
+        self.frame_edit_password_1.setMaximumSize(QSize(230, 16777215))
+        self.frame_edit_password_1.setStyleSheet(u"\n"
+"	background-color: #ffffff;\n"
+"")
+        self.frame_edit_password_1.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_password_1.setFrameShadow(QFrame.Raised)
+        self.frame_edit_password_1.setLineWidth(0)
+        self.verticalLayout_94 = QVBoxLayout(self.frame_edit_password_1)
+        self.verticalLayout_94.setSpacing(0)
+        self.verticalLayout_94.setObjectName(u"verticalLayout_94")
+        self.verticalLayout_94.setContentsMargins(0, 0, 0, 0)
+        self.lb_password_1 = QLabel(self.frame_edit_password_1)
+        self.lb_password_1.setObjectName(u"lb_password_1")
+        self.lb_password_1.setMinimumSize(QSize(0, 0))
+        self.lb_password_1.setMaximumSize(QSize(99999, 16777215))
+        self.lb_password_1.setFont(font21)
+        self.lb_password_1.setLineWidth(0)
+
+        self.verticalLayout_94.addWidget(self.lb_password_1)
+
+
+        self.horizontalLayout_42.addWidget(self.frame_edit_password_1, 0, Qt.AlignVCenter)
+
+        self.frame_edit_password_2 = QFrame(self.frame_edit_password)
+        self.frame_edit_password_2.setObjectName(u"frame_edit_password_2")
+        self.frame_edit_password_2.setStyleSheet(u"\n"
+"	background-color: #ffffff;\n"
+"")
+        self.frame_edit_password_2.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_password_2.setFrameShadow(QFrame.Raised)
+        self.frame_edit_password_2.setLineWidth(0)
+        self.verticalLayout_95 = QVBoxLayout(self.frame_edit_password_2)
+        self.verticalLayout_95.setSpacing(0)
+        self.verticalLayout_95.setObjectName(u"verticalLayout_95")
+        self.verticalLayout_95.setContentsMargins(0, 0, 0, 0)
+        self.lb_password_2 = QLabel(self.frame_edit_password_2)
+        self.lb_password_2.setObjectName(u"lb_password_2")
+        self.lb_password_2.setFont(font22)
+        self.lb_password_2.setLineWidth(0)
+
+        self.verticalLayout_95.addWidget(self.lb_password_2)
+
+
+        self.horizontalLayout_42.addWidget(self.frame_edit_password_2, 0, Qt.AlignVCenter)
+
+        self.frame_edit_password_3 = QFrame(self.frame_edit_password)
+        self.frame_edit_password_3.setObjectName(u"frame_edit_password_3")
+        self.frame_edit_password_3.setMaximumSize(QSize(50, 16777215))
+        self.frame_edit_password_3.setStyleSheet(u"\n"
+"	background-color: #ffffff;\n"
+"")
+        self.frame_edit_password_3.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_password_3.setFrameShadow(QFrame.Raised)
+        self.frame_edit_password_3.setLineWidth(0)
+        self.verticalLayout_96 = QVBoxLayout(self.frame_edit_password_3)
+        self.verticalLayout_96.setSpacing(0)
+        self.verticalLayout_96.setObjectName(u"verticalLayout_96")
+        self.verticalLayout_96.setContentsMargins(0, 0, 0, 0)
+        self.btn_edit_5 = QPushButton(self.frame_edit_password_3)
+        self.btn_edit_5.setObjectName(u"btn_edit_5")
+        self.btn_edit_5.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_edit_5.setStyleSheet(u"QPushButton{\n"
+"	border: 0px solid;\n"
+"	background-color: #ffffff;\n"
+"}")
+        self.btn_edit_5.setIcon(icon17)
+        self.btn_edit_5.setIconSize(QSize(21, 20))
+
+        self.verticalLayout_96.addWidget(self.btn_edit_5)
+
+
+        self.horizontalLayout_42.addWidget(self.frame_edit_password_3, 0, Qt.AlignVCenter)
+
+
+        self.verticalLayout_100.addWidget(self.frame_edit_password)
+
+        self.frame_edit_url = QFrame(self.frame_edit_user_infor)
+        self.frame_edit_url.setObjectName(u"frame_edit_url")
+        self.frame_edit_url.setMinimumSize(QSize(820, 59))
+        self.frame_edit_url.setMaximumSize(QSize(820, 59))
+        self.frame_edit_url.setStyleSheet(u"QFrame#frame_edit_url{\n"
+"	background-color: #ffffff;\n"
+"}")
+        self.frame_edit_url.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_url.setFrameShadow(QFrame.Raised)
+        self.frame_edit_url.setLineWidth(0)
+        self.horizontalLayout_43 = QHBoxLayout(self.frame_edit_url)
+        self.horizontalLayout_43.setSpacing(5)
+        self.horizontalLayout_43.setObjectName(u"horizontalLayout_43")
+        self.horizontalLayout_43.setContentsMargins(0, 0, 0, 0)
+        self.frame_edit_url_1 = QFrame(self.frame_edit_url)
+        self.frame_edit_url_1.setObjectName(u"frame_edit_url_1")
+        self.frame_edit_url_1.setMaximumSize(QSize(230, 16777215))
+        self.frame_edit_url_1.setStyleSheet(u"\n"
+"	background-color: #ffffff;\n"
+"")
+        self.frame_edit_url_1.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_url_1.setFrameShadow(QFrame.Raised)
+        self.frame_edit_url_1.setLineWidth(0)
+        self.verticalLayout_97 = QVBoxLayout(self.frame_edit_url_1)
+        self.verticalLayout_97.setSpacing(0)
+        self.verticalLayout_97.setObjectName(u"verticalLayout_97")
+        self.verticalLayout_97.setContentsMargins(0, 0, 0, 0)
+        self.lb_url_1 = QLabel(self.frame_edit_url_1)
+        self.lb_url_1.setObjectName(u"lb_url_1")
+        self.lb_url_1.setMinimumSize(QSize(0, 0))
+        self.lb_url_1.setMaximumSize(QSize(99999, 16777215))
+        self.lb_url_1.setFont(font21)
+        self.lb_url_1.setLineWidth(0)
+
+        self.verticalLayout_97.addWidget(self.lb_url_1)
+
+
+        self.horizontalLayout_43.addWidget(self.frame_edit_url_1, 0, Qt.AlignVCenter)
+
+        self.frame_edit_url_2 = QFrame(self.frame_edit_url)
+        self.frame_edit_url_2.setObjectName(u"frame_edit_url_2")
+        self.frame_edit_url_2.setStyleSheet(u"\n"
+"	background-color: #ffffff;\n"
+"")
+        self.frame_edit_url_2.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_url_2.setFrameShadow(QFrame.Raised)
+        self.frame_edit_url_2.setLineWidth(0)
+        self.verticalLayout_98 = QVBoxLayout(self.frame_edit_url_2)
+        self.verticalLayout_98.setSpacing(0)
+        self.verticalLayout_98.setObjectName(u"verticalLayout_98")
+        self.verticalLayout_98.setContentsMargins(0, 0, 0, 0)
+        self.lb_url_2 = QLabel(self.frame_edit_url_2)
+        self.lb_url_2.setObjectName(u"lb_url_2")
+        self.lb_url_2.setFont(font22)
+        self.lb_url_2.setLineWidth(0)
+
+        self.verticalLayout_98.addWidget(self.lb_url_2)
+
+
+        self.horizontalLayout_43.addWidget(self.frame_edit_url_2, 0, Qt.AlignVCenter)
+
+        self.frame_edit_url_3 = QFrame(self.frame_edit_url)
+        self.frame_edit_url_3.setObjectName(u"frame_edit_url_3")
+        self.frame_edit_url_3.setMaximumSize(QSize(50, 16777215))
+        self.frame_edit_url_3.setStyleSheet(u"\n"
+"	background-color: #ffffff;\n"
+"")
+        self.frame_edit_url_3.setFrameShape(QFrame.NoFrame)
+        self.frame_edit_url_3.setFrameShadow(QFrame.Raised)
+        self.frame_edit_url_3.setLineWidth(0)
+        self.verticalLayout_99 = QVBoxLayout(self.frame_edit_url_3)
+        self.verticalLayout_99.setSpacing(0)
+        self.verticalLayout_99.setObjectName(u"verticalLayout_99")
+        self.verticalLayout_99.setContentsMargins(0, 0, 0, 0)
+        self.btn_edit_6 = QPushButton(self.frame_edit_url_3)
+        self.btn_edit_6.setObjectName(u"btn_edit_6")
+        self.btn_edit_6.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_edit_6.setStyleSheet(u"QPushButton{\n"
+"	border: 0px solid;\n"
+"	background-color: #ffffff;\n"
+"}")
+        self.btn_edit_6.setIcon(icon17)
+        self.btn_edit_6.setIconSize(QSize(21, 20))
+
+        self.verticalLayout_99.addWidget(self.btn_edit_6)
+
+
+        self.horizontalLayout_43.addWidget(self.frame_edit_url_3, 0, Qt.AlignVCenter)
+
+
+        self.verticalLayout_100.addWidget(self.frame_edit_url)
+
+
+        self.verticalLayout_76.addWidget(self.frame_edit_user_infor)
+
+
+        self.verticalLayout_66.addWidget(self.frame_setting_top)
+
+        self.frame_setting_bottom = QFrame(self.frame_setting)
+        self.frame_setting_bottom.setObjectName(u"frame_setting_bottom")
+        self.frame_setting_bottom.setMinimumSize(QSize(0, 72))
+        self.frame_setting_bottom.setStyleSheet(u"QFrame#frame_setting_bottom{\n"
+"	background-color: #F4F7FE;\n"
+"}")
+        self.frame_setting_bottom.setFrameShape(QFrame.NoFrame)
+        self.frame_setting_bottom.setFrameShadow(QFrame.Raised)
+        self.frame_setting_bottom.setLineWidth(0)
+        self.horizontalLayout_33 = QHBoxLayout(self.frame_setting_bottom)
+        self.horizontalLayout_33.setSpacing(26)
+        self.horizontalLayout_33.setObjectName(u"horizontalLayout_33")
+        self.horizontalLayout_33.setContentsMargins(0, 0, 0, 0)
+        self.frame_accent_color = QFrame(self.frame_setting_bottom)
+        self.frame_accent_color.setObjectName(u"frame_accent_color")
+        self.frame_accent_color.setMinimumSize(QSize(756, 0))
+        self.frame_accent_color.setStyleSheet(u"QFrame#frame_accent_color{\n"
+"	background-color: rgb(255, 255, 255);\n"
+"	border-radius: 20px;\n"
+"}")
+        self.frame_accent_color.setFrameShape(QFrame.NoFrame)
+        self.frame_accent_color.setFrameShadow(QFrame.Raised)
+        self.frame_accent_color.setLineWidth(0)
+        self.horizontalLayout_35 = QHBoxLayout(self.frame_accent_color)
+        self.horizontalLayout_35.setSpacing(64)
+        self.horizontalLayout_35.setObjectName(u"horizontalLayout_35")
+        self.horizontalLayout_35.setContentsMargins(26, 24, 71, 24)
+        self.frame_lb_accent_color = QFrame(self.frame_accent_color)
+        self.frame_lb_accent_color.setObjectName(u"frame_lb_accent_color")
+        self.frame_lb_accent_color.setFrameShape(QFrame.NoFrame)
+        self.frame_lb_accent_color.setFrameShadow(QFrame.Raised)
+        self.frame_lb_accent_color.setLineWidth(0)
+        self.verticalLayout_69 = QVBoxLayout(self.frame_lb_accent_color)
+        self.verticalLayout_69.setSpacing(0)
+        self.verticalLayout_69.setObjectName(u"verticalLayout_69")
+        self.verticalLayout_69.setContentsMargins(0, 0, 0, 0)
+        self.lb_accent_color = QLabel(self.frame_lb_accent_color)
+        self.lb_accent_color.setObjectName(u"lb_accent_color")
+        self.lb_accent_color.setMaximumSize(QSize(131, 24))
+        self.lb_accent_color.setFont(font2)
+
+        self.verticalLayout_69.addWidget(self.lb_accent_color)
+
+
+        self.horizontalLayout_35.addWidget(self.frame_lb_accent_color)
+
+        self.frame_accent_blue = QFrame(self.frame_accent_color)
+        self.frame_accent_blue.setObjectName(u"frame_accent_blue")
+        self.frame_accent_blue.setMaximumSize(QSize(24, 24))
+        self.frame_accent_blue.setFrameShape(QFrame.NoFrame)
+        self.frame_accent_blue.setFrameShadow(QFrame.Raised)
+        self.frame_accent_blue.setLineWidth(0)
+        self.verticalLayout_72 = QVBoxLayout(self.frame_accent_blue)
+        self.verticalLayout_72.setSpacing(0)
+        self.verticalLayout_72.setObjectName(u"verticalLayout_72")
+        self.verticalLayout_72.setContentsMargins(0, 0, 0, 0)
+        self.btn_color_blue = QPushButton(self.frame_accent_blue)
+        self.btn_color_blue.setObjectName(u"btn_color_blue")
+        self.btn_color_blue.setMaximumSize(QSize(24, 24))
+        self.btn_color_blue.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_color_blue.setStyleSheet(u"QPushButton{\n"
+"	background-color: #017BFF;\n"
+"	border: 0px solid;\n"
+"	border-radius: 12px;\n"
+"}")
+
+        self.verticalLayout_72.addWidget(self.btn_color_blue)
+
+
+        self.horizontalLayout_35.addWidget(self.frame_accent_blue)
+
+        self.frame_accent_violet = QFrame(self.frame_accent_color)
+        self.frame_accent_violet.setObjectName(u"frame_accent_violet")
+        self.frame_accent_violet.setMaximumSize(QSize(24, 24))
+        self.frame_accent_violet.setFrameShape(QFrame.NoFrame)
+        self.frame_accent_violet.setFrameShadow(QFrame.Raised)
+        self.frame_accent_violet.setLineWidth(0)
+        self.verticalLayout_73 = QVBoxLayout(self.frame_accent_violet)
+        self.verticalLayout_73.setSpacing(0)
+        self.verticalLayout_73.setObjectName(u"verticalLayout_73")
+        self.verticalLayout_73.setContentsMargins(0, 0, 0, 0)
+        self.btn_color_violet = QPushButton(self.frame_accent_violet)
+        self.btn_color_violet.setObjectName(u"btn_color_violet")
+        self.btn_color_violet.setMaximumSize(QSize(24, 24))
+        self.btn_color_violet.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_color_violet.setStyleSheet(u"QPushButton{\n"
+"	background-color: #6B4BFF;\n"
+"	border: 0px solid;\n"
+"	border-radius: 12px;\n"
+"}")
+
+        self.verticalLayout_73.addWidget(self.btn_color_violet)
+
+
+        self.horizontalLayout_35.addWidget(self.frame_accent_violet)
+
+        self.frame_accent_pink = QFrame(self.frame_accent_color)
+        self.frame_accent_pink.setObjectName(u"frame_accent_pink")
+        self.frame_accent_pink.setMaximumSize(QSize(24, 24))
+        self.frame_accent_pink.setFrameShape(QFrame.NoFrame)
+        self.frame_accent_pink.setFrameShadow(QFrame.Raised)
+        self.frame_accent_pink.setLineWidth(0)
+        self.verticalLayout_74 = QVBoxLayout(self.frame_accent_pink)
+        self.verticalLayout_74.setSpacing(0)
+        self.verticalLayout_74.setObjectName(u"verticalLayout_74")
+        self.verticalLayout_74.setContentsMargins(0, 0, 0, 0)
+        self.btn_color_pink = QPushButton(self.frame_accent_pink)
+        self.btn_color_pink.setObjectName(u"btn_color_pink")
+        self.btn_color_pink.setMaximumSize(QSize(24, 24))
+        self.btn_color_pink.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_color_pink.setStyleSheet(u"QPushButton{\n"
+"	background-color: #F64F9E;\n"
+"	border: 0px solid;\n"
+"	border-radius: 12px;\n"
+"}")
+
+        self.verticalLayout_74.addWidget(self.btn_color_pink)
+
+
+        self.horizontalLayout_35.addWidget(self.frame_accent_pink)
+
+        self.frame_accent_orange = QFrame(self.frame_accent_color)
+        self.frame_accent_orange.setObjectName(u"frame_accent_orange")
+        self.frame_accent_orange.setMaximumSize(QSize(24, 24))
+        self.frame_accent_orange.setFrameShape(QFrame.NoFrame)
+        self.frame_accent_orange.setFrameShadow(QFrame.Raised)
+        self.frame_accent_orange.setLineWidth(0)
+        self.verticalLayout_75 = QVBoxLayout(self.frame_accent_orange)
+        self.verticalLayout_75.setSpacing(0)
+        self.verticalLayout_75.setObjectName(u"verticalLayout_75")
+        self.verticalLayout_75.setContentsMargins(0, 0, 0, 0)
+        self.btn_color_orange = QPushButton(self.frame_accent_orange)
+        self.btn_color_orange.setObjectName(u"btn_color_orange")
+        self.btn_color_orange.setMaximumSize(QSize(24, 24))
+        self.btn_color_orange.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_color_orange.setStyleSheet(u"QPushButton{\n"
+"	background-color: #F6821B;\n"
+"	border: 0px solid;\n"
+"	border-radius: 12px;\n"
+"}")
+
+        self.verticalLayout_75.addWidget(self.btn_color_orange)
+
+
+        self.horizontalLayout_35.addWidget(self.frame_accent_orange)
+
+        self.frame_accent_green = QFrame(self.frame_accent_color)
+        self.frame_accent_green.setObjectName(u"frame_accent_green")
+        self.frame_accent_green.setMaximumSize(QSize(24, 24))
+        self.frame_accent_green.setFrameShape(QFrame.NoFrame)
+        self.frame_accent_green.setFrameShadow(QFrame.Raised)
+        self.frame_accent_green.setLineWidth(0)
+        self.verticalLayout_70 = QVBoxLayout(self.frame_accent_green)
+        self.verticalLayout_70.setSpacing(0)
+        self.verticalLayout_70.setObjectName(u"verticalLayout_70")
+        self.verticalLayout_70.setContentsMargins(0, 0, 0, 0)
+        self.btn_color_green = QPushButton(self.frame_accent_green)
+        self.btn_color_green.setObjectName(u"btn_color_green")
+        self.btn_color_green.setMaximumSize(QSize(24, 24))
+        self.btn_color_green.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_color_green.setStyleSheet(u"QPushButton{\n"
+"	background-color: #62BA46;\n"
+"	border: 0px solid;\n"
+"	border-radius: 12px;\n"
+"}")
+
+        self.verticalLayout_70.addWidget(self.btn_color_green)
+
+
+        self.horizontalLayout_35.addWidget(self.frame_accent_green)
+
+        self.frame_accent_gray = QFrame(self.frame_accent_color)
+        self.frame_accent_gray.setObjectName(u"frame_accent_gray")
+        self.frame_accent_gray.setMaximumSize(QSize(24, 24))
+        self.frame_accent_gray.setFrameShape(QFrame.NoFrame)
+        self.frame_accent_gray.setFrameShadow(QFrame.Raised)
+        self.frame_accent_gray.setLineWidth(0)
+        self.verticalLayout_71 = QVBoxLayout(self.frame_accent_gray)
+        self.verticalLayout_71.setSpacing(0)
+        self.verticalLayout_71.setObjectName(u"verticalLayout_71")
+        self.verticalLayout_71.setContentsMargins(0, 0, 0, 0)
+        self.btn_color_gray = QPushButton(self.frame_accent_gray)
+        self.btn_color_gray.setObjectName(u"btn_color_gray")
+        self.btn_color_gray.setMaximumSize(QSize(24, 24))
+        self.btn_color_gray.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_color_gray.setStyleSheet(u"QPushButton{\n"
+"	background-color: #8B8C8C;\n"
+"	border: 0px solid;\n"
+"	border-radius: 12px;\n"
+"}")
+
+        self.verticalLayout_71.addWidget(self.btn_color_gray)
+
+
+        self.horizontalLayout_35.addWidget(self.frame_accent_gray)
+
+        self.frame_accent_green.raise_()
+        self.frame_accent_gray.raise_()
+        self.frame_accent_pink.raise_()
+        self.frame_accent_orange.raise_()
+        self.frame_lb_accent_color.raise_()
+        self.frame_accent_violet.raise_()
+        self.frame_accent_blue.raise_()
+
+        self.horizontalLayout_33.addWidget(self.frame_accent_color)
+
+        self.frame_language = QFrame(self.frame_setting_bottom)
+        self.frame_language.setObjectName(u"frame_language")
+        self.frame_language.setMinimumSize(QSize(180, 0))
+        self.frame_language.setStyleSheet(u"QFrame#frame_language{\n"
+"	background-color: rgb(255, 255, 255);\n"
+"	border-radius: 20px;\n"
+"}")
+        self.frame_language.setFrameShape(QFrame.NoFrame)
+        self.frame_language.setFrameShadow(QFrame.Raised)
+        self.frame_language.setLineWidth(0)
+        self.horizontalLayout_34 = QHBoxLayout(self.frame_language)
+        self.horizontalLayout_34.setSpacing(19)
+        self.horizontalLayout_34.setObjectName(u"horizontalLayout_34")
+        self.horizontalLayout_34.setContentsMargins(39, 24, 39, 24)
+        self.frame_cb_language = QFrame(self.frame_language)
+        self.frame_cb_language.setObjectName(u"frame_cb_language")
+        font23 = QFont()
+        font23.setKerning(True)
+        self.frame_cb_language.setFont(font23)
+        self.frame_cb_language.setFrameShape(QFrame.NoFrame)
+        self.frame_cb_language.setFrameShadow(QFrame.Raised)
+        self.frame_cb_language.setLineWidth(0)
+        self.verticalLayout_67 = QVBoxLayout(self.frame_cb_language)
+        self.verticalLayout_67.setSpacing(0)
+        self.verticalLayout_67.setObjectName(u"verticalLayout_67")
+        self.verticalLayout_67.setContentsMargins(0, 0, 0, 0)
+        self.cb_language = ToggleButton(self.frame_cb_language)
+        self.cb_language.setObjectName(u"cb_language")
+        self.cb_language.setCursor(QCursor(Qt.PointingHandCursor))
+        self.cb_language.setCheckable(True)
+        self.cb_language.setTristate(False)
+
+        self.verticalLayout_67.addWidget(self.cb_language, 0, Qt.AlignLeft)
+
+
+        self.horizontalLayout_34.addWidget(self.frame_cb_language, 0, Qt.AlignLeft)
+
+        self.frame_lb_language = QFrame(self.frame_language)
+        self.frame_lb_language.setObjectName(u"frame_lb_language")
+        self.frame_lb_language.setFrameShape(QFrame.NoFrame)
+        self.frame_lb_language.setFrameShadow(QFrame.Raised)
+        self.frame_lb_language.setLineWidth(0)
+        self.verticalLayout_68 = QVBoxLayout(self.frame_lb_language)
+        self.verticalLayout_68.setSpacing(0)
+        self.verticalLayout_68.setObjectName(u"verticalLayout_68")
+        self.verticalLayout_68.setContentsMargins(0, 0, 0, 0)
+        self.lb_language = QLabel(self.frame_lb_language)
+        self.lb_language.setObjectName(u"lb_language")
+        self.lb_language.setFont(font6)
+        self.lb_language.setLineWidth(0)
+
+        self.verticalLayout_68.addWidget(self.lb_language)
+
+
+        self.horizontalLayout_34.addWidget(self.frame_lb_language)
+
+
+        self.horizontalLayout_33.addWidget(self.frame_language)
+
+
+        self.verticalLayout_66.addWidget(self.frame_setting_bottom)
+
+
+        self.verticalLayout_12.addWidget(self.frame_setting)
 
         self.stackedWidget.addWidget(self.frame_index_2)
 
@@ -2171,8 +3290,41 @@ class Ui_MainWindow(object):
         self.lb_temperature_text.setText(QCoreApplication.translate("MainWindow", u"20\u00b0C", None))
         self.lb_humidnity.setText(QCoreApplication.translate("MainWindow", u"Humidnity", None))
         self.btn_humidnity.setText("")
-        self.lb_humid_text.setText(QCoreApplication.translate("MainWindow", u"19%", None))
+        self.lb_humid_text.setText(QCoreApplication.translate("MainWindow", u"52%", None))
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"Activity Page", None))
-        self.label_3.setText(QCoreApplication.translate("MainWindow", u"Setting Page", None))
+        self.lb_avatar_image.setText("")
+        self.btn_upload_cover.setText(QCoreApplication.translate("MainWindow", u"   Upload Cover", None))
+        self.btn_change.setText(QCoreApplication.translate("MainWindow", u"Change", None))
+        self.btn_delete.setText(QCoreApplication.translate("MainWindow", u"Delete", None))
+        self.lb_username_inf.setText(QCoreApplication.translate("MainWindow", u"Mai Huynh Tuan Vu", None))
+        self.lb_user_des.setText(QCoreApplication.translate("MainWindow", u"Mobile Developer", None))
+        self.btn_user_location.setText(QCoreApplication.translate("MainWindow", u" Ho Chi Minh City", None))
+        self.lb_name_1.setText(QCoreApplication.translate("MainWindow", u"Name", None))
+        self.lb_name_2.setText(QCoreApplication.translate("MainWindow", u"Mai Huynh Tuan Vu", None))
+        self.btn_edit_1.setText("")
+        self.lb_des_2.setText(QCoreApplication.translate("MainWindow", u"Description", None))
+        self.lb_des_3.setText(QCoreApplication.translate("MainWindow", u"Mobile Developer", None))
+        self.btn_edit_2.setText("")
+        self.lb_email_1.setText(QCoreApplication.translate("MainWindow", u"Email", None))
+        self.lb_email_2.setText(QCoreApplication.translate("MainWindow", u"tuanvux01@gmail.com", None))
+        self.btn_edit_3.setText("")
+        self.lb_phone_1.setText(QCoreApplication.translate("MainWindow", u"Phone number", None))
+        self.lb_phone_2.setText(QCoreApplication.translate("MainWindow", u"+84 335 292 606", None))
+        self.btn_edit_4.setText("")
+        self.lb_password_1.setText(QCoreApplication.translate("MainWindow", u"Password", None))
+        self.lb_password_2.setText(QCoreApplication.translate("MainWindow", u"***********", None))
+        self.btn_edit_5.setText("")
+        self.lb_url_1.setText(QCoreApplication.translate("MainWindow", u"URL", None))
+        self.lb_url_2.setText(QCoreApplication.translate("MainWindow", u"https://github.com/raus98", None))
+        self.btn_edit_6.setText("")
+        self.lb_accent_color.setText(QCoreApplication.translate("MainWindow", u"Accent color:", None))
+        self.btn_color_blue.setText("")
+        self.btn_color_violet.setText("")
+        self.btn_color_pink.setText("")
+        self.btn_color_orange.setText("")
+        self.btn_color_green.setText("")
+        self.btn_color_gray.setText("")
+        self.cb_language.setText("")
+        self.lb_language.setText(QCoreApplication.translate("MainWindow", u"ENG", None))
     # retranslateUi
 
