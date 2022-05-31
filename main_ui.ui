@@ -606,7 +606,7 @@ QPushButton:hover {
                <property name="font">
                 <font>
                  <family>Segoe UI Semibold</family>
-                 <pointsize>12</pointsize>
+                 <pointsize>-1</pointsize>
                  <weight>75</weight>
                  <bold>true</bold>
                 </font>
@@ -618,9 +618,19 @@ QPushButton:hover {
                 <string notr="true">QPushButton{
 	text-align: left;
 	color: rgb(163, 174, 208);
+	font-size: 15px;
 	padding-left:11px;
 	border: 0px solid;
 }
+
+QPushButton:hover{
+	text-align: left;
+	color: rgb(163, 174, 208);
+	font-size: 16px;
+	padding-left:11px;
+	border: 0px solid;
+}
+
 </string>
                </property>
                <property name="text">
@@ -747,7 +757,7 @@ access to all features!</string>
        <number>0</number>
       </property>
       <property name="currentIndex">
-       <number>2</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="frame_index_0">
        <property name="styleSheet">
@@ -887,7 +897,7 @@ access to all features!</string>
                     <number>0</number>
                    </property>
                    <property name="text">
-                    <string>Good Morning, Raus</string>
+                    <string>Good Morning, Mai Huynh Tuan Vu</string>
                    </property>
                   </widget>
                  </item>
@@ -5380,7 +5390,7 @@ border-radius: 20px;</string>
                     </property>
                     <layout class="QHBoxLayout" name="horizontalLayout_37">
                      <property name="spacing">
-                      <number>5</number>
+                      <number>15</number>
                      </property>
                      <property name="leftMargin">
                       <number>0</number>
@@ -5467,7 +5477,7 @@ border-radius: 20px;</string>
                            <number>0</number>
                           </property>
                           <property name="text">
-                           <string>Mobile Developer</string>
+                           <string>UI/UX Designer@spotify</string>
                           </property>
                           <property name="scaledContents">
                            <bool>true</bool>
@@ -5691,6 +5701,9 @@ border-radius: 20px;</string>
                            <bold>true</bold>
                           </font>
                          </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: #454555;</string>
+                         </property>
                          <property name="lineWidth">
                           <number>0</number>
                          </property>
@@ -5743,6 +5756,9 @@ border-radius: 20px;</string>
                            <weight>75</weight>
                            <bold>true</bold>
                           </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: #454555;</string>
                          </property>
                          <property name="lineWidth">
                           <number>0</number>
@@ -5930,6 +5946,9 @@ border-radius: 20px;</string>
                            <bold>true</bold>
                           </font>
                          </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: #454555;</string>
+                         </property>
                          <property name="lineWidth">
                           <number>0</number>
                          </property>
@@ -5983,11 +6002,14 @@ border-radius: 20px;</string>
                            <bold>true</bold>
                           </font>
                          </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: #454555;</string>
+                         </property>
                          <property name="lineWidth">
                           <number>0</number>
                          </property>
                          <property name="text">
-                          <string>Mobile Developer</string>
+                          <string>UI/UX Designer@spotify</string>
                          </property>
                         </widget>
                        </item>
@@ -6169,6 +6191,9 @@ border-radius: 20px;</string>
                            <bold>true</bold>
                           </font>
                          </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: #454555;</string>
+                         </property>
                          <property name="lineWidth">
                           <number>0</number>
                          </property>
@@ -6221,6 +6246,9 @@ border-radius: 20px;</string>
                            <weight>75</weight>
                            <bold>true</bold>
                           </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: #454555;</string>
                          </property>
                          <property name="lineWidth">
                           <number>0</number>
@@ -6408,6 +6436,9 @@ border-radius: 20px;</string>
                            <bold>true</bold>
                           </font>
                          </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: #454555;</string>
+                         </property>
                          <property name="lineWidth">
                           <number>0</number>
                          </property>
@@ -6460,6 +6491,9 @@ border-radius: 20px;</string>
                            <weight>75</weight>
                            <bold>true</bold>
                           </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: #454555;</string>
                          </property>
                          <property name="lineWidth">
                           <number>0</number>
@@ -6647,6 +6681,9 @@ border-radius: 20px;</string>
                            <bold>true</bold>
                           </font>
                          </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: #454555;</string>
+                         </property>
                          <property name="lineWidth">
                           <number>0</number>
                          </property>
@@ -6699,6 +6736,9 @@ border-radius: 20px;</string>
                            <weight>75</weight>
                            <bold>true</bold>
                           </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: #454555;</string>
                          </property>
                          <property name="lineWidth">
                           <number>0</number>
@@ -6885,6 +6925,9 @@ border-radius: 20px;</string>
                            <bold>true</bold>
                           </font>
                          </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: #454555;</string>
+                         </property>
                          <property name="lineWidth">
                           <number>0</number>
                          </property>
@@ -6937,6 +6980,9 @@ border-radius: 20px;</string>
                            <weight>75</weight>
                            <bold>true</bold>
                           </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: #454555;</string>
                          </property>
                          <property name="lineWidth">
                           <number>0</number>
@@ -7266,6 +7312,10 @@ border-radius: 20px;</string>
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="icon">
+                       <iconset>
+                        <normaloff>icon/accentColor/violetDot.png</normaloff>icon/accentColor/violetDot.png</iconset>
+                      </property>
                      </widget>
                     </item>
                    </layout>
@@ -7588,22 +7638,6 @@ border-radius: 20px;</string>
                     <property name="bottomMargin">
                      <number>0</number>
                     </property>
-                    <item alignment="Qt::AlignLeft">
-                     <widget class="ToggleButton" name="cb_language">
-                      <property name="cursor">
-                       <cursorShape>PointingHandCursor</cursorShape>
-                      </property>
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checkable">
-                       <bool>true</bool>
-                      </property>
-                      <property name="tristate">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
                    </layout>
                   </widget>
                  </item>

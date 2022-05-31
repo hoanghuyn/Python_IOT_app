@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'log_inkeNSoc.ui'
+## Form generated from reading UI file 'log_inGBxgiF.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -22,6 +22,7 @@ class Ui_log_in_dialog(object):
         log_in_dialog.setMaximumSize(QSize(1000, 700))
         log_in_dialog.setStyleSheet(u"QDialog#log_in_dialog{\n"
 "	background-color: #ffffff;\n"
+"	border-radius: 8px;\n"
 "}")
         self.horizontalLayout = QHBoxLayout(log_in_dialog)
         self.horizontalLayout.setSpacing(120)
@@ -175,7 +176,7 @@ class Ui_log_in_dialog(object):
 "border: 1px solid #E2E6E9;\n"
 "\n"
 "border-radius: 8px;")
-        self.lineEdit_email.setCursorPosition(5)
+        self.lineEdit_email.setCursorPosition(0)
         self.lineEdit_email.setClearButtonEnabled(False)
 
         self.verticalLayout_10.addWidget(self.lineEdit_email)
@@ -529,17 +530,63 @@ class Ui_log_in_dialog(object):
         self.frame_sign_in_right.setFrameShape(QFrame.NoFrame)
         self.frame_sign_in_right.setFrameShadow(QFrame.Raised)
         self.frame_sign_in_right.setLineWidth(0)
-        self.verticalLayout_18 = QVBoxLayout(self.frame_sign_in_right)
+        self.verticalLayout_7 = QVBoxLayout(self.frame_sign_in_right)
+        self.verticalLayout_7.setSpacing(0)
+        self.verticalLayout_7.setObjectName(u"verticalLayout_7")
+        self.verticalLayout_7.setContentsMargins(0, 0, 0, 0)
+        self.frame_cloe_login_page = QFrame(self.frame_sign_in_right)
+        self.frame_cloe_login_page.setObjectName(u"frame_cloe_login_page")
+        self.frame_cloe_login_page.setMinimumSize(QSize(50, 30))
+        self.frame_cloe_login_page.setMaximumSize(QSize(70, 50))
+        self.frame_cloe_login_page.setLayoutDirection(Qt.RightToLeft)
+        self.frame_cloe_login_page.setFrameShape(QFrame.StyledPanel)
+        self.frame_cloe_login_page.setFrameShadow(QFrame.Raised)
+        self.frame_cloe_login_page.setLineWidth(0)
+        self.verticalLayout_18 = QVBoxLayout(self.frame_cloe_login_page)
         self.verticalLayout_18.setSpacing(0)
         self.verticalLayout_18.setObjectName(u"verticalLayout_18")
-        self.verticalLayout_18.setContentsMargins(0, 0, 0, 0)
-        self.lb_image_wallet = QLabel(self.frame_sign_in_right)
+        self.verticalLayout_18.setContentsMargins(0, 0, 10, 0)
+        self.btn_close_login_page = QPushButton(self.frame_cloe_login_page)
+        self.btn_close_login_page.setObjectName(u"btn_close_login_page")
+        self.btn_close_login_page.setMinimumSize(QSize(30, 30))
+        self.btn_close_login_page.setMaximumSize(QSize(30, 30))
+        self.btn_close_login_page.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_close_login_page.setStyleSheet(u"QPushButton{\n"
+"background-color: #BBA1E3;\n"
+"border: 0px solid;\n"
+"border- radius: 5px;\n"
+"}\n"
+"")
+        icon1 = QIcon()
+        icon1.addFile(u"icon/close.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_close_login_page.setIcon(icon1)
+        self.btn_close_login_page.setIconSize(QSize(14, 14))
+
+        self.verticalLayout_18.addWidget(self.btn_close_login_page)
+
+
+        self.verticalLayout_7.addWidget(self.frame_cloe_login_page)
+
+        self.frame_image_wallet = QFrame(self.frame_sign_in_right)
+        self.frame_image_wallet.setObjectName(u"frame_image_wallet")
+        self.frame_image_wallet.setFrameShape(QFrame.StyledPanel)
+        self.frame_image_wallet.setFrameShadow(QFrame.Raised)
+        self.frame_image_wallet.setLineWidth(0)
+        self.verticalLayout_19 = QVBoxLayout(self.frame_image_wallet)
+        self.verticalLayout_19.setSpacing(0)
+        self.verticalLayout_19.setObjectName(u"verticalLayout_19")
+        self.verticalLayout_19.setContentsMargins(0, 20, 0, 0)
+        self.lb_image_wallet = QLabel(self.frame_image_wallet)
         self.lb_image_wallet.setObjectName(u"lb_image_wallet")
         self.lb_image_wallet.setLineWidth(0)
         self.lb_image_wallet.setPixmap(QPixmap(u"icon/Picture1-removebg-preview.png"))
         self.lb_image_wallet.setScaledContents(False)
+        self.lb_image_wallet.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
 
-        self.verticalLayout_18.addWidget(self.lb_image_wallet)
+        self.verticalLayout_19.addWidget(self.lb_image_wallet)
+
+
+        self.verticalLayout_7.addWidget(self.frame_image_wallet)
 
 
         self.horizontalLayout.addWidget(self.frame_sign_in_right)
@@ -565,6 +612,7 @@ class Ui_log_in_dialog(object):
         self.btn_sign_in_with_google.setText(QCoreApplication.translate("log_in_dialog", u" Sign in with Google", None))
         self.lb_did_u_have.setText(QCoreApplication.translate("log_in_dialog", u"Don't have an account?", None))
         self.btn_sign_up_suggest.setText(QCoreApplication.translate("log_in_dialog", u"Sign up", None))
+        self.btn_close_login_page.setText("")
         self.lb_image_wallet.setText("")
     # retranslateUi
 
