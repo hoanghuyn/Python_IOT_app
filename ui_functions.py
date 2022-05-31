@@ -9,7 +9,7 @@ from PySide2.QtWidgets import *
 
 
 
-class UIFunctions(MainWindow):
+class UIFunctions(QMainWindow):
     def currentButton(self, currentIndex, enable):
         index = currentIndex
         btn_style_normal = """
@@ -272,7 +272,7 @@ class UIFunctions(MainWindow):
             self.ui.lb_language.setText("VIE")
                     
 
-
+    
 
 
 
