@@ -135,7 +135,6 @@ class UIFunctions(MainWindow):
 
         if enable:
             if index == 0:
-                
                 self.ui.lb_tv.setStyleSheet(text_style_active)
                 self.ui.btn_televison.setStyleSheet(circle_style_active)
                 self.ui.btn_televison.setIcon(QIcon('icon/television_violet.png'))
@@ -185,6 +184,98 @@ class UIFunctions(MainWindow):
                 self.ui.btn_wifi.setStyleSheet(circle_style_disable)
                 self.ui.btn_wifi.setIcon(QIcon('icon/wifi_white.png'))
                 print("Wifi: Off")
-    
+    def accentButtonEvent(self, index, listEv : list):     
+        if index == 0:
+            if listEv[0] == False:
+                for i in range(0, 6):
+                    listEv[i] = False
+                listEv[0] = True
+            else:
+                for i in range(0, 6):
+                    listEv[i] = False
+        elif index == 1:
+            if listEv[1] == False:
+                for i in range(0, 6):
+                    listEv[i] = False
+                listEv[1] = True
+            else:
+                for i in range(0, 6):
+                    listEv[i] = False
+        elif index == 2:
+            if listEv[2] == False:
+                for i in range(0, 6):
+                    listEv[i] = False
+                listEv[2] = True
+            else:
+                for i in range(0, 6):
+                    listEv[i] = False
+        elif index == 3:
+            if listEv[3] == False:
+                for i in range(0, 6):
+                    listEv[i] = False
+                listEv[3] = True
+            else:
+                for i in range(0, 6):
+                    listEv[i] = False
+        elif index == 4:
+            if listEv[4] == False:
+                for i in range(0, 6):
+                    listEv[i] = False
+                listEv[4] = True
+            else:
+                for i in range(0, 6):
+                    listEv[i] = False
+        else:
+            if listEv[5] == False:
+                for i in range(0, 6):
+                    listEv[i] = False
+                listEv[5] = True
+            else:
+                for i in range(0, 6):
+                    listEv[i] = False
+        
+        if listEv[0]:
+            self.ui.btn_color_blue.setIcon(QIcon('icon/accentColor/blueDot.png'))
+            print("Accent Color: Blue")
+        else:
+            self.ui.btn_color_blue.setIcon(QIcon('icon/accentColor/blue.png'))
+        if listEv[1]:
+            self.ui.btn_color_violet.setIcon(QIcon('icon/accentColor/violetDot.png'))
+            print("Accent Color: Violet")
+        else:
+            self.ui.btn_color_violet.setIcon(QIcon('icon/accentColor/violet.png'))
+        if listEv[2]:
+            self.ui.btn_color_pink.setIcon(QIcon('icon/accentColor/pinkDot.png'))
+            print("Accent Color: Pink")
+        else:
+            self.ui.btn_color_pink.setIcon(QIcon('icon/accentColor/pink.png'))
+        if listEv[3]:
+            self.ui.btn_color_orange.setIcon(QIcon('icon/accentColor/orangeDot.png'))
+            print("Accent Color: Orange")
+        else:
+            self.ui.btn_color_orange.setIcon(QIcon('icon/accentColor/orange.png'))
+        if listEv[4]:
+            self.ui.btn_color_green.setIcon(QIcon('icon/accentColor/greenDot.png'))
+            print("Accent Color: Green")
+        else:
+            self.ui.btn_color_green.setIcon(QIcon('icon/accentColor/green.png'))
+        if listEv[5]:
+            self.ui.btn_color_gray.setIcon(QIcon('icon/accentColor/grayDot.png'))
+            print("Accent Color: Gray")
+        else:
+            self.ui.btn_color_gray.setIcon(QIcon('icon/accentColor/gray.png'))
+
+    def cbLanguageCheck(self, isChecked):
+        if isChecked:
+            self.ui.lb_language.setText("ENG")
+        else:
+            self.ui.lb_language.setText("VIE")
+                    
+
+
+
+
+
+
 
 
