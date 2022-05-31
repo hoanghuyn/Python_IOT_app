@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'log_inVPSaYx.ui'
+## Form generated from reading UI file 'log_inkeNSoc.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -13,42 +13,42 @@ from PySide2.QtGui import *
 from PySide2.QtWidgets import *
 
 
-class Ui_form_sign_up(object):
-    def setupUi(self, form_sign_up):
-        if not form_sign_up.objectName():
-            form_sign_up.setObjectName(u"form_sign_up")
-        form_sign_up.resize(1000, 700)
-        form_sign_up.setMinimumSize(QSize(1000, 700))
-        form_sign_up.setMaximumSize(QSize(1000, 700))
-        form_sign_up.setStyleSheet(u"QWidget#form_sign_up{\n"
+class Ui_log_in_dialog(object):
+    def setupUi(self, log_in_dialog):
+        if not log_in_dialog.objectName():
+            log_in_dialog.setObjectName(u"log_in_dialog")
+        log_in_dialog.resize(1000, 700)
+        log_in_dialog.setMinimumSize(QSize(1000, 700))
+        log_in_dialog.setMaximumSize(QSize(1000, 700))
+        log_in_dialog.setStyleSheet(u"QDialog#log_in_dialog{\n"
 "	background-color: #ffffff;\n"
 "}")
-        self.horizontalLayout = QHBoxLayout(form_sign_up)
+        self.horizontalLayout = QHBoxLayout(log_in_dialog)
         self.horizontalLayout.setSpacing(120)
         self.horizontalLayout.setObjectName(u"horizontalLayout")
         self.horizontalLayout.setContentsMargins(120, 0, 0, 0)
-        self.frame_sign_up_left = QFrame(form_sign_up)
-        self.frame_sign_up_left.setObjectName(u"frame_sign_up_left")
+        self.frame_sign_in_left = QFrame(log_in_dialog)
+        self.frame_sign_in_left.setObjectName(u"frame_sign_in_left")
         font = QFont()
         font.setFamily(u"Segoe UI")
-        self.frame_sign_up_left.setFont(font)
-        self.frame_sign_up_left.setFrameShape(QFrame.NoFrame)
-        self.frame_sign_up_left.setFrameShadow(QFrame.Raised)
-        self.frame_sign_up_left.setLineWidth(0)
-        self.verticalLayout_4 = QVBoxLayout(self.frame_sign_up_left)
+        self.frame_sign_in_left.setFont(font)
+        self.frame_sign_in_left.setFrameShape(QFrame.NoFrame)
+        self.frame_sign_in_left.setFrameShadow(QFrame.Raised)
+        self.frame_sign_in_left.setLineWidth(0)
+        self.verticalLayout_4 = QVBoxLayout(self.frame_sign_in_left)
         self.verticalLayout_4.setSpacing(0)
         self.verticalLayout_4.setObjectName(u"verticalLayout_4")
         self.verticalLayout_4.setContentsMargins(0, 135, 0, 135)
-        self.frame_sign_up_left_1 = QFrame(self.frame_sign_up_left)
-        self.frame_sign_up_left_1.setObjectName(u"frame_sign_up_left_1")
-        self.frame_sign_up_left_1.setFrameShape(QFrame.NoFrame)
-        self.frame_sign_up_left_1.setFrameShadow(QFrame.Raised)
-        self.frame_sign_up_left_1.setLineWidth(0)
-        self.verticalLayout = QVBoxLayout(self.frame_sign_up_left_1)
+        self.frame_sign_in_left_1 = QFrame(self.frame_sign_in_left)
+        self.frame_sign_in_left_1.setObjectName(u"frame_sign_in_left_1")
+        self.frame_sign_in_left_1.setFrameShape(QFrame.NoFrame)
+        self.frame_sign_in_left_1.setFrameShadow(QFrame.Raised)
+        self.frame_sign_in_left_1.setLineWidth(0)
+        self.verticalLayout = QVBoxLayout(self.frame_sign_in_left_1)
         self.verticalLayout.setSpacing(0)
         self.verticalLayout.setObjectName(u"verticalLayout")
         self.verticalLayout.setContentsMargins(0, 0, 0, 10)
-        self.frame_title = QFrame(self.frame_sign_up_left_1)
+        self.frame_title = QFrame(self.frame_sign_in_left_1)
         self.frame_title.setObjectName(u"frame_title")
         self.frame_title.setFrameShape(QFrame.StyledPanel)
         self.frame_title.setFrameShadow(QFrame.Raised)
@@ -80,7 +80,7 @@ class Ui_form_sign_up(object):
 
         self.verticalLayout.addWidget(self.frame_title, 0, Qt.AlignTop)
 
-        self.frame_des = QFrame(self.frame_sign_up_left_1)
+        self.frame_des = QFrame(self.frame_sign_in_left_1)
         self.frame_des.setObjectName(u"frame_des")
         self.frame_des.setFrameShape(QFrame.StyledPanel)
         self.frame_des.setFrameShadow(QFrame.Raised)
@@ -111,18 +111,18 @@ class Ui_form_sign_up(object):
         self.verticalLayout.addWidget(self.frame_des, 0, Qt.AlignTop)
 
 
-        self.verticalLayout_4.addWidget(self.frame_sign_up_left_1, 0, Qt.AlignTop)
+        self.verticalLayout_4.addWidget(self.frame_sign_in_left_1, 0, Qt.AlignTop)
 
-        self.frame_sign_up_left_3 = QFrame(self.frame_sign_up_left)
-        self.frame_sign_up_left_3.setObjectName(u"frame_sign_up_left_3")
-        self.frame_sign_up_left_3.setFrameShape(QFrame.NoFrame)
-        self.frame_sign_up_left_3.setFrameShadow(QFrame.Raised)
-        self.frame_sign_up_left_3.setLineWidth(0)
-        self.verticalLayout_8 = QVBoxLayout(self.frame_sign_up_left_3)
+        self.frame_sign_in_left_3 = QFrame(self.frame_sign_in_left)
+        self.frame_sign_in_left_3.setObjectName(u"frame_sign_in_left_3")
+        self.frame_sign_in_left_3.setFrameShape(QFrame.NoFrame)
+        self.frame_sign_in_left_3.setFrameShadow(QFrame.Raised)
+        self.frame_sign_in_left_3.setLineWidth(0)
+        self.verticalLayout_8 = QVBoxLayout(self.frame_sign_in_left_3)
         self.verticalLayout_8.setSpacing(3)
         self.verticalLayout_8.setObjectName(u"verticalLayout_8")
         self.verticalLayout_8.setContentsMargins(0, 10, 0, 3)
-        self.frame_lb_email = QFrame(self.frame_sign_up_left_3)
+        self.frame_lb_email = QFrame(self.frame_sign_in_left_3)
         self.frame_lb_email.setObjectName(u"frame_lb_email")
         self.frame_lb_email.setFrameShape(QFrame.NoFrame)
         self.frame_lb_email.setFrameShadow(QFrame.Raised)
@@ -155,7 +155,7 @@ class Ui_form_sign_up(object):
 
         self.verticalLayout_8.addWidget(self.frame_lb_email)
 
-        self.frame_edit_email = QFrame(self.frame_sign_up_left_3)
+        self.frame_edit_email = QFrame(self.frame_sign_in_left_3)
         self.frame_edit_email.setObjectName(u"frame_edit_email")
         self.frame_edit_email.setFrameShape(QFrame.NoFrame)
         self.frame_edit_email.setFrameShadow(QFrame.Raised)
@@ -166,16 +166,17 @@ class Ui_form_sign_up(object):
         self.verticalLayout_10.setContentsMargins(0, 0, 0, 0)
         self.lineEdit_email = QLineEdit(self.frame_edit_email)
         self.lineEdit_email.setObjectName(u"lineEdit_email")
-        self.lineEdit_email.setStyleSheet(u"box-sizing: border-box;\n"
-"\n"
+        self.lineEdit_email.setStyleSheet(u"\n"
 "position: absolute;\n"
 "width: 260px;\n"
 "height: 40px;\n"
 "\n"
 "background: #FFFFFF;\n"
 "border: 1px solid #E2E6E9;\n"
-"box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.02);\n"
+"\n"
 "border-radius: 8px;")
+        self.lineEdit_email.setCursorPosition(5)
+        self.lineEdit_email.setClearButtonEnabled(False)
 
         self.verticalLayout_10.addWidget(self.lineEdit_email)
 
@@ -183,18 +184,18 @@ class Ui_form_sign_up(object):
         self.verticalLayout_8.addWidget(self.frame_edit_email)
 
 
-        self.verticalLayout_4.addWidget(self.frame_sign_up_left_3)
+        self.verticalLayout_4.addWidget(self.frame_sign_in_left_3)
 
-        self.frame_sign_up_left_4 = QFrame(self.frame_sign_up_left)
-        self.frame_sign_up_left_4.setObjectName(u"frame_sign_up_left_4")
-        self.frame_sign_up_left_4.setFrameShape(QFrame.NoFrame)
-        self.frame_sign_up_left_4.setFrameShadow(QFrame.Raised)
-        self.frame_sign_up_left_4.setLineWidth(0)
-        self.verticalLayout_11 = QVBoxLayout(self.frame_sign_up_left_4)
+        self.frame_sign_in_left_4 = QFrame(self.frame_sign_in_left)
+        self.frame_sign_in_left_4.setObjectName(u"frame_sign_in_left_4")
+        self.frame_sign_in_left_4.setFrameShape(QFrame.NoFrame)
+        self.frame_sign_in_left_4.setFrameShadow(QFrame.Raised)
+        self.frame_sign_in_left_4.setLineWidth(0)
+        self.verticalLayout_11 = QVBoxLayout(self.frame_sign_in_left_4)
         self.verticalLayout_11.setSpacing(3)
         self.verticalLayout_11.setObjectName(u"verticalLayout_11")
         self.verticalLayout_11.setContentsMargins(0, 0, 0, 0)
-        self.frame_lb_password = QFrame(self.frame_sign_up_left_4)
+        self.frame_lb_password = QFrame(self.frame_sign_in_left_4)
         self.frame_lb_password.setObjectName(u"frame_lb_password")
         self.frame_lb_password.setFrameShape(QFrame.StyledPanel)
         self.frame_lb_password.setFrameShadow(QFrame.Raised)
@@ -225,7 +226,7 @@ class Ui_form_sign_up(object):
 
         self.verticalLayout_11.addWidget(self.frame_lb_password)
 
-        self.frame_edit_password = QFrame(self.frame_sign_up_left_4)
+        self.frame_edit_password = QFrame(self.frame_sign_in_left_4)
         self.frame_edit_password.setObjectName(u"frame_edit_password")
         self.frame_edit_password.setStyleSheet(u"")
         self.frame_edit_password.setFrameShape(QFrame.StyledPanel)
@@ -237,7 +238,7 @@ class Ui_form_sign_up(object):
         self.verticalLayout_13.setContentsMargins(0, 0, 0, 0)
         self.lineEdit_password = QLineEdit(self.frame_edit_password)
         self.lineEdit_password.setObjectName(u"lineEdit_password")
-        self.lineEdit_password.setStyleSheet(u"box-sizing: border-box;\n"
+        self.lineEdit_password.setStyleSheet(u"\n"
 "\n"
 "position: absolute;\n"
 "width: 260px;\n"
@@ -245,7 +246,7 @@ class Ui_form_sign_up(object):
 "\n"
 "background: #FFFFFF;\n"
 "border: 1px solid #E2E6E9;\n"
-"box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.02);\n"
+"\n"
 "border-radius: 8px;")
 
         self.verticalLayout_13.addWidget(self.lineEdit_password)
@@ -254,9 +255,9 @@ class Ui_form_sign_up(object):
         self.verticalLayout_11.addWidget(self.frame_edit_password)
 
 
-        self.verticalLayout_4.addWidget(self.frame_sign_up_left_4)
+        self.verticalLayout_4.addWidget(self.frame_sign_in_left_4)
 
-        self.frame_remember = QFrame(self.frame_sign_up_left)
+        self.frame_remember = QFrame(self.frame_sign_in_left)
         self.frame_remember.setObjectName(u"frame_remember")
         self.frame_remember.setMaximumSize(QSize(16777215, 15))
         self.frame_remember.setFrameShape(QFrame.NoFrame)
@@ -278,8 +279,7 @@ class Ui_form_sign_up(object):
         self.cb_checkBox = QCheckBox(self.frame_cb_remember)
         self.cb_checkBox.setObjectName(u"cb_checkBox")
         self.cb_checkBox.setFont(font)
-        self.cb_checkBox.setStyleSheet(u"box-sizing: border-box;\n"
-"\n"
+        self.cb_checkBox.setStyleSheet(u"\n"
 "position: absolute;\n"
 "width: 11px;\n"
 "height: 11px;\n"
@@ -335,21 +335,21 @@ class Ui_form_sign_up(object):
 
         self.verticalLayout_4.addWidget(self.frame_remember, 0, Qt.AlignVCenter)
 
-        self.frame_sign_up_left_5 = QFrame(self.frame_sign_up_left)
-        self.frame_sign_up_left_5.setObjectName(u"frame_sign_up_left_5")
-        self.frame_sign_up_left_5.setFrameShape(QFrame.NoFrame)
-        self.frame_sign_up_left_5.setFrameShadow(QFrame.Raised)
-        self.frame_sign_up_left_5.setLineWidth(0)
-        self.verticalLayout_14 = QVBoxLayout(self.frame_sign_up_left_5)
+        self.frame_sign_in_left_5 = QFrame(self.frame_sign_in_left)
+        self.frame_sign_in_left_5.setObjectName(u"frame_sign_in_left_5")
+        self.frame_sign_in_left_5.setFrameShape(QFrame.NoFrame)
+        self.frame_sign_in_left_5.setFrameShadow(QFrame.Raised)
+        self.frame_sign_in_left_5.setLineWidth(0)
+        self.verticalLayout_14 = QVBoxLayout(self.frame_sign_in_left_5)
         self.verticalLayout_14.setSpacing(0)
         self.verticalLayout_14.setObjectName(u"verticalLayout_14")
         self.verticalLayout_14.setContentsMargins(0, 0, 0, 0)
-        self.btn_create_account = QPushButton(self.frame_sign_up_left_5)
-        self.btn_create_account.setObjectName(u"btn_create_account")
-        self.btn_create_account.setFont(font1)
-        self.btn_create_account.setCursor(QCursor(Qt.PointingHandCursor))
-        self.btn_create_account.setLayoutDirection(Qt.LeftToRight)
-        self.btn_create_account.setStyleSheet(u"QPushButton{\n"
+        self.btn_sign_in = QPushButton(self.frame_sign_in_left_5)
+        self.btn_sign_in.setObjectName(u"btn_sign_in")
+        self.btn_sign_in.setFont(font1)
+        self.btn_sign_in.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_sign_in.setLayoutDirection(Qt.LeftToRight)
+        self.btn_sign_in.setStyleSheet(u"QPushButton{\n"
 "position: absolute;\n"
 "width: 260px;\n"
 "height: 40px;\n"
@@ -383,32 +383,32 @@ class Ui_form_sign_up(object):
 "color: #FFF6FF;\n"
 "}")
 
-        self.verticalLayout_14.addWidget(self.btn_create_account)
+        self.verticalLayout_14.addWidget(self.btn_sign_in)
 
 
-        self.verticalLayout_4.addWidget(self.frame_sign_up_left_5)
+        self.verticalLayout_4.addWidget(self.frame_sign_in_left_5)
 
-        self.frame_sign_up_left_6 = QFrame(self.frame_sign_up_left)
-        self.frame_sign_up_left_6.setObjectName(u"frame_sign_up_left_6")
-        self.frame_sign_up_left_6.setFrameShape(QFrame.NoFrame)
-        self.frame_sign_up_left_6.setFrameShadow(QFrame.Raised)
-        self.frame_sign_up_left_6.setLineWidth(0)
-        self.verticalLayout_15 = QVBoxLayout(self.frame_sign_up_left_6)
+        self.frame_sign_in_left_6 = QFrame(self.frame_sign_in_left)
+        self.frame_sign_in_left_6.setObjectName(u"frame_sign_in_left_6")
+        self.frame_sign_in_left_6.setFrameShape(QFrame.NoFrame)
+        self.frame_sign_in_left_6.setFrameShadow(QFrame.Raised)
+        self.frame_sign_in_left_6.setLineWidth(0)
+        self.verticalLayout_15 = QVBoxLayout(self.frame_sign_in_left_6)
         self.verticalLayout_15.setSpacing(0)
         self.verticalLayout_15.setObjectName(u"verticalLayout_15")
         self.verticalLayout_15.setContentsMargins(0, 0, 0, 0)
-        self.btn_signup_with_google = QPushButton(self.frame_sign_up_left_6)
-        self.btn_signup_with_google.setObjectName(u"btn_signup_with_google")
+        self.btn_sign_in_with_google = QPushButton(self.frame_sign_in_left_6)
+        self.btn_sign_in_with_google.setObjectName(u"btn_sign_in_with_google")
         font3 = QFont()
         font3.setFamily(u"Segoe UI Semibold")
         font3.setPointSize(9)
         font3.setBold(True)
         font3.setWeight(75)
-        self.btn_signup_with_google.setFont(font3)
-        self.btn_signup_with_google.setCursor(QCursor(Qt.PointingHandCursor))
-        self.btn_signup_with_google.setLayoutDirection(Qt.LeftToRight)
-        self.btn_signup_with_google.setStyleSheet(u"QPushButton{\n"
-"box-sizing: border-box;\n"
+        self.btn_sign_in_with_google.setFont(font3)
+        self.btn_sign_in_with_google.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_sign_in_with_google.setLayoutDirection(Qt.LeftToRight)
+        self.btn_sign_in_with_google.setStyleSheet(u"QPushButton{\n"
+"\n"
 "\n"
 "position: absolute;\n"
 "width: 260px;\n"
@@ -420,7 +420,7 @@ class Ui_form_sign_up(object):
 "}\n"
 "\n"
 "QPushButton:hover{\n"
-"box-sizing: border-box;\n"
+"\n"
 "\n"
 "position: absolute;\n"
 "width: 260px;\n"
@@ -432,53 +432,53 @@ class Ui_form_sign_up(object):
 "}")
         icon = QIcon()
         icon.addFile(u"icon/google.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_signup_with_google.setIcon(icon)
-        self.btn_signup_with_google.setIconSize(QSize(22, 22))
+        self.btn_sign_in_with_google.setIcon(icon)
+        self.btn_sign_in_with_google.setIconSize(QSize(22, 22))
 
-        self.verticalLayout_15.addWidget(self.btn_signup_with_google)
+        self.verticalLayout_15.addWidget(self.btn_sign_in_with_google)
 
 
-        self.verticalLayout_4.addWidget(self.frame_sign_up_left_6)
+        self.verticalLayout_4.addWidget(self.frame_sign_in_left_6)
 
-        self.frame_sign_up_left_7 = QFrame(self.frame_sign_up_left)
-        self.frame_sign_up_left_7.setObjectName(u"frame_sign_up_left_7")
-        self.frame_sign_up_left_7.setStyleSheet(u"")
-        self.frame_sign_up_left_7.setFrameShape(QFrame.NoFrame)
-        self.frame_sign_up_left_7.setFrameShadow(QFrame.Raised)
-        self.frame_sign_up_left_7.setLineWidth(0)
-        self.horizontalLayout_2 = QHBoxLayout(self.frame_sign_up_left_7)
+        self.frame_sign_in_left_7 = QFrame(self.frame_sign_in_left)
+        self.frame_sign_in_left_7.setObjectName(u"frame_sign_in_left_7")
+        self.frame_sign_in_left_7.setStyleSheet(u"")
+        self.frame_sign_in_left_7.setFrameShape(QFrame.NoFrame)
+        self.frame_sign_in_left_7.setFrameShadow(QFrame.Raised)
+        self.frame_sign_in_left_7.setLineWidth(0)
+        self.horizontalLayout_2 = QHBoxLayout(self.frame_sign_in_left_7)
         self.horizontalLayout_2.setSpacing(3)
         self.horizontalLayout_2.setObjectName(u"horizontalLayout_2")
         self.horizontalLayout_2.setContentsMargins(0, 0, 15, 0)
-        self.frame_already = QFrame(self.frame_sign_up_left_7)
-        self.frame_already.setObjectName(u"frame_already")
-        self.frame_already.setMinimumSize(QSize(168, 0))
-        self.frame_already.setLayoutDirection(Qt.LeftToRight)
-        self.frame_already.setFrameShape(QFrame.NoFrame)
-        self.frame_already.setFrameShadow(QFrame.Raised)
-        self.frame_already.setLineWidth(0)
-        self.verticalLayout_16 = QVBoxLayout(self.frame_already)
+        self.frame_did_u_have = QFrame(self.frame_sign_in_left_7)
+        self.frame_did_u_have.setObjectName(u"frame_did_u_have")
+        self.frame_did_u_have.setMinimumSize(QSize(168, 0))
+        self.frame_did_u_have.setLayoutDirection(Qt.LeftToRight)
+        self.frame_did_u_have.setFrameShape(QFrame.NoFrame)
+        self.frame_did_u_have.setFrameShadow(QFrame.Raised)
+        self.frame_did_u_have.setLineWidth(0)
+        self.verticalLayout_16 = QVBoxLayout(self.frame_did_u_have)
         self.verticalLayout_16.setSpacing(0)
         self.verticalLayout_16.setObjectName(u"verticalLayout_16")
         self.verticalLayout_16.setContentsMargins(0, 0, 0, 0)
-        self.lb_already = QLabel(self.frame_already)
-        self.lb_already.setObjectName(u"lb_already")
-        self.lb_already.setFont(font2)
-        self.lb_already.setLayoutDirection(Qt.LeftToRight)
-        self.lb_already.setStyleSheet(u"\n"
+        self.lb_did_u_have = QLabel(self.frame_did_u_have)
+        self.lb_did_u_have.setObjectName(u"lb_did_u_have")
+        self.lb_did_u_have.setFont(font2)
+        self.lb_did_u_have.setLayoutDirection(Qt.LeftToRight)
+        self.lb_did_u_have.setStyleSheet(u"\n"
 "font-size: 11px;\n"
 "line-height: 12px;\n"
 "\n"
 "color: #6C7079;")
-        self.lb_already.setLineWidth(0)
-        self.lb_already.setAlignment(Qt.AlignRight|Qt.AlignTrailing|Qt.AlignVCenter)
+        self.lb_did_u_have.setLineWidth(0)
+        self.lb_did_u_have.setAlignment(Qt.AlignRight|Qt.AlignTrailing|Qt.AlignVCenter)
 
-        self.verticalLayout_16.addWidget(self.lb_already, 0, Qt.AlignRight)
+        self.verticalLayout_16.addWidget(self.lb_did_u_have, 0, Qt.AlignRight)
 
 
-        self.horizontalLayout_2.addWidget(self.frame_already, 0, Qt.AlignRight)
+        self.horizontalLayout_2.addWidget(self.frame_did_u_have, 0, Qt.AlignRight)
 
-        self.frame_logi_in_suggest = QFrame(self.frame_sign_up_left_7)
+        self.frame_logi_in_suggest = QFrame(self.frame_sign_in_left_7)
         self.frame_logi_in_suggest.setObjectName(u"frame_logi_in_suggest")
         self.frame_logi_in_suggest.setFrameShape(QFrame.StyledPanel)
         self.frame_logi_in_suggest.setFrameShadow(QFrame.Raised)
@@ -487,11 +487,11 @@ class Ui_form_sign_up(object):
         self.verticalLayout_17.setSpacing(0)
         self.verticalLayout_17.setObjectName(u"verticalLayout_17")
         self.verticalLayout_17.setContentsMargins(0, 0, 0, 0)
-        self.btn_log_in_suggest = QPushButton(self.frame_logi_in_suggest)
-        self.btn_log_in_suggest.setObjectName(u"btn_log_in_suggest")
-        self.btn_log_in_suggest.setFont(font2)
-        self.btn_log_in_suggest.setCursor(QCursor(Qt.PointingHandCursor))
-        self.btn_log_in_suggest.setStyleSheet(u"QPushButton{\n"
+        self.btn_sign_up_suggest = QPushButton(self.frame_logi_in_suggest)
+        self.btn_sign_up_suggest.setObjectName(u"btn_sign_up_suggest")
+        self.btn_sign_up_suggest.setFont(font2)
+        self.btn_sign_up_suggest.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_sign_up_suggest.setStyleSheet(u"QPushButton{\n"
 "border: 0px solid;\n"
 "\n"
 "font-size: 11px;\n"
@@ -509,31 +509,31 @@ class Ui_form_sign_up(object):
 "color: #5126B6;\n"
 "}")
 
-        self.verticalLayout_17.addWidget(self.btn_log_in_suggest, 0, Qt.AlignLeft)
+        self.verticalLayout_17.addWidget(self.btn_sign_up_suggest, 0, Qt.AlignLeft)
 
 
         self.horizontalLayout_2.addWidget(self.frame_logi_in_suggest)
 
 
-        self.verticalLayout_4.addWidget(self.frame_sign_up_left_7, 0, Qt.AlignTop)
+        self.verticalLayout_4.addWidget(self.frame_sign_in_left_7, 0, Qt.AlignTop)
 
 
-        self.horizontalLayout.addWidget(self.frame_sign_up_left)
+        self.horizontalLayout.addWidget(self.frame_sign_in_left)
 
-        self.frame_sign_up_right = QFrame(form_sign_up)
-        self.frame_sign_up_right.setObjectName(u"frame_sign_up_right")
-        self.frame_sign_up_right.setMinimumSize(QSize(500, 700))
-        self.frame_sign_up_right.setStyleSheet(u"QFrame#frame_sign_up_right{\n"
+        self.frame_sign_in_right = QFrame(log_in_dialog)
+        self.frame_sign_in_right.setObjectName(u"frame_sign_in_right")
+        self.frame_sign_in_right.setMinimumSize(QSize(500, 700))
+        self.frame_sign_in_right.setStyleSheet(u"QFrame#frame_sign_in_right{\n"
 "	background-color: #BBA1E3;\n"
 "}")
-        self.frame_sign_up_right.setFrameShape(QFrame.NoFrame)
-        self.frame_sign_up_right.setFrameShadow(QFrame.Raised)
-        self.frame_sign_up_right.setLineWidth(0)
-        self.verticalLayout_18 = QVBoxLayout(self.frame_sign_up_right)
+        self.frame_sign_in_right.setFrameShape(QFrame.NoFrame)
+        self.frame_sign_in_right.setFrameShadow(QFrame.Raised)
+        self.frame_sign_in_right.setLineWidth(0)
+        self.verticalLayout_18 = QVBoxLayout(self.frame_sign_in_right)
         self.verticalLayout_18.setSpacing(0)
         self.verticalLayout_18.setObjectName(u"verticalLayout_18")
         self.verticalLayout_18.setContentsMargins(0, 0, 0, 0)
-        self.lb_image_wallet = QLabel(self.frame_sign_up_right)
+        self.lb_image_wallet = QLabel(self.frame_sign_in_right)
         self.lb_image_wallet.setObjectName(u"lb_image_wallet")
         self.lb_image_wallet.setLineWidth(0)
         self.lb_image_wallet.setPixmap(QPixmap(u"icon/Picture1-removebg-preview.png"))
@@ -542,28 +542,29 @@ class Ui_form_sign_up(object):
         self.verticalLayout_18.addWidget(self.lb_image_wallet)
 
 
-        self.horizontalLayout.addWidget(self.frame_sign_up_right)
+        self.horizontalLayout.addWidget(self.frame_sign_in_right)
 
 
-        self.retranslateUi(form_sign_up)
+        self.retranslateUi(log_in_dialog)
 
-        QMetaObject.connectSlotsByName(form_sign_up)
+        QMetaObject.connectSlotsByName(log_in_dialog)
     # setupUi
 
-    def retranslateUi(self, form_sign_up):
-        form_sign_up.setWindowTitle(QCoreApplication.translate("form_sign_up", u"Form", None))
-        self.lb_title.setText(QCoreApplication.translate("form_sign_up", u"Welcome back", None))
-        self.lb_des.setText(QCoreApplication.translate("form_sign_up", u"Welcome back! Please enter your details", None))
-        self.lb_email.setText(QCoreApplication.translate("form_sign_up", u"Email", None))
-        self.lineEdit_email.setPlaceholderText(QCoreApplication.translate("form_sign_up", u"     Enter your email", None))
-        self.lb_password.setText(QCoreApplication.translate("form_sign_up", u"Password", None))
-        self.lineEdit_password.setPlaceholderText(QCoreApplication.translate("form_sign_up", u"     ********", None))
-        self.cb_checkBox.setText(QCoreApplication.translate("form_sign_up", u" Remember", None))
-        self.btn_forgot_password.setText(QCoreApplication.translate("form_sign_up", u"Forgot password", None))
-        self.btn_create_account.setText(QCoreApplication.translate("form_sign_up", u"Sign in", None))
-        self.btn_signup_with_google.setText(QCoreApplication.translate("form_sign_up", u" Sign in with Google", None))
-        self.lb_already.setText(QCoreApplication.translate("form_sign_up", u"Don't have an account?", None))
-        self.btn_log_in_suggest.setText(QCoreApplication.translate("form_sign_up", u"Sign up", None))
+    def retranslateUi(self, log_in_dialog):
+        log_in_dialog.setWindowTitle(QCoreApplication.translate("log_in_dialog", u"Dialog", None))
+        self.lb_title.setText(QCoreApplication.translate("log_in_dialog", u"Welcome back", None))
+        self.lb_des.setText(QCoreApplication.translate("log_in_dialog", u"Welcome back! Please enter your details", None))
+        self.lb_email.setText(QCoreApplication.translate("log_in_dialog", u"Email", None))
+        self.lineEdit_email.setInputMask("")
+        self.lineEdit_email.setPlaceholderText(QCoreApplication.translate("log_in_dialog", u"     Enter your email", None))
+        self.lb_password.setText(QCoreApplication.translate("log_in_dialog", u"Password", None))
+        self.lineEdit_password.setPlaceholderText(QCoreApplication.translate("log_in_dialog", u"     ********", None))
+        self.cb_checkBox.setText(QCoreApplication.translate("log_in_dialog", u" Remember", None))
+        self.btn_forgot_password.setText(QCoreApplication.translate("log_in_dialog", u"Forgot password", None))
+        self.btn_sign_in.setText(QCoreApplication.translate("log_in_dialog", u"Sign in", None))
+        self.btn_sign_in_with_google.setText(QCoreApplication.translate("log_in_dialog", u" Sign in with Google", None))
+        self.lb_did_u_have.setText(QCoreApplication.translate("log_in_dialog", u"Don't have an account?", None))
+        self.btn_sign_up_suggest.setText(QCoreApplication.translate("log_in_dialog", u"Sign up", None))
         self.lb_image_wallet.setText("")
     # retranslateUi
 

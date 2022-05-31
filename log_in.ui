@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>form_sign_up</class>
- <widget class="QWidget" name="form_sign_up">
+ <class>log_in_dialog</class>
+ <widget class="QDialog" name="log_in_dialog">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -23,10 +23,10 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Dialog</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">QWidget#form_sign_up{
+   <string notr="true">QDialog#log_in_dialog{
 	background-color: #ffffff;
 }</string>
   </property>
@@ -47,7 +47,7 @@
     <number>0</number>
    </property>
    <item>
-    <widget class="QFrame" name="frame_sign_up_left">
+    <widget class="QFrame" name="frame_sign_in_left">
      <property name="font">
       <font>
        <family>Segoe UI</family>
@@ -79,7 +79,7 @@
        <number>135</number>
       </property>
       <item alignment="Qt::AlignTop">
-       <widget class="QFrame" name="frame_sign_up_left_1">
+       <widget class="QFrame" name="frame_sign_in_left_1">
         <property name="frameShape">
          <enum>QFrame::NoFrame</enum>
         </property>
@@ -229,7 +229,7 @@ color: #696F7B;</string>
        </widget>
       </item>
       <item>
-       <widget class="QFrame" name="frame_sign_up_left_3">
+       <widget class="QFrame" name="frame_sign_in_left_3">
         <property name="frameShape">
          <enum>QFrame::NoFrame</enum>
         </property>
@@ -345,19 +345,27 @@ color: #39414E;</string>
             <item>
              <widget class="QLineEdit" name="lineEdit_email">
               <property name="styleSheet">
-               <string notr="true">box-sizing: border-box;
-
+               <string notr="true">
 position: absolute;
 width: 260px;
 height: 40px;
 
 background: #FFFFFF;
 border: 1px solid #E2E6E9;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.02);
+
 border-radius: 8px;</string>
+              </property>
+              <property name="inputMask">
+               <string>     </string>
+              </property>
+              <property name="cursorPosition">
+               <number>5</number>
               </property>
               <property name="placeholderText">
                <string>     Enter your email</string>
+              </property>
+              <property name="clearButtonEnabled">
+               <bool>false</bool>
               </property>
              </widget>
             </item>
@@ -368,7 +376,7 @@ border-radius: 8px;</string>
        </widget>
       </item>
       <item>
-       <widget class="QFrame" name="frame_sign_up_left_4">
+       <widget class="QFrame" name="frame_sign_in_left_4">
         <property name="frameShape">
          <enum>QFrame::NoFrame</enum>
         </property>
@@ -489,7 +497,7 @@ color: #39414E;
             <item>
              <widget class="QLineEdit" name="lineEdit_password">
               <property name="styleSheet">
-               <string notr="true">box-sizing: border-box;
+               <string notr="true">
 
 position: absolute;
 width: 260px;
@@ -497,7 +505,7 @@ height: 40px;
 
 background: #FFFFFF;
 border: 1px solid #E2E6E9;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.02);
+
 border-radius: 8px;</string>
               </property>
               <property name="placeholderText">
@@ -580,8 +588,7 @@ border-radius: 8px;</string>
                </font>
               </property>
               <property name="styleSheet">
-               <string notr="true">box-sizing: border-box;
-
+               <string notr="true">
 position: absolute;
 width: 11px;
 height: 11px;
@@ -672,7 +679,7 @@ color: #5126B6;
        </widget>
       </item>
       <item>
-       <widget class="QFrame" name="frame_sign_up_left_5">
+       <widget class="QFrame" name="frame_sign_in_left_5">
         <property name="frameShape">
          <enum>QFrame::NoFrame</enum>
         </property>
@@ -699,7 +706,7 @@ color: #5126B6;
           <number>0</number>
          </property>
          <item>
-          <widget class="QPushButton" name="btn_create_account">
+          <widget class="QPushButton" name="btn_sign_in">
            <property name="font">
             <font>
              <family>Segoe UI Semibold</family>
@@ -758,7 +765,7 @@ color: #FFF6FF;
        </widget>
       </item>
       <item>
-       <widget class="QFrame" name="frame_sign_up_left_6">
+       <widget class="QFrame" name="frame_sign_in_left_6">
         <property name="frameShape">
          <enum>QFrame::NoFrame</enum>
         </property>
@@ -785,7 +792,7 @@ color: #FFF6FF;
           <number>0</number>
          </property>
          <item>
-          <widget class="QPushButton" name="btn_signup_with_google">
+          <widget class="QPushButton" name="btn_sign_in_with_google">
            <property name="font">
             <font>
              <family>Segoe UI Semibold</family>
@@ -802,7 +809,7 @@ color: #FFF6FF;
            </property>
            <property name="styleSheet">
             <string notr="true">QPushButton{
-box-sizing: border-box;
+
 
 position: absolute;
 width: 260px;
@@ -814,7 +821,7 @@ border-radius: 8px;
 }
 
 QPushButton:hover{
-box-sizing: border-box;
+
 
 position: absolute;
 width: 260px;
@@ -844,7 +851,7 @@ border-radius: 8px;
        </widget>
       </item>
       <item alignment="Qt::AlignTop">
-       <widget class="QFrame" name="frame_sign_up_left_7">
+       <widget class="QFrame" name="frame_sign_in_left_7">
         <property name="styleSheet">
          <string notr="true"/>
         </property>
@@ -874,7 +881,7 @@ border-radius: 8px;
           <number>0</number>
          </property>
          <item alignment="Qt::AlignRight">
-          <widget class="QFrame" name="frame_already">
+          <widget class="QFrame" name="frame_did_u_have">
            <property name="minimumSize">
             <size>
              <width>168</width>
@@ -910,7 +917,7 @@ border-radius: 8px;
              <number>0</number>
             </property>
             <item alignment="Qt::AlignRight">
-             <widget class="QLabel" name="lb_already">
+             <widget class="QLabel" name="lb_did_u_have">
               <property name="font">
                <font>
                 <family>Segoe UI</family>
@@ -971,7 +978,7 @@ color: #6C7079;</string>
              <number>0</number>
             </property>
             <item alignment="Qt::AlignLeft">
-             <widget class="QPushButton" name="btn_log_in_suggest">
+             <widget class="QPushButton" name="btn_sign_up_suggest">
               <property name="font">
                <font>
                 <family>Segoe UI</family>
@@ -1017,7 +1024,7 @@ color: #5126B6;
     </widget>
    </item>
    <item>
-    <widget class="QFrame" name="frame_sign_up_right">
+    <widget class="QFrame" name="frame_sign_in_right">
      <property name="minimumSize">
       <size>
        <width>500</width>
@@ -1025,7 +1032,7 @@ color: #5126B6;
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">QFrame#frame_sign_up_right{
+      <string notr="true">QFrame#frame_sign_in_right{
 	background-color: #BBA1E3;
 }</string>
      </property>
