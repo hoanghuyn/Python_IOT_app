@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'log_inGBxgiF.ui'
+## Form generated from reading UI file 'log_inxsiReI.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -23,7 +23,8 @@ class Ui_log_in_dialog(object):
         log_in_dialog.setStyleSheet(u"QDialog#log_in_dialog{\n"
 "	background-color: #ffffff;\n"
 "	border-radius: 8px;\n"
-"}")
+"}\n"
+"")
         self.horizontalLayout = QHBoxLayout(log_in_dialog)
         self.horizontalLayout.setSpacing(120)
         self.horizontalLayout.setObjectName(u"horizontalLayout")
@@ -249,6 +250,7 @@ class Ui_log_in_dialog(object):
 "border: 1px solid #E2E6E9;\n"
 "\n"
 "border-radius: 8px;")
+        self.lineEdit_password.setEchoMode(QLineEdit.Password)
 
         self.verticalLayout_13.addWidget(self.lineEdit_password)
 
