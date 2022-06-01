@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'main_uiBYqEBJ.ui'
+## Form generated from reading UI file 'main_uiUpuOCm.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -1315,7 +1315,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_39 = QVBoxLayout(self.fr_lamp_savingnum)
         self.verticalLayout_39.setSpacing(0)
         self.verticalLayout_39.setObjectName(u"verticalLayout_39")
-        self.verticalLayout_39.setContentsMargins(120, 0, 0, 0)
+        self.verticalLayout_39.setContentsMargins(98, 0, 0, 0)
         self.lb_lamp_numsaving = QLabel(self.fr_lamp_savingnum)
         self.lb_lamp_numsaving.setObjectName(u"lb_lamp_numsaving")
         self.lb_lamp_numsaving.setFont(font3)
@@ -1328,7 +1328,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout_20.addWidget(self.fr_lamp_savingnum, 0, Qt.AlignRight)
 
 
-        self.verticalLayout_35.addWidget(self.frame_saving_lamp)
+        self.verticalLayout_35.addWidget(self.frame_saving_lamp, 0, Qt.AlignLeft)
 
         self.frame_saving_television = QFrame(self.frame_device_energy)
         self.frame_saving_television.setObjectName(u"frame_saving_television")
@@ -1431,7 +1431,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_47 = QVBoxLayout(self.fr_tv_savingnum)
         self.verticalLayout_47.setSpacing(0)
         self.verticalLayout_47.setObjectName(u"verticalLayout_47")
-        self.verticalLayout_47.setContentsMargins(118, 0, 0, 0)
+        self.verticalLayout_47.setContentsMargins(98, 0, 0, 0)
         self.lb_tv_numsaving = QLabel(self.fr_tv_savingnum)
         self.lb_tv_numsaving.setObjectName(u"lb_tv_numsaving")
         self.lb_tv_numsaving.setFont(font3)
@@ -1444,7 +1444,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout_24.addWidget(self.fr_tv_savingnum, 0, Qt.AlignRight)
 
 
-        self.verticalLayout_35.addWidget(self.frame_saving_television)
+        self.verticalLayout_35.addWidget(self.frame_saving_television, 0, Qt.AlignLeft)
 
         self.frame_saving_ac = QFrame(self.frame_device_energy)
         self.frame_saving_ac.setObjectName(u"frame_saving_ac")
@@ -1547,7 +1547,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_43 = QVBoxLayout(self.fr_ac_savingnum)
         self.verticalLayout_43.setSpacing(0)
         self.verticalLayout_43.setObjectName(u"verticalLayout_43")
-        self.verticalLayout_43.setContentsMargins(83, 0, 0, 0)
+        self.verticalLayout_43.setContentsMargins(60, 0, 0, 0)
         self.lb_ac_numsaving = QLabel(self.fr_ac_savingnum)
         self.lb_ac_numsaving.setObjectName(u"lb_ac_numsaving")
         self.lb_ac_numsaving.setFont(font3)
@@ -1560,7 +1560,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout_22.addWidget(self.fr_ac_savingnum, 0, Qt.AlignRight)
 
 
-        self.verticalLayout_35.addWidget(self.frame_saving_ac)
+        self.verticalLayout_35.addWidget(self.frame_saving_ac, 0, Qt.AlignLeft)
 
 
         self.verticalLayout_29.addWidget(self.frame_device_energy)
@@ -2088,15 +2088,48 @@ class Ui_MainWindow(object):
         self.verticalLayout_11.setSpacing(0)
         self.verticalLayout_11.setObjectName(u"verticalLayout_11")
         self.verticalLayout_11.setContentsMargins(0, 0, 0, 0)
-        self.label_2 = QLabel(self.frame_index_1)
-        self.label_2.setObjectName(u"label_2")
-        font15 = QFont()
-        font15.setPointSize(50)
-        self.label_2.setFont(font15)
-        self.label_2.setLineWidth(0)
-        self.label_2.setAlignment(Qt.AlignCenter)
+        self.frame_activity = QFrame(self.frame_index_1)
+        self.frame_activity.setObjectName(u"frame_activity")
+        self.frame_activity.setStyleSheet(u"QFrame#frame_activity{\n"
+"	background-color: #F4F7FE;\n"
+"}")
+        self.frame_activity.setLineWidth(0)
+        self.verticalLayout_101 = QVBoxLayout(self.frame_activity)
+        self.verticalLayout_101.setSpacing(26)
+        self.verticalLayout_101.setObjectName(u"verticalLayout_101")
+        self.verticalLayout_101.setContentsMargins(26, 26, 26, 26)
+        self.frame_activity_top = QFrame(self.frame_activity)
+        self.frame_activity_top.setObjectName(u"frame_activity_top")
+        self.frame_activity_top.setStyleSheet(u"QFrame{\n"
+"background-color: #ffffff;\n"
+"border-radius: 20px\n"
+"}")
+        self.frame_activity_top.setFrameShape(QFrame.NoFrame)
+        self.frame_activity_top.setFrameShadow(QFrame.Raised)
+        self.frame_activity_top.setLineWidth(0)
+        self.horizontalLayout_44 = QHBoxLayout(self.frame_activity_top)
+        self.horizontalLayout_44.setSpacing(0)
+        self.horizontalLayout_44.setObjectName(u"horizontalLayout_44")
+        self.horizontalLayout_44.setContentsMargins(0, 0, 0, 0)
+        self.frame_x = QFrame(self.frame_activity_top)
+        self.frame_x.setObjectName(u"frame_x")
+        self.frame_x.setLineWidth(0)
 
-        self.verticalLayout_11.addWidget(self.label_2)
+        self.horizontalLayout_44.addWidget(self.frame_x)
+
+
+        self.verticalLayout_101.addWidget(self.frame_activity_top)
+
+        self.frame_activity_bottom = QFrame(self.frame_activity)
+        self.frame_activity_bottom.setObjectName(u"frame_activity_bottom")
+        self.frame_activity_bottom.setFrameShape(QFrame.StyledPanel)
+        self.frame_activity_bottom.setFrameShadow(QFrame.Raised)
+        self.frame_activity_bottom.setLineWidth(0)
+
+        self.verticalLayout_101.addWidget(self.frame_activity_bottom)
+
+
+        self.verticalLayout_11.addWidget(self.frame_activity)
 
         self.stackedWidget.addWidget(self.frame_index_1)
         self.frame_index_2 = QWidget()
@@ -2180,12 +2213,12 @@ class Ui_MainWindow(object):
         self.btn_upload_cover = QPushButton(self.frame_user_wall)
         self.btn_upload_cover.setObjectName(u"btn_upload_cover")
         self.btn_upload_cover.setGeometry(QRect(815, 5, 99, 24))
-        font16 = QFont()
-        font16.setFamily(u"Segoe UI Semibold")
-        font16.setPointSize(9)
-        font16.setBold(False)
-        font16.setWeight(50)
-        self.btn_upload_cover.setFont(font16)
+        font15 = QFont()
+        font15.setFamily(u"Segoe UI Semibold")
+        font15.setPointSize(9)
+        font15.setBold(False)
+        font15.setWeight(50)
+        self.btn_upload_cover.setFont(font15)
         self.btn_upload_cover.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_upload_cover.setLayoutDirection(Qt.RightToLeft)
         self.btn_upload_cover.setStyleSheet(u"QPushButton{\n"
@@ -2211,12 +2244,12 @@ class Ui_MainWindow(object):
         self.horizontalLayout_36.setContentsMargins(0, 0, 0, 0)
         self.btn_change = QPushButton(self.frame_update_avatar)
         self.btn_change.setObjectName(u"btn_change")
-        font17 = QFont()
-        font17.setFamily(u"Segoe UI")
-        font17.setPointSize(10)
-        font17.setBold(True)
-        font17.setWeight(75)
-        self.btn_change.setFont(font17)
+        font16 = QFont()
+        font16.setFamily(u"Segoe UI")
+        font16.setPointSize(10)
+        font16.setBold(True)
+        font16.setWeight(75)
+        self.btn_change.setFont(font16)
         self.btn_change.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_change.setStyleSheet(u"QPushButton{\n"
 "		    color: #53A3EE;\n"
@@ -2230,7 +2263,7 @@ class Ui_MainWindow(object):
 
         self.btn_delete = QPushButton(self.frame_update_avatar)
         self.btn_delete.setObjectName(u"btn_delete")
-        self.btn_delete.setFont(font17)
+        self.btn_delete.setFont(font16)
         self.btn_delete.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_delete.setLayoutDirection(Qt.RightToLeft)
         self.btn_delete.setStyleSheet(u"QPushButton{\n"
@@ -2273,12 +2306,12 @@ class Ui_MainWindow(object):
         self.verticalLayout_79.setContentsMargins(0, 0, 0, 0)
         self.lb_username_inf = QLabel(self.frame_username_inf)
         self.lb_username_inf.setObjectName(u"lb_username_inf")
-        font18 = QFont()
-        font18.setFamily(u"Segoe UI")
-        font18.setPointSize(22)
-        font18.setBold(True)
-        font18.setWeight(75)
-        self.lb_username_inf.setFont(font18)
+        font17 = QFont()
+        font17.setFamily(u"Segoe UI")
+        font17.setPointSize(22)
+        font17.setBold(True)
+        font17.setWeight(75)
+        self.lb_username_inf.setFont(font17)
         self.lb_username_inf.setStyleSheet(u"color: #454555;\n"
 "\n"
 "")
@@ -2318,12 +2351,12 @@ class Ui_MainWindow(object):
         self.lb_user_des.setObjectName(u"lb_user_des")
         self.lb_user_des.setMinimumSize(QSize(160, 0))
         self.lb_user_des.setMaximumSize(QSize(250, 16777215))
-        font19 = QFont()
-        font19.setFamily(u"Segoe UI")
-        font19.setPointSize(13)
-        font19.setBold(False)
-        font19.setWeight(50)
-        self.lb_user_des.setFont(font19)
+        font18 = QFont()
+        font18.setFamily(u"Segoe UI")
+        font18.setPointSize(13)
+        font18.setBold(False)
+        font18.setWeight(50)
+        self.lb_user_des.setFont(font18)
         self.lb_user_des.setStyleSheet(u"color: #454555;")
         self.lb_user_des.setLineWidth(0)
         self.lb_user_des.setScaledContents(True)
@@ -2345,10 +2378,10 @@ class Ui_MainWindow(object):
         self.verticalLayout_81.setContentsMargins(0, 0, 0, 0)
         self.btn_user_location = QPushButton(self.frame_user_location)
         self.btn_user_location.setObjectName(u"btn_user_location")
-        font20 = QFont()
-        font20.setFamily(u"Segoe UI")
-        font20.setPointSize(13)
-        self.btn_user_location.setFont(font20)
+        font19 = QFont()
+        font19.setFamily(u"Segoe UI")
+        font19.setPointSize(13)
+        self.btn_user_location.setFont(font19)
         self.btn_user_location.setStyleSheet(u"QPushButton{\n"
 "	background-color: rgb(255, 255, 255);\n"
 "	border: 0px solid;\n"
@@ -2415,12 +2448,12 @@ class Ui_MainWindow(object):
         self.lb_name_1.setObjectName(u"lb_name_1")
         self.lb_name_1.setMinimumSize(QSize(0, 0))
         self.lb_name_1.setMaximumSize(QSize(99999, 16777215))
-        font21 = QFont()
-        font21.setFamily(u"Segoe UI Semibold")
-        font21.setPointSize(16)
-        font21.setBold(True)
-        font21.setWeight(75)
-        self.lb_name_1.setFont(font21)
+        font20 = QFont()
+        font20.setFamily(u"Segoe UI Semibold")
+        font20.setPointSize(16)
+        font20.setBold(True)
+        font20.setWeight(75)
+        self.lb_name_1.setFont(font20)
         self.lb_name_1.setStyleSheet(u"color: #454555;")
         self.lb_name_1.setLineWidth(0)
 
@@ -2443,12 +2476,12 @@ class Ui_MainWindow(object):
         self.verticalLayout_83.setContentsMargins(0, 0, 0, 0)
         self.lb_name_2 = QLabel(self.frame_edit_name_2)
         self.lb_name_2.setObjectName(u"lb_name_2")
-        font22 = QFont()
-        font22.setFamily(u"Segoe UI Semibold")
-        font22.setPointSize(15)
-        font22.setBold(True)
-        font22.setWeight(75)
-        self.lb_name_2.setFont(font22)
+        font21 = QFont()
+        font21.setFamily(u"Segoe UI Semibold")
+        font21.setPointSize(15)
+        font21.setBold(True)
+        font21.setWeight(75)
+        self.lb_name_2.setFont(font21)
         self.lb_name_2.setStyleSheet(u"color: #454555;")
         self.lb_name_2.setLineWidth(0)
 
@@ -2522,7 +2555,7 @@ class Ui_MainWindow(object):
         self.lb_des_2.setObjectName(u"lb_des_2")
         self.lb_des_2.setMinimumSize(QSize(0, 0))
         self.lb_des_2.setMaximumSize(QSize(99999, 16777215))
-        self.lb_des_2.setFont(font21)
+        self.lb_des_2.setFont(font20)
         self.lb_des_2.setStyleSheet(u"color: #454555;")
         self.lb_des_2.setLineWidth(0)
 
@@ -2545,7 +2578,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_86.setContentsMargins(0, 0, 0, 0)
         self.lb_des_3 = QLabel(self.frame_edit_des_2)
         self.lb_des_3.setObjectName(u"lb_des_3")
-        self.lb_des_3.setFont(font22)
+        self.lb_des_3.setFont(font21)
         self.lb_des_3.setStyleSheet(u"color: #454555;")
         self.lb_des_3.setLineWidth(0)
 
@@ -2617,7 +2650,7 @@ class Ui_MainWindow(object):
         self.lb_email_1.setObjectName(u"lb_email_1")
         self.lb_email_1.setMinimumSize(QSize(0, 0))
         self.lb_email_1.setMaximumSize(QSize(99999, 16777215))
-        self.lb_email_1.setFont(font21)
+        self.lb_email_1.setFont(font20)
         self.lb_email_1.setStyleSheet(u"color: #454555;")
         self.lb_email_1.setLineWidth(0)
 
@@ -2640,7 +2673,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_89.setContentsMargins(0, 0, 0, 0)
         self.lb_email_2 = QLabel(self.frame_edit_email_2)
         self.lb_email_2.setObjectName(u"lb_email_2")
-        self.lb_email_2.setFont(font22)
+        self.lb_email_2.setFont(font21)
         self.lb_email_2.setStyleSheet(u"color: #454555;")
         self.lb_email_2.setLineWidth(0)
 
@@ -2712,7 +2745,7 @@ class Ui_MainWindow(object):
         self.lb_phone_1.setObjectName(u"lb_phone_1")
         self.lb_phone_1.setMinimumSize(QSize(0, 0))
         self.lb_phone_1.setMaximumSize(QSize(99999, 16777215))
-        self.lb_phone_1.setFont(font21)
+        self.lb_phone_1.setFont(font20)
         self.lb_phone_1.setStyleSheet(u"color: #454555;")
         self.lb_phone_1.setLineWidth(0)
 
@@ -2735,7 +2768,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_92.setContentsMargins(0, 0, 0, 0)
         self.lb_phone_2 = QLabel(self.frame_edit_phone_2)
         self.lb_phone_2.setObjectName(u"lb_phone_2")
-        self.lb_phone_2.setFont(font22)
+        self.lb_phone_2.setFont(font21)
         self.lb_phone_2.setStyleSheet(u"color: #454555;")
         self.lb_phone_2.setLineWidth(0)
 
@@ -2807,7 +2840,7 @@ class Ui_MainWindow(object):
         self.lb_password_1.setObjectName(u"lb_password_1")
         self.lb_password_1.setMinimumSize(QSize(0, 0))
         self.lb_password_1.setMaximumSize(QSize(99999, 16777215))
-        self.lb_password_1.setFont(font21)
+        self.lb_password_1.setFont(font20)
         self.lb_password_1.setStyleSheet(u"color: #454555;")
         self.lb_password_1.setLineWidth(0)
 
@@ -2830,7 +2863,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_95.setContentsMargins(0, 0, 0, 0)
         self.lb_password_2 = QLabel(self.frame_edit_password_2)
         self.lb_password_2.setObjectName(u"lb_password_2")
-        self.lb_password_2.setFont(font22)
+        self.lb_password_2.setFont(font21)
         self.lb_password_2.setStyleSheet(u"color: #454555;")
         self.lb_password_2.setLineWidth(0)
 
@@ -2901,7 +2934,7 @@ class Ui_MainWindow(object):
         self.lb_url_1.setObjectName(u"lb_url_1")
         self.lb_url_1.setMinimumSize(QSize(0, 0))
         self.lb_url_1.setMaximumSize(QSize(99999, 16777215))
-        self.lb_url_1.setFont(font21)
+        self.lb_url_1.setFont(font20)
         self.lb_url_1.setStyleSheet(u"color: #454555;")
         self.lb_url_1.setLineWidth(0)
 
@@ -2924,7 +2957,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_98.setContentsMargins(0, 0, 0, 0)
         self.lb_url_2 = QLabel(self.frame_edit_url_2)
         self.lb_url_2.setObjectName(u"lb_url_2")
-        self.lb_url_2.setFont(font22)
+        self.lb_url_2.setFont(font21)
         self.lb_url_2.setStyleSheet(u"color: #454555;")
         self.lb_url_2.setLineWidth(0)
 
@@ -3195,9 +3228,9 @@ class Ui_MainWindow(object):
         self.horizontalLayout_34.setContentsMargins(39, 24, 39, 24)
         self.frame_cb_language = QFrame(self.frame_language)
         self.frame_cb_language.setObjectName(u"frame_cb_language")
-        font23 = QFont()
-        font23.setKerning(True)
-        self.frame_cb_language.setFont(font23)
+        font22 = QFont()
+        font22.setKerning(True)
+        self.frame_cb_language.setFont(font22)
         self.frame_cb_language.setFrameShape(QFrame.NoFrame)
         self.frame_cb_language.setFrameShadow(QFrame.Raised)
         self.frame_cb_language.setLineWidth(0)
@@ -3244,7 +3277,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.stackedWidget.setCurrentIndex(0)
+        self.stackedWidget.setCurrentIndex(1)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
@@ -3287,16 +3320,16 @@ class Ui_MainWindow(object):
         self.btn_icon_lampx.setText("")
         self.lb_lamp_saving.setText(QCoreApplication.translate("MainWindow", u"Lamp", None))
         self.lb_date_lamp.setText(QCoreApplication.translate("MainWindow", u"Today, 16:36", None))
-        self.lb_lamp_numsaving.setText(QCoreApplication.translate("MainWindow", u"23 KWH", None))
+        self.lb_lamp_numsaving.setText(QCoreApplication.translate("MainWindow", u"99.9 KWH", None))
         self.btn_icon_televisionx.setText("")
         self.lb_tv_saving.setText(QCoreApplication.translate("MainWindow", u"Television", None))
         self.lb_date_television.setText(QCoreApplication.translate("MainWindow", u"Today, 16:36", None))
-        self.lb_tv_numsaving.setText(QCoreApplication.translate("MainWindow", u"20 KWH", None))
+        self.lb_tv_numsaving.setText(QCoreApplication.translate("MainWindow", u"99.9 KWH", None))
         self.btn_icon_acx.setText("")
         self.lb_ac_saving.setText(QCoreApplication.translate("MainWindow", u"Air Conditioner", None))
         self.lb_date_ac.setText(QCoreApplication.translate("MainWindow", u"Today, 16:36", None))
-        self.lb_ac_numsaving.setText(QCoreApplication.translate("MainWindow", u"16 KWH", None))
-        self.lb_subroom.setText(QCoreApplication.translate("MainWindow", u"Room Settings", None))
+        self.lb_ac_numsaving.setText(QCoreApplication.translate("MainWindow", u"99.9 KWH", None))
+        self.lb_subroom.setText(QCoreApplication.translate("MainWindow", u"Living Room", None))
         self.btn_ic_bulb.setText("")
         self.lb_schedule.setText(QCoreApplication.translate("MainWindow", u"Schedule", None))
         self.lb_from.setText(QCoreApplication.translate("MainWindow", u"From", None))
@@ -3309,7 +3342,6 @@ class Ui_MainWindow(object):
         self.lb_humidnity.setText(QCoreApplication.translate("MainWindow", u"Humidnity", None))
         self.btn_humidnity.setText("")
         self.lb_humid_text.setText(QCoreApplication.translate("MainWindow", u"52%", None))
-        self.label_2.setText(QCoreApplication.translate("MainWindow", u"Activity Page", None))
         self.lb_avatar_image.setText("")
         self.btn_upload_cover.setText(QCoreApplication.translate("MainWindow", u"   Upload Cover", None))
         self.btn_change.setText(QCoreApplication.translate("MainWindow", u"Change", None))

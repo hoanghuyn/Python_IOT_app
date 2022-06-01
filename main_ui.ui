@@ -757,7 +757,7 @@ access to all features!</string>
        <number>0</number>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="frame_index_0">
        <property name="styleSheet">
@@ -2754,7 +2754,7 @@ QPushButton:hover {
                     <property name="bottomMargin">
                      <number>0</number>
                     </property>
-                    <item>
+                    <item alignment="Qt::AlignLeft">
                      <widget class="QFrame" name="frame_saving_lamp">
                       <property name="styleSheet">
                        <string notr="true"/>
@@ -3007,7 +3007,7 @@ QPushButton:hover {
                            <number>0</number>
                           </property>
                           <property name="leftMargin">
-                           <number>120</number>
+                           <number>98</number>
                           </property>
                           <property name="topMargin">
                            <number>0</number>
@@ -3035,7 +3035,7 @@ QPushButton:hover {
                              <number>0</number>
                             </property>
                             <property name="text">
-                             <string>23 KWH</string>
+                             <string>99.9 KWH</string>
                             </property>
                            </widget>
                           </item>
@@ -3045,7 +3045,7 @@ QPushButton:hover {
                       </layout>
                      </widget>
                     </item>
-                    <item>
+                    <item alignment="Qt::AlignLeft">
                      <widget class="QFrame" name="frame_saving_television">
                       <property name="styleSheet">
                        <string notr="true"/>
@@ -3298,7 +3298,7 @@ QPushButton:hover {
                            <number>0</number>
                           </property>
                           <property name="leftMargin">
-                           <number>118</number>
+                           <number>98</number>
                           </property>
                           <property name="topMargin">
                            <number>0</number>
@@ -3326,7 +3326,7 @@ QPushButton:hover {
                              <number>0</number>
                             </property>
                             <property name="text">
-                             <string>20 KWH</string>
+                             <string>99.9 KWH</string>
                             </property>
                            </widget>
                           </item>
@@ -3336,7 +3336,7 @@ QPushButton:hover {
                       </layout>
                      </widget>
                     </item>
-                    <item>
+                    <item alignment="Qt::AlignLeft">
                      <widget class="QFrame" name="frame_saving_ac">
                       <property name="styleSheet">
                        <string notr="true"/>
@@ -3589,7 +3589,7 @@ QPushButton:hover {
                            <number>0</number>
                           </property>
                           <property name="leftMargin">
-                           <number>83</number>
+                           <number>60</number>
                           </property>
                           <property name="topMargin">
                            <number>0</number>
@@ -3617,7 +3617,7 @@ QPushButton:hover {
                              <number>0</number>
                             </property>
                             <property name="text">
-                             <string>16 KWH</string>
+                             <string>99.9 KWH</string>
                             </property>
                            </widget>
                           </item>
@@ -3749,7 +3749,7 @@ QPushButton:hover {
                           <number>0</number>
                          </property>
                          <property name="text">
-                          <string>Room Settings</string>
+                          <string>Living Room</string>
                          </property>
                          <property name="alignment">
                           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
@@ -4872,21 +4872,88 @@ background-color:rgb(255, 255, 255);
          <number>0</number>
         </property>
         <item>
-         <widget class="QLabel" name="label_2">
-          <property name="font">
-           <font>
-            <pointsize>50</pointsize>
-           </font>
+         <widget class="QFrame" name="frame_activity">
+          <property name="styleSheet">
+           <string notr="true">QFrame#frame_activity{
+	background-color: #F4F7FE;
+}</string>
           </property>
           <property name="lineWidth">
            <number>0</number>
           </property>
-          <property name="text">
-           <string>Activity Page</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_101">
+           <property name="spacing">
+            <number>26</number>
+           </property>
+           <property name="leftMargin">
+            <number>26</number>
+           </property>
+           <property name="topMargin">
+            <number>26</number>
+           </property>
+           <property name="rightMargin">
+            <number>26</number>
+           </property>
+           <property name="bottomMargin">
+            <number>26</number>
+           </property>
+           <item>
+            <widget class="QFrame" name="frame_activity_top">
+             <property name="styleSheet">
+              <string notr="true">QFrame{
+background-color: #ffffff;
+border-radius: 20px
+}</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::NoFrame</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <property name="lineWidth">
+              <number>0</number>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_44">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QFrame" name="frame_x">
+                <property name="lineWidth">
+                 <number>0</number>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QFrame" name="frame_activity_bottom">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <property name="lineWidth">
+              <number>0</number>
+             </property>
+            </widget>
+           </item>
+          </layout>
          </widget>
         </item>
        </layout>
