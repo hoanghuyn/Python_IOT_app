@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'sign_upmdfcdT.ui'
+## Form generated from reading UI file 'sign_upLvToPK.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -13,21 +13,21 @@ from PySide2.QtGui import *
 from PySide2.QtWidgets import *
 
 
-class Ui_form_sign_up(object):
-    def setupUi(self, form_sign_up):
-        if not form_sign_up.objectName():
-            form_sign_up.setObjectName(u"form_sign_up")
-        form_sign_up.resize(1000, 700)
-        form_sign_up.setMinimumSize(QSize(1000, 700))
-        form_sign_up.setMaximumSize(QSize(1000, 700))
-        form_sign_up.setStyleSheet(u"QWidget#form_sign_up{\n"
+class Ui_sign_up_dialog(object):
+    def setupUi(self, sign_up_dialog):
+        if not sign_up_dialog.objectName():
+            sign_up_dialog.setObjectName(u"sign_up_dialog")
+        sign_up_dialog.resize(1000, 700)
+        sign_up_dialog.setMinimumSize(QSize(1000, 700))
+        sign_up_dialog.setMaximumSize(QSize(1000, 700))
+        sign_up_dialog.setStyleSheet(u"QDialog#sign_up_dialog{\n"
 "	background-color: #ffffff;\n"
 "}")
-        self.horizontalLayout = QHBoxLayout(form_sign_up)
+        self.horizontalLayout = QHBoxLayout(sign_up_dialog)
         self.horizontalLayout.setSpacing(120)
         self.horizontalLayout.setObjectName(u"horizontalLayout")
         self.horizontalLayout.setContentsMargins(120, 0, 0, 0)
-        self.frame_sign_up_left = QFrame(form_sign_up)
+        self.frame_sign_up_left = QFrame(sign_up_dialog)
         self.frame_sign_up_left.setObjectName(u"frame_sign_up_left")
         self.frame_sign_up_left.setFrameShape(QFrame.NoFrame)
         self.frame_sign_up_left.setFrameShadow(QFrame.Raised)
@@ -122,7 +122,7 @@ class Ui_form_sign_up(object):
         self.verticalLayout_5.setContentsMargins(0, 0, 0, 0)
         self.lineEdit_name = QLineEdit(self.frame_edit_name)
         self.lineEdit_name.setObjectName(u"lineEdit_name")
-        self.lineEdit_name.setStyleSheet(u"box-sizing: border-box;\n"
+        self.lineEdit_name.setStyleSheet(u"\n"
 "\n"
 "position: absolute;\n"
 "width: 260px;\n"
@@ -130,7 +130,6 @@ class Ui_form_sign_up(object):
 "\n"
 "background: #FFFFFF;\n"
 "border: 1px solid #E2E6E9;\n"
-"box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.02);\n"
 "border-radius: 8px;")
         self.lineEdit_name.setClearButtonEnabled(False)
 
@@ -191,7 +190,7 @@ class Ui_form_sign_up(object):
         self.verticalLayout_10.setContentsMargins(0, 0, 0, 0)
         self.lineEdit_email = QLineEdit(self.frame_edit_email)
         self.lineEdit_email.setObjectName(u"lineEdit_email")
-        self.lineEdit_email.setStyleSheet(u"box-sizing: border-box;\n"
+        self.lineEdit_email.setStyleSheet(u"\n"
 "\n"
 "position: absolute;\n"
 "width: 260px;\n"
@@ -199,7 +198,7 @@ class Ui_form_sign_up(object):
 "\n"
 "background: #FFFFFF;\n"
 "border: 1px solid #E2E6E9;\n"
-"box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.02);\n"
+"\n"
 "border-radius: 8px;")
 
         self.verticalLayout_10.addWidget(self.lineEdit_email)
@@ -262,7 +261,7 @@ class Ui_form_sign_up(object):
         self.verticalLayout_13.setContentsMargins(0, 0, 0, 0)
         self.lineEdit_password = QLineEdit(self.frame_edit_password)
         self.lineEdit_password.setObjectName(u"lineEdit_password")
-        self.lineEdit_password.setStyleSheet(u"box-sizing: border-box;\n"
+        self.lineEdit_password.setStyleSheet(u"\n"
 "\n"
 "position: absolute;\n"
 "width: 260px;\n"
@@ -270,8 +269,10 @@ class Ui_form_sign_up(object):
 "\n"
 "background: #FFFFFF;\n"
 "border: 1px solid #E2E6E9;\n"
-"box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.02);\n"
+"\n"
 "border-radius: 8px;")
+        self.lineEdit_password.setFrame(True)
+        self.lineEdit_password.setEchoMode(QLineEdit.Password)
 
         self.verticalLayout_13.addWidget(self.lineEdit_password)
 
@@ -354,7 +355,7 @@ class Ui_form_sign_up(object):
         self.btn_signup_with_google.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_signup_with_google.setLayoutDirection(Qt.LeftToRight)
         self.btn_signup_with_google.setStyleSheet(u"QPushButton{\n"
-"box-sizing: border-box;\n"
+"\n"
 "\n"
 "position: absolute;\n"
 "width: 260px;\n"
@@ -366,7 +367,7 @@ class Ui_form_sign_up(object):
 "}\n"
 "\n"
 "QPushButton:hover{\n"
-"box-sizing: border-box;\n"
+"\n"
 "\n"
 "position: absolute;\n"
 "width: 260px;\n"
@@ -466,7 +467,7 @@ class Ui_form_sign_up(object):
 
         self.horizontalLayout.addWidget(self.frame_sign_up_left)
 
-        self.frame_sign_up_right = QFrame(form_sign_up)
+        self.frame_sign_up_right = QFrame(sign_up_dialog)
         self.frame_sign_up_right.setObjectName(u"frame_sign_up_right")
         self.frame_sign_up_right.setMinimumSize(QSize(500, 700))
         self.frame_sign_up_right.setStyleSheet(u"QFrame#frame_sign_up_right{\n"
@@ -475,41 +476,88 @@ class Ui_form_sign_up(object):
         self.frame_sign_up_right.setFrameShape(QFrame.NoFrame)
         self.frame_sign_up_right.setFrameShadow(QFrame.Raised)
         self.frame_sign_up_right.setLineWidth(0)
-        self.verticalLayout_18 = QVBoxLayout(self.frame_sign_up_right)
+        self.verticalLayout_6 = QVBoxLayout(self.frame_sign_up_right)
+        self.verticalLayout_6.setSpacing(0)
+        self.verticalLayout_6.setObjectName(u"verticalLayout_6")
+        self.verticalLayout_6.setContentsMargins(0, 0, 0, 0)
+        self.frame_close_signup_page = QFrame(self.frame_sign_up_right)
+        self.frame_close_signup_page.setObjectName(u"frame_close_signup_page")
+        self.frame_close_signup_page.setMinimumSize(QSize(50, 30))
+        self.frame_close_signup_page.setMaximumSize(QSize(70, 50))
+        self.frame_close_signup_page.setLayoutDirection(Qt.RightToLeft)
+        self.frame_close_signup_page.setFrameShape(QFrame.StyledPanel)
+        self.frame_close_signup_page.setFrameShadow(QFrame.Raised)
+        self.frame_close_signup_page.setLineWidth(0)
+        self.verticalLayout_18 = QVBoxLayout(self.frame_close_signup_page)
         self.verticalLayout_18.setSpacing(0)
         self.verticalLayout_18.setObjectName(u"verticalLayout_18")
-        self.verticalLayout_18.setContentsMargins(0, 0, 0, 0)
-        self.lb_image_wallet = QLabel(self.frame_sign_up_right)
+        self.verticalLayout_18.setContentsMargins(0, 0, 10, 0)
+        self.btn_close_signup_page = QPushButton(self.frame_close_signup_page)
+        self.btn_close_signup_page.setObjectName(u"btn_close_signup_page")
+        self.btn_close_signup_page.setMinimumSize(QSize(30, 30))
+        self.btn_close_signup_page.setMaximumSize(QSize(30, 30))
+        self.btn_close_signup_page.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_close_signup_page.setStyleSheet(u"QPushButton{\n"
+"background-color: #BBA1E3;\n"
+"border: 0px solid;\n"
+"border- radius: 5px;\n"
+"}\n"
+"")
+        icon1 = QIcon()
+        icon1.addFile(u"icon/close.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_close_signup_page.setIcon(icon1)
+        self.btn_close_signup_page.setIconSize(QSize(14, 14))
+
+        self.verticalLayout_18.addWidget(self.btn_close_signup_page)
+
+
+        self.verticalLayout_6.addWidget(self.frame_close_signup_page)
+
+        self.frame_image_wallet = QFrame(self.frame_sign_up_right)
+        self.frame_image_wallet.setObjectName(u"frame_image_wallet")
+        self.frame_image_wallet.setFrameShape(QFrame.StyledPanel)
+        self.frame_image_wallet.setFrameShadow(QFrame.Raised)
+        self.frame_image_wallet.setLineWidth(0)
+        self.verticalLayout_19 = QVBoxLayout(self.frame_image_wallet)
+        self.verticalLayout_19.setSpacing(0)
+        self.verticalLayout_19.setObjectName(u"verticalLayout_19")
+        self.verticalLayout_19.setContentsMargins(0, 20, 0, 0)
+        self.lb_image_wallet = QLabel(self.frame_image_wallet)
         self.lb_image_wallet.setObjectName(u"lb_image_wallet")
         self.lb_image_wallet.setLineWidth(0)
         self.lb_image_wallet.setPixmap(QPixmap(u"icon/Picture1-removebg-preview.png"))
         self.lb_image_wallet.setScaledContents(False)
+        self.lb_image_wallet.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
 
-        self.verticalLayout_18.addWidget(self.lb_image_wallet)
+        self.verticalLayout_19.addWidget(self.lb_image_wallet)
+
+
+        self.verticalLayout_6.addWidget(self.frame_image_wallet)
 
 
         self.horizontalLayout.addWidget(self.frame_sign_up_right)
 
 
-        self.retranslateUi(form_sign_up)
+        self.retranslateUi(sign_up_dialog)
 
-        QMetaObject.connectSlotsByName(form_sign_up)
+        QMetaObject.connectSlotsByName(sign_up_dialog)
     # setupUi
 
-    def retranslateUi(self, form_sign_up):
-        form_sign_up.setWindowTitle(QCoreApplication.translate("form_sign_up", u"Form", None))
-        self.lb_sign_up.setText(QCoreApplication.translate("form_sign_up", u"Sign up", None))
-        self.lb_name.setText(QCoreApplication.translate("form_sign_up", u"Name", None))
+    def retranslateUi(self, sign_up_dialog):
+        sign_up_dialog.setWindowTitle(QCoreApplication.translate("sign_up_dialog", u"Dialog", None))
+        self.lb_sign_up.setText(QCoreApplication.translate("sign_up_dialog", u"Sign up", None))
+        self.lb_name.setText(QCoreApplication.translate("sign_up_dialog", u"Name", None))
         self.lineEdit_name.setInputMask("")
-        self.lineEdit_name.setPlaceholderText(QCoreApplication.translate("form_sign_up", u"     Enter your name", None))
-        self.lb_email.setText(QCoreApplication.translate("form_sign_up", u"Email", None))
-        self.lineEdit_email.setPlaceholderText(QCoreApplication.translate("form_sign_up", u"     Enter your email", None))
-        self.lb_password.setText(QCoreApplication.translate("form_sign_up", u"Password", None))
-        self.lineEdit_password.setPlaceholderText(QCoreApplication.translate("form_sign_up", u"     ********", None))
-        self.btn_create_account.setText(QCoreApplication.translate("form_sign_up", u"Create account", None))
-        self.btn_signup_with_google.setText(QCoreApplication.translate("form_sign_up", u" Sign up with Google", None))
-        self.lb_already.setText(QCoreApplication.translate("form_sign_up", u"Already have an account?", None))
-        self.btn_log_in_suggest.setText(QCoreApplication.translate("form_sign_up", u"Log in", None))
+        self.lineEdit_name.setPlaceholderText(QCoreApplication.translate("sign_up_dialog", u"     Enter your name", None))
+        self.lb_email.setText(QCoreApplication.translate("sign_up_dialog", u"Email", None))
+        self.lineEdit_email.setPlaceholderText(QCoreApplication.translate("sign_up_dialog", u"     Enter your email", None))
+        self.lb_password.setText(QCoreApplication.translate("sign_up_dialog", u"Password", None))
+        self.lineEdit_password.setPlaceholderText(QCoreApplication.translate("sign_up_dialog", u"     ********", None))
+        self.btn_create_account.setText(QCoreApplication.translate("sign_up_dialog", u"Create account", None))
+        self.btn_signup_with_google.setText(QCoreApplication.translate("sign_up_dialog", u" Sign up with Google", None))
+        self.lb_already.setText(QCoreApplication.translate("sign_up_dialog", u"Already have an account?", None))
+        self.btn_log_in_suggest.setText(QCoreApplication.translate("sign_up_dialog", u"Log in", None))
+        self.btn_close_signup_page.setText("")
         self.lb_image_wallet.setText("")
     # retranslateUi
 
